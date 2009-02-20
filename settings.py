@@ -77,5 +77,6 @@ INSTALLED_APPS = (
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.admin',
-    'sandoval.movie'
+    'sandoval.movie',
+    'tagging'
 )

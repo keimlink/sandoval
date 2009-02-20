@@ -1,1 +1,131 @@
-[{"pk": 2, "model": "movie.person", "fields": {"edited": "2009-02-18 00:56:15", "birthplace": "", "surname": "Bardem", "created": "2009-02-18 00:56:15", "image": "", "birthdate": "1969-03-01", "height": null, "is_director": false, "visible": 1, "forename": "Javier", "width": null, "biography": ""}}, {"pk": 3, "model": "movie.person", "fields": {"edited": "2009-02-18 00:56:51", "birthplace": "", "surname": "Brolin", "created": "2009-02-18 00:56:51", "image": "", "birthdate": "1968-02-12", "height": null, "is_director": false, "visible": 1, "forename": "Josh", "width": null, "biography": ""}}, {"pk": 1, "model": "movie.person", "fields": {"edited": "2009-02-18 00:45:11", "birthplace": "", "surname": "Coen", "created": "2009-02-18 00:45:00", "image": "", "birthdate": "1957-09-21", "height": null, "is_director": true, "visible": 1, "forename": "Ethan", "width": null, "biography": "Brother of Joel Coen.\r\n\r\nGraduated from Princeton University.\r\n\r\nWorks so closely with his brother Joel Coen that the two of them have been jokingly referred to as \"The Two-Headed Director\".\r\n\r\nAlumnus of Simon's Rock College, Great Barrington, MA, with brother Joel Coen. This is a fully-accredited college for students who typically enter the age of 16 - before graduating high school.\r\n\r\nRanked #88 in Premiere's 2003 annual Power 100 List with brother Joel Coen. They had been ranked #92 in 2002.\r\n\r\nBrother-in-law of Frances McDormand."}}, {"pk": 4, "model": "movie.person", "fields": {"edited": "2009-02-18 01:02:26", "birthplace": "", "surname": "Coen", "created": "2009-02-18 01:02:16", "image": "", "birthdate": "1954-11-29", "height": null, "is_director": true, "visible": 1, "forename": "Joel", "width": null, "biography": ""}}, {"pk": 1, "model": "movie.movie", "fields": {"edited": "2009-02-18 00:46:38", "rating": 8.3000000000000007, "description": "In rural Texas, welder and hunter Llewelyn Moss discovers the remains of several drug runners who have all killed each other in an exchange gone violently wrong. Rather than report the discovery to the police, Moss decides to simply take the two million dollars present for himself. This puts the psychopathic killer, Anton Chigurh, on his trail as he dispassionately murders nearly every rival, bystander and even employer in his pursuit of his quarry and the money. As Moss desperately attempts to keep one step ahead, the blood from this hunt begins to flow behind him with relentlessly growing intensity as Chigurh closes in. Meanwhile, the laconic Sherrif Ed Tom Bell blithely oversees the investigation even as he struggles to face the sheer enormity of the crimes he is attempting to thwart.  Written by Kenneth Chisholm (kchishol@rogers.com)\r\n\r\nAfter stumbling across a case of money among dead bodies, Llewelyn Moss thinks he can keep it quiet, but when silent killer Anton Chigurh locates Moss and his money, Vietnam veteran Moss makes a run for it. With bodies falling everywhere Anton goes, it's only a matter of time before he catches up with Llewelyn. Whilst all this is going on, Sheriff Ed Tom Bell is overseeing the investigation and begins to see the country in a different light than it once was. Written by FilmFanUk\r\n\r\nAfter he finds $2 million in the desert where a drug deal has apparently gone wrong, working man Llewelyn Moss finds himself on the run. His pursuer is Anton Chigurh, an unemotional killer with a unique murder weapon at his disposal. Throughout, soon to be retired Sheriff Ed Tom Bell attempts to convince Moss, mostly through his wife Carla Jean, that he should turn the money over to the authorities or this could all end in tragedy. Written by garykmcd ", "title": "No Country for Old Men", "image": "", "created": "2009-02-18 00:46:38", "height": null, "visible": 1, "year": 2007, "runtime": 122, "width": null}}, {"pk": 1, "model": "movie.director", "fields": {"director": 1, "movie": 1}}, {"pk": 2, "model": "movie.director", "fields": {"director": 4, "movie": 1}}, {"pk": 1, "model": "movie.cast", "fields": {"movie": 1, "role": "Anton Chigurh", "actor": 2}}, {"pk": 2, "model": "movie.cast", "fields": {"movie": 1, "role": "Llewelyn Moss", "actor": 3}}]
+[
+   {
+      "pk":2,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-18 00:56:15",
+         "birthplace":"",
+         "surname":"Bardem",
+         "created":"2009-02-18 00:56:15",
+         "imdb_id":"0000849",
+         "image":"",
+         "birthdate":"1969-03-01",
+         "height":null,
+         "is_director":false,
+         "visible":1,
+         "forename":"Javier",
+         "width":null,
+         "biography":""
+      }
+   },
+   {
+      "pk":3,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-18 00:56:51",
+         "birthplace":"",
+         "surname":"Brolin",
+         "created":"2009-02-18 00:56:51",
+         "imdb_id":"0000982",
+         "image":"",
+         "birthdate":"1968-02-12",
+         "height":null,
+         "is_director":false,
+         "visible":1,
+         "forename":"Josh",
+         "width":null,
+         "biography":""
+      }
+   },
+   {
+      "pk":1,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-18 00:45:11",
+         "birthplace":"",
+         "surname":"Coen",
+         "created":"2009-02-18 00:45:00",
+         "imdb_id":"0001053",
+         "image":"",
+         "birthdate":"1957-09-21",
+         "height":null,
+         "is_director":true,
+         "visible":1,
+         "forename":"Ethan",
+         "width":null,
+         "biography":"Brother of Joel Coen.\r\n\r\nGraduated from Princeton University.\r\n\r\nWorks so closely with his brother Joel Coen that the two of them have been jokingly referred to as \"The Two-Headed Director\".\r\n\r\nAlumnus of Simon's Rock College, Great Barrington, MA, with brother Joel Coen. This is a fully-accredited college for students who typically enter the age of 16 - before graduating high school.\r\n\r\nRanked #88 in Premiere's 2003 annual Power 100 List with brother Joel Coen. They had been ranked #92 in 2002.\r\n\r\nBrother-in-law of Frances McDormand."
+      }
+   },
+   {
+      "pk":4,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-18 01:02:26",
+         "birthplace":"",
+         "surname":"Coen",
+         "created":"2009-02-18 01:02:16",
+         "imdb_id":"0001054",
+         "image":"",
+         "birthdate":"1954-11-29",
+         "height":null,
+         "is_director":true,
+         "visible":1,
+         "forename":"Joel",
+         "width":null,
+         "biography":""
+      }
+   },
+   {
+      "pk":1,
+      "model":"movie.movie",
+      "fields":{
+         "edited":"2009-02-18 00:46:38",
+         "rating":8.3000000000000007,
+         "plot":"In rural Texas, welder and hunter Llewelyn Moss discovers the remains of several drug runners who have all killed each other in an exchange gone violently wrong. Rather than report the discovery to the police, Moss decides to simply take the two million dollars present for himself. This puts the psychopathic killer, Anton Chigurh, on his trail as he dispassionately murders nearly every rival, bystander and even employer in his pursuit of his quarry and the money. As Moss desperately attempts to keep one step ahead, the blood from this hunt begins to flow behind him with relentlessly growing intensity as Chigurh closes in. Meanwhile, the laconic Sherrif Ed Tom Bell blithely oversees the investigation even as he struggles to face the sheer enormity of the crimes he is attempting to thwart.  Written by Kenneth Chisholm (kchishol@rogers.com)\r\n\r\nAfter stumbling across a case of money among dead bodies, Llewelyn Moss thinks he can keep it quiet, but when silent killer Anton Chigurh locates Moss and his money, Vietnam veteran Moss makes a run for it. With bodies falling everywhere Anton goes, it's only a matter of time before he catches up with Llewelyn. Whilst all this is going on, Sheriff Ed Tom Bell is overseeing the investigation and begins to see the country in a different light than it once was. Written by FilmFanUk\r\n\r\nAfter he finds $2 million in the desert where a drug deal has apparently gone wrong, working man Llewelyn Moss finds himself on the run. His pursuer is Anton Chigurh, an unemotional killer with a unique murder weapon at his disposal. Throughout, soon to be retired Sheriff Ed Tom Bell attempts to convince Moss, mostly through his wife Carla Jean, that he should turn the money over to the authorities or this could all end in tragedy. Written by garykmcd ",
+         "title":"No Country for Old Men",
+         "image":"",
+         "created":"2009-02-18 00:46:38",
+         "height":null,
+         "visible":1,
+         "year":2007,
+         "runtime":122,
+         "width":null,
+         "imdb_id":"0477348",
+         "genres":"Crime, Drama, Thriller, Western"
+      }
+   },
+   {
+      "pk":1,
+      "model":"movie.director",
+      "fields":{
+         "director":1,
+         "movie":1
+      }
+   },
+   {
+      "pk":2,
+      "model":"movie.director",
+      "fields":{
+         "director":4,
+         "movie":1
+      }
+   },
+   {
+      "pk":1,
+      "model":"movie.cast",
+      "fields":{
+         "movie":1,
+         "role":"Anton Chigurh",
+         "actor":2
+      }
+   },
+   {
+      "pk":2,
+      "model":"movie.cast",
+      "fields":{
+         "movie":1,
+         "role":"Llewelyn Moss",
+         "actor":3
+      }
+   }
+]

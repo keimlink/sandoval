@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from django.db import models
+from tagging.fields import TagField
 
 class Abstract(models.Model):
     STATUS_INVISIBLE = 0
@@ -10,6 +11,7 @@ class Abstract(models.Model):
         (STATUS_INVISIBLE, 'nicht anzeigen')
     )
     visible = models.SmallIntegerField('Status', choices=STATUS_CHOICES,
+        help_text='Definiert ob dieser Datensatz sichtbar ist oder nicht.',
         default=STATUS_VISIBLE)
     created = models.DateTimeField('erstellt am', editable=False,
         auto_now_add=True)
@@ -24,13 +26,14 @@ class Person(Abstract):
     surname = models.CharField('Nachname', max_length=100)
     birthdate = models.DateField('Geburtsdatum')
     birthplace = models.CharField('Geburtsort', max_length=200, blank=True)
+    biography = models.TextField('Biografie', blank=True)
     is_director = models.BooleanField('Regisseur', 
         help_text='Wenn diese Checkbox aktiviert ist kann die Person als Regisseur ausgewählt werden.')
+    imdb_id = models.CharField('IMDB ID', max_length=10)
     image = models.ImageField('Foto', upload_to='images/actors', blank=True,
         height_field='height', width_field='width')
-    width = models.IntegerField('Breite', editable=False, null=True)
     height = models.IntegerField('Höhe', editable=False, null=True)
-    biography = models.TextField('Biografie', blank=True)
+    width = models.IntegerField('Breite', editable=False, null=True)
     
     class Meta():
         verbose_name = 'Person'
@@ -45,17 +48,22 @@ class Person(Abstract):
 
 class Movie(Abstract):
     title = models.CharField('Titel', max_length=200)
+    plot = models.TextField('Handlung', blank=True)
+    plot_author = models.CharField('Autor', max_length=100, blank=True,
+        help_text='Autor der Handlung')
     year = models.IntegerField('Jahr', max_length=4)
-    description = models.TextField('Inhalt', blank=True)
+    runtime = models.IntegerField('Laufzeit', blank=True,
+        help_text='Laufzeit in Minuten angeben.')
+    rating = models.FloatField('Bewertung', blank=True,
+        help_text='Bewertung als Fliesskommazahl auf einer Skala von 0 bis 10.')
+    genres = TagField('Genres', help_text='Kommagetrennte Liste der Genres.')
+    imdb_id = models.CharField('IMDB ID', max_length=10)
     image = models.ImageField('Poster', upload_to='images/movies', blank=True,
         height_field='height', width_field='width')
-    width = models.IntegerField('Breite', editable=False, null=True)
     height = models.IntegerField('Höhe', editable=False, null=True)
+    width = models.IntegerField('Breite', editable=False, null=True)
     directors = models.ManyToManyField(Person, through='Director')
     actors = models.ManyToManyField(Person, through='Cast', related_name='actor_set')
-    runtime = models.IntegerField('Laufzeit', blank=True)
-    rating = models.FloatField('Bewertung', blank=True)
-    #tags
     
     class Meta():
         verbose_name = 'Film'
@@ -86,8 +94,20 @@ class Cast(models.Model):
     actor = models.ForeignKey(Person)
     
     class Meta():
-        verbose_name = 'Schauspieler'
-        verbose_name_plural = 'Schauspieler'
+        verbose_name = 'Rolle'
+        verbose_name_plural = 'Rollen'
     
     def __unicode__(self):
         return self.role.__str__()
+
+class Feed(models.Model):
+    title = models.CharField('Name', max_length=100)
+    site = models.CharField('Website', max_length=50, blank=True)
+    url = models.URLField('URL')
+    
+    class Meta():
+        verbose_name = 'Feed'
+        verbose_name_plural = 'Feeds'
+    
+    def __unicode__(self):
+        return self.title
