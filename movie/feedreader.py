@@ -1,3 +1,4 @@
+import datetime
 import re
 import sys
 import warnings
@@ -19,11 +20,11 @@ class Movie(object):
         warnings.filterwarnings('ignore', 'falling back to "beautifulsoup".')
         try:
             self.find(title)
-            (directors, cast) = self.create()
+            (directors, cast, movie_model) = self.create()
             for director in directors:
-                self.add_director(director)
+                self.add_director(director, movie_model)
             for person in cast:
-                self.add_cast(person)
+                self.add_cast(person, movie_model)
         except Exception, e:
             print '\t%s' % e.message
         finally:
@@ -59,37 +60,68 @@ class Movie(object):
         movie.imdb_id = self.imdb_data.movieID
         movie.save()
         print '\tSaved movie.'
-        return (self.imdb_data.get('art direction', []),
-                self.imdb_data.get('cast', []))
+        return (self.imdb_data.get('director', []),
+                self.imdb_data.get('cast', []),
+                movie)
     
-    def add_director(self, name):
-        pass
+    def add_director(self, person, movie_model):
+        Person(person, movie_model, True)
     
-    def add_cast(self, name):
-        pass
+    def add_cast(self, person, movie_model):
+        Person(person, movie_model)
 
 class Person(object):
-    def __init__(self, person):
-        self.imdb_data = person
-        self.model = models.Person()
-        self.create()
+    _monthTranslations = {
+        'January': 1,
+        'Februrary': 2,
+        'March': 3,
+        'April': 4,
+        'May': 5,
+        'June': 6,
+        'July': 7,
+        'August': 8,
+        'September': 9,
+        'October': 10,
+        'November': 11,
+        'December': 12
+    }
+    
+    def __init__(self, person, movie_model, is_director=False):
+        self.model = self.exists(person.getID())
+        if self.model == False:
+            self.model = self.create(person)
+        self.model.is_director = is_director
+        self.build_relation(movie_model)
+        self.model.save()
+        print '\tSaved person.'
+    
+    def exists(self, imdb_id):
+        result = models.Person.objects.filter(imdb_id__exact=imdb_id)
+        if len(result) > 0:
+            return result[0]
+        return False
+    
+    def _createNumericDate(self, date):
+        parts = date.split(' ')
+        return datetime.date(parts[2], self._monthTranslations[parts[1]], parts[0])
+    
+    def create(self, person):
+        print '\tImporting person "%s".' % person['name']
+        name = person['canonical name'].split(', ')
+        self.model.forename = name[1]
+        self.model.surname = name[0]
+        if person.has_key('birth date'):
+            self.birthdate = self._createNumericDate(person['birth date'])
+        if person.has_key('birth notes'):
+            self.birthplace = person['birth notes']
+        self.model.biography = person.data.get('biography', '')
+        self.model.imdb_id = person.movieID
+    
+    def build_relation(self, movie_model):
         pass
     
-    def exists(self):
-        pass
-    
-    def is_director(self):
-        pass
-    
-    def is_cast(self):
-        pass
-    
-    def create(self):
-        print 'Importing person "%s"' % self.imdb_data
-        pass
-    
-    def make_director(self, movie):
-        pass
+    def save(self):
+        return self.model.save()
 
 class Rss(object):
     def __init__(self, url):
