@@ -1,0 +1,23 @@
+Sandoval is a movie application build with the Django Framework. It's main
+purpose is to show the capabilities of Django.
+
+Setup:
+The default configuration uses a SQLite database. So there is no need to set up
+a database.
+
+Run this commands in the sandoval directory:
+
+python manage.py syncdb # setup up the database structure
+python manage.py loaddata feeds # loads a few feeds into the database
+python manage.py loaddata testing # if you need some test data
+python manage.py runserver # start the server
+
+To import from the feeds configured in the database run this command:
+
+python movie/feedreader.py
+
+This command truncates the movie app tables:
+
+python manage.py clear movie
+
+Git repository: http://github.com/streetcleaner/sandoval/tree
