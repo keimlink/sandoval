@@ -1,0 +1,29 @@
+[
+   {
+      "pk":1,
+      "model":"movie.feed",
+      "fields":{
+         "url":"http://www.cinema.de/dvd/neuerscheinungen/rss.xml",
+         "site":"CINEMA",
+         "title":"Neu auf DVD"
+      }
+   },
+   {
+      "pk":2,
+      "model":"movie.feed",
+      "fields":{
+         "url":"http://www.cinema.de/kino/neu-im-kino/rss.xml",
+         "site":"CINEMA",
+         "title":"Kino-Neustarts"
+      }
+   },
+   {
+      "pk":3,
+      "model":"movie.feed",
+      "fields":{
+         "url":"http://www.kino.de/rss.php?typ=kinostarts",
+         "site":"KINO.DE",
+         "title":"Neustarts"
+      }
+   }
+]
