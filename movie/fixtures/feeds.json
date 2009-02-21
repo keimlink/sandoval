@@ -3,27 +3,50 @@
       "pk":1,
       "model":"movie.feed",
       "fields":{
-         "url":"http://www.cinema.de/dvd/neuerscheinungen/rss.xml",
-         "site":"CINEMA",
-         "title":"Neu auf DVD"
+         "title":"Rotten Tomatoes: Top Movies",
+         "url":"http://i.rottentomatoes.com/syndication/rss/top_movies.xml",
+         "field": "title",
+         "re": "\\d+% (.*)"
       }
    },
    {
       "pk":2,
       "model":"movie.feed",
       "fields":{
-         "url":"http://www.cinema.de/kino/neu-im-kino/rss.xml",
-         "site":"CINEMA",
-         "title":"Kino-Neustarts"
+         "title":"Rotten Tomatoes: New DVD Releases",
+         "url":"http://i.rottentomatoes.com/syndication/rss/new_releases.xml",
+         "field": "title",
+         "re": "\\d+% (.*)"
       }
    },
    {
       "pk":3,
       "model":"movie.feed",
       "fields":{
+         "title":"cinema.de - Neu auf DVD",
+         "url":"http://www.cinema.de/dvd/neuerscheinungen/rss.xml",
+         "field": "title",
+         "re": "(.*)"
+      }
+   },
+   {
+      "pk":4,
+      "model":"movie.feed",
+      "fields":{
+         "title":"cinema.de - Kino-Neustarts",
+         "url":"http://www.cinema.de/kino/neu-im-kino/rss.xml",
+         "field": "title",
+         "re": "(.*)"
+      }
+   },
+   {
+      "pk":5,
+      "model":"movie.feed",
+      "fields":{
+         "title":"KINO.DE - Neustarts",
          "url":"http://www.kino.de/rss.php?typ=kinostarts",
-         "site":"KINO.DE",
-         "title":"Neustarts"
+         "field": "title",
+         "re": "(.*)"
       }
    }
 ]
