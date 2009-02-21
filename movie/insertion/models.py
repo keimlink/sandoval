@@ -1,10 +1,7 @@
-import datetime
 import re
-import sys
 import warnings
 
 import BeautifulSoup
-import feedparser
 import imdb
 
 from django.core.management import setup_environ
@@ -28,7 +25,7 @@ class Movie(object):
         except Exception, e:
             print '\t%s' % e.message
         finally:
-            print '--------------------------------------------------------------------------------'
+            print 'Done.\n'
     
     def find(self, title):
         print 'Searching for movie "%s".' % title
@@ -61,7 +58,7 @@ class Movie(object):
         movie.save()
         print '\tSaved movie.'
         return (self.imdb_data.get('director', []),
-                self.imdb_data.get('cast', []),
+                self.imdb_data.get('cast', [])[:9],
                 movie)
     
     def add_director(self, person, movie_model):
@@ -71,29 +68,14 @@ class Movie(object):
         Person(person, movie_model)
 
 class Person(object):
-    _monthTranslations = {
-        'January': 1,
-        'Februrary': 2,
-        'March': 3,
-        'April': 4,
-        'May': 5,
-        'June': 6,
-        'July': 7,
-        'August': 8,
-        'September': 9,
-        'October': 10,
-        'November': 11,
-        'December': 12
-    }
-    
     def __init__(self, person, movie_model, is_director=False):
         self.model = self.exists(person.getID())
         if self.model == False:
-            self.model = self.create(person)
+            self.model = self.create(person.getID())
         self.model.is_director = is_director
         self.build_relation(movie_model)
         self.model.save()
-        print '\tSaved person.'
+        print '\tSaved person "%s".' % person['name']
     
     def exists(self, imdb_id):
         result = models.Person.objects.filter(imdb_id__exact=imdb_id)
@@ -101,52 +83,26 @@ class Person(object):
             return result[0]
         return False
     
-    def _createNumericDate(self, date):
-        parts = date.split(' ')
-        return datetime.date(parts[2], self._monthTranslations[parts[1]], parts[0])
-    
-    def create(self, person):
+    def create(self, imdb_id):
+        ia = imdb.IMDb()
+        person = ia.get_person(imdb_id)
+        model = models.Person()
         print '\tImporting person "%s".' % person['name']
         name = person['canonical name'].split(', ')
-        self.model.forename = name[1]
-        self.model.surname = name[0]
+        if len(name) == 2:
+            model.forename = name[1]
+        model.surname = name[0]
         if person.has_key('birth date'):
-            self.birthdate = self._createNumericDate(person['birth date'])
+            model.birthdate = person['birth date']
         if person.has_key('birth notes'):
-            self.birthplace = person['birth notes']
-        self.model.biography = person.data.get('biography', '')
-        self.model.imdb_id = person.movieID
+            model.birthplace = person['birth notes']
+        if person.has_key('mini biography'):
+            model.biography = person['mini biography'][0].split('::')[0]
+        model.imdb_id = person.getID()
+        return model
     
     def build_relation(self, movie_model):
         pass
     
     def save(self):
         return self.model.save()
-
-class Rss(object):
-    def __init__(self, url):
-        try:
-            print '\nTesting %s' % url
-            feedparser.urllib.urlopen(url)
-        except IOError, e:
-            raise Exception, e.__str__()
-        else:
-            print 'Fetching %s' % url
-            print '--------------------------------------------------------------------------------'
-            self.feed = feedparser.parse(url)
-    
-    def __iter__(self):
-        for entry in self.feed.entries:
-            yield entry.title
-
-class Dispatcher(object):
-    def __init__(self):
-        for feed in models.Feed.objects.all():
-            try:
-                for entry in Rss(feed.url):
-                    Movie(entry)
-            except Exception, e:
-                print e.message
-
-if __name__ == '__main__':
-    Dispatcher()
