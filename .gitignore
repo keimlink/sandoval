@@ -1,5 +1,6 @@
 *.pyc
 *.db
+*.db-journal
 .*project
 .settings
 .DS_Store

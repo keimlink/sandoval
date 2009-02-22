@@ -9,13 +9,19 @@ Setup:
 The default configuration uses a SQLite database. So there is no need to set up
 a database.
 
+If you haven't already setup your PYTHONPATH - now is the time!
+Define an evironment variable named PYTHONPATH pointing to the directory 
+containig your Python apps.
+
+Example: export PYTHONPATH='/home/foo/projects/python/':$PYTHONPATH
+
 The following extensions are required:
-- beautifulsoup (http://www.crummy.com/software/BeautifulSoup/)
-- feedparser (http://feedparser.org/)
-- imdb (http://imdbpy.sourceforge.net/)
+- BeautifulSoup 3.1.0.1 (http://www.crummy.com/software/BeautifulSoup/)
+- feedparser 4.1 (http://feedparser.org/)
+- imdb 3.9 (http://imdbpy.sourceforge.net/)
 
 The following Django apps are required:
-- tagging (http://code.google.com/p/django-tagging/)
+- tagging 0.3 (http://code.google.com/p/django-tagging/)
 
 
 Run this commands in the sandoval directory:
@@ -25,7 +31,10 @@ python manage.py loaddata testing # if you need some test data
 python manage.py runserver # start the server
 
 To import from the feeds configured in the database run this command:
-python movie/feedreader.py
+python movie/insertion/feeds.py
+
+To import a single movie by name run this command:
+python movie/insertion/movie.py 'Fargo'
 
 This command truncates the movie app tables:
 python manage.py clear movie
