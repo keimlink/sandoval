@@ -5,6 +5,7 @@ import BeautifulSoup
 import imdb
 
 from django.core.management import setup_environ
+from django.template import defaultfilters
 from sandoval import settings
 # Setting up the environment is necessary to import the models.
 setup_environ(settings)
@@ -46,6 +47,8 @@ class Movie(object):
     def create(self):
         movie = models.Movie()
         movie.title = self.imdb_data['title']
+        movie.slug = defaultfilters.slugify(self.imdb_data['title'] + ' ' 
+            + self.imdb_data['year'].__str__())
         plot = self.imdb_data.get('plot', ['::'])[0].split('::')
         movie.plot = plot[0]
         movie.plot_author = plot[1]
@@ -92,6 +95,13 @@ class Person(object):
         if len(name) == 2:
             model.forename = name[1]
         model.surname = name[0]
+        try:
+            # Try to set the slug.
+            model.slug = defaultfilters.slugify(person['name'])
+        except IntergrityError:
+            # Setting the slug failed because the value was not unique.
+            model.slug = defaultfilters.slugify(person['name'] + ' ' + 
+                person.getID())
         if person.has_key('birth date'):
             model.birthdate = person['birth date']
         if person.has_key('birth notes'):
