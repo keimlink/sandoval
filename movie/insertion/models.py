@@ -14,7 +14,8 @@ from sandoval.movie import models
 class Movie(object):
     def __init__(self, title):
         # Suppress imdb warnings.
-        warnings.filterwarnings('ignore', 'unable to use "lxml": No module named lxml')
+        warnings.filterwarnings('ignore', 
+            'unable to use "lxml": No module named lxml')
         warnings.filterwarnings('ignore', 'falling back to "beautifulsoup".')
         try:
             self.find(title)

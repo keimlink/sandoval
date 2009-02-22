@@ -6,7 +6,7 @@
          "title":"Rotten Tomatoes: Top Movies",
          "url":"http://i.rottentomatoes.com/syndication/rss/top_movies.xml",
          "field": "title",
-         "re": "\\d+% (.*)"
+         "regexp": "\\d+% (.*)"
       }
    },
    {
@@ -16,7 +16,7 @@
          "title":"Rotten Tomatoes: New DVD Releases",
          "url":"http://i.rottentomatoes.com/syndication/rss/new_releases.xml",
          "field": "title",
-         "re": "\\d+% (.*)"
+         "regexp": "\\d+% (.*)"
       }
    },
    {
@@ -26,7 +26,7 @@
          "title":"cinema.de - Neu auf DVD",
          "url":"http://www.cinema.de/dvd/neuerscheinungen/rss.xml",
          "field": "title",
-         "re": "(.*)"
+         "regexp": "(.*)"
       }
    },
    {
@@ -36,7 +36,7 @@
          "title":"cinema.de - Kino-Neustarts",
          "url":"http://www.cinema.de/kino/neu-im-kino/rss.xml",
          "field": "title",
-         "re": "(.*)"
+         "regexp": "(.*)"
       }
    },
    {
@@ -46,7 +46,7 @@
          "title":"KINO.DE - Neustarts",
          "url":"http://www.kino.de/rss.php?typ=kinostarts",
          "field": "title",
-         "re": "(.*)"
+         "regexp": "(.*)"
       }
    }
 ]

@@ -25,7 +25,8 @@ class Person(Abstract):
     forename = models.CharField('Vorname', max_length=100)
     surname = models.CharField('Nachname', max_length=100)
     slug = models.SlugField(unique=True, help_text='Der Inhalt dieses Feldes \
-        wird automatisch aus Vornamen und Nachnamen erzeugt und darf nur einmal vorkommen.')
+        wird automatisch aus Vornamen und Nachnamen erzeugt und darf nur \
+        einmal vorkommen.')
     birthdate = models.CharField('Geburtsdatum', max_length=100, blank=True)
     birthplace = models.CharField('Geburtsort', max_length=200, blank=True)
     biography = models.TextField('Biografie', blank=True)
@@ -52,7 +53,8 @@ class Person(Abstract):
 class Movie(Abstract):
     title = models.CharField('Titel', max_length=200)
     slug = models.SlugField(unique=True, help_text='Der Inhalt dieses Feldes \
-        wird automatisch aus dem Titel und dem Jahr erzeugt und darf nur einmal vorkommen.')
+        wird automatisch aus dem Titel und dem Jahr erzeugt und darf nur \
+        einmal vorkommen.')
     plot = models.TextField('Handlung', blank=True)
     plot_author = models.CharField('Autor', max_length=100, blank=True,
         help_text='Autor der Handlung.')
@@ -68,7 +70,8 @@ class Movie(Abstract):
     height = models.IntegerField('Höhe', editable=False, null=True)
     width = models.IntegerField('Breite', editable=False, null=True)
     directors = models.ManyToManyField(Person, through='Director')
-    actors = models.ManyToManyField(Person, through='Cast', related_name='actor_set')
+    actors = models.ManyToManyField(Person, through='Cast', 
+        related_name='actor_set')
     
     class Meta():
         verbose_name = 'Film'
@@ -115,9 +118,11 @@ class Feed(models.Model):
     title = models.CharField('Name', max_length=100)
     url = models.URLField('URL')
     field = models.CharField('Feld', max_length=30, choices=FIELD_CHOICES,
-        default=FIELD_TITLE, help_text='Feld des Feeds, das ausgelesen werden soll.')
-    re = models.CharField('Regulärer Ausdruck', max_length=100, default='(.*)',
-        help_text='Regulärer ausdruck, der auf das ausgewählte Feld angewendet wird.')
+        default=FIELD_TITLE, help_text='Feld des Feeds, das ausgelesen werden \
+        soll.')
+    regexp = models.CharField('Regulärer Ausdruck', max_length=100, 
+        default='(.*)', help_text='Regulärer ausdruck, der auf das \
+        ausgewählte Feld angewendet wird.')
     
     class Meta():
         verbose_name = 'Feed'
