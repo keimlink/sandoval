@@ -1,20 +1,1221 @@
 [
    {
-      "pk":2,
+      "pk":27,
       "model":"movie.person",
       "fields":{
-         "edited":"2009-02-18 00:56:15",
+         "edited":"2009-02-22 23:16:02",
          "birthplace":"",
-         "surname":"Bardem",
-         "created":"2009-02-18 00:56:15",
-         "imdb_id":"0000849",
+         "surname":"Allen",
+         "created":"2009-02-22 23:11:57",
          "image":"",
-         "birthdate":"1969-03-01",
-         "height":null,
+         "birthdate":"",
+         "imdb_id":"0020340",
          "is_director":false,
          "visible":1,
-         "forename":"Javier",
          "width":null,
+         "forename":"Carl",
+         "height":null,
+         "slug":"carl-allen",
+         "biography":""
+      }
+   },
+   {
+      "pk":86,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:28:13",
+         "birthplace":"",
+         "surname":"Anderson",
+         "created":"2009-02-22 23:28:13",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0026824",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"J. Todd",
+         "height":null,
+         "slug":"j-todd-anderson",
+         "biography":""
+      }
+   },
+   {
+      "pk":83,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:28:06",
+         "birthplace":"Minneapolis, Minnesota, USA",
+         "surname":"Anderson",
+         "created":"2009-02-22 23:28:06",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0027437",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Sharon",
+         "height":null,
+         "slug":"sharon-anderson",
+         "biography":""
+      }
+   },
+   {
+      "pk":41,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:16:36",
+         "birthplace":"Los Angeles, California, USA",
+         "surname":"Arquette",
+         "created":"2009-02-22 23:16:36",
+         "image":"",
+         "birthdate":"28 July 1969",
+         "imdb_id":"0000793",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Alexis",
+         "height":null,
+         "slug":"alexis-arquette",
+         "biography":""
+      }
+   },
+   {
+      "pk":11,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:15:04",
+         "birthplace":"New York City, New York, USA",
+         "surname":"Arquette",
+         "created":"2009-02-22 23:11:09",
+         "image":"",
+         "birthdate":"10 August 1959",
+         "imdb_id":"0000275",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Rosanna",
+         "height":null,
+         "slug":"rosanna-arquette",
+         "biography":"'Rosanna Arquette' (qv) has acted extensively in film and television, and has come to be acknowledged as an actress of rare depth and scope. Growing up in a family of actors, she began at a young age. Her first big break came as a teenager with a role in the Movie of the Week _\"The Dark Secret of Harvest Home\" (1978)_ (qv), which starred 'Bette Davis' (qv). Several television roles followed, including an _\"ABC Afterschool Specials\" (1972)_ (qv) and a part on the series _\"James at 15\" (1977)_ (qv) before her talents led to her film debut in _Gorp (1980)_ (qv). Since then she has acted in a steady stream of films, including 'John Sayles' (qv)' _Baby It's You (1983)_ (qv), _Fathers & Sons (1992)_ (qv) with 'Jeff Goldblum' (qv), _Silverado (1985)_ (qv) (which also featured Goldblum), _The Linguini Incident (1991)_ (qv), 'Martin Scorsese' (qv)'s segment of _New York Stories (1989)_ (qv) with 'Nick Nolte' (qv), and many others. She feels particularly proud of her offbeat roles in such independent films as _After Hours (1985)_ (qv), _Nobody's Fool (1986)_ (qv), and _Desperately Seeking Susan (1985)_ (qv), for which she won the British Academy Award. Ms. Arquette was nominated for an Emmy for her work in the controversial _The Executioner's Song (1982) (TV)_ (qv). She continues her work on television as well as the big screen."
+      }
+   },
+   {
+      "pk":56,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:18:28",
+         "birthplace":"New York City, New York, USA",
+         "surname":"Baltz",
+         "created":"2009-02-22 23:18:28",
+         "image":"",
+         "birthdate":"14 September 1959",
+         "imdb_id":"0051257",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Kirk",
+         "height":null,
+         "slug":"kirk-baltz",
+         "biography":"A working actor since the late 1980s, 'Kirk Baltz' (qv) is perhaps most famous for playing the part of Marvin Nash, the tortured police officer in 'Quentin Tarantino' (qv)'s _Reservoir Dogs (1992)_ (qv). To prepare for the role, Baltz asked co-star 'Michael Madsen' (qv) to drive him around in the trunk of Madsen's car. Baltz has also appeared in films like _Dances with Wolves (1990)_ (qv), _Natural Born Killers (1994)_ (qv), _Face/Off (1997)_ (qv), and _Bulworth (1998)_ (qv). He has also been a familiar face on television, with roles on TV shows like _\"NYPD Blue\" (1993)_ (qv) and _\"24\" (2001)_ (qv)."
+      }
+   },
+   {
+      "pk":105,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:29:01",
+         "birthplace":"",
+         "surname":"Bandemer",
+         "created":"2009-02-22 23:29:01",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0051703",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"John",
+         "height":null,
+         "slug":"john-bandemer",
+         "biography":""
+      }
+   },
+   {
+      "pk":46,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:18:56",
+         "birthplace":"The Bronx, New York City, New York, USA",
+         "surname":"Bender",
+         "created":"2009-02-22 23:16:55",
+         "image":"",
+         "birthdate":"17 October 1957",
+         "imdb_id":"0004744",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Lawrence",
+         "height":null,
+         "slug":"lawrence-bender",
+         "biography":""
+      }
+   },
+   {
+      "pk":25,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:15:54",
+         "birthplace":"",
+         "surname":"Blakely",
+         "created":"2009-02-22 23:11:51",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0086783",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Don",
+         "height":null,
+         "slug":"don-blakely",
+         "biography":""
+      }
+   },
+   {
+      "pk":91,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:28:28",
+         "birthplace":"",
+         "surname":"Boden",
+         "created":"2009-02-22 23:28:28",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0090876",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Petra",
+         "height":null,
+         "slug":"petra-boden",
+         "biography":""
+      }
+   },
+   {
+      "pk":102,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:28:54",
+         "birthplace":"",
+         "surname":"Boehlke",
+         "created":"2009-02-22 23:28:54",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0091191",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Bain",
+         "height":null,
+         "slug":"bain-boehlke",
+         "biography":""
+      }
+   },
+   {
+      "pk":90,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:28:26",
+         "birthplace":"",
+         "surname":"Bohne",
+         "created":"2009-02-22 23:28:26",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0092118",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Bruce",
+         "height":null,
+         "slug":"bruce-bohne",
+         "biography":""
+      }
+   },
+   {
+      "pk":84,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:28:09",
+         "birthplace":"Wabasha, Minnesota, USA",
+         "surname":"Brandenburg",
+         "created":"2009-02-22 23:28:09",
+         "image":"",
+         "birthdate":"3 May 1948",
+         "imdb_id":"0104594",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Larry",
+         "height":null,
+         "slug":"larry-brandenburg",
+         "biography":""
+      }
+   },
+   {
+      "pk":146,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:31:52",
+         "birthplace":"Northbrook, Illinois, USA",
+         "surname":"Braun",
+         "created":"2009-02-22 23:31:52",
+         "image":"",
+         "birthdate":"5 April 1970",
+         "imdb_id":"0105876",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Wendy",
+         "height":null,
+         "slug":"wendy-braun",
+         "biography":"'Wendy Braun' (qv) is a theater-trained Chicago native. Her mother, 'Beverly Marston-Braun' (qv), was known as \"Miss Beverly\", the host of _\"Romper Room\" (1953)_ (qv), a popular children's TV show, and her father was a Navy pilot. Wendy began acting at age 12, as the Scarecrow in \"The Wiz\", and continued performing in musicals and plays at Glenbrook South High School, as well as at Indiana University, where she graduated early to pursue acting. A trained professional dancer, Wendy spent a summer performing in Monte Carlo with such artists as 'Stevie Wonder' (qv), 'Barry White' (qv) and 'Natalie Cole' (qv). There she won over one of her biggest fans, 'Prince Albert of Monaco' (qv), who later escorted her to her film premiere at the Cannes Film Festival. Wendy soon starred in several award-winning film festival hits. 'Ivan Reitman' (qv) spotted her in two films at Sundance and cast her in DreamWorks' _Evolution (2001)_ (qv) alongside 'David Duchovny' (qv) and 'Julianne Moore' (qv). Her comedic timing and improvisation skills prompted ad executives to create a 26-spot Mervyn's campaign for her. A standout in these spots, Wendy quickly won more roles in film and television. She has been recently seen guest-starring on _\"Lost\" (2004)_ (qv), _\"All of Us\" (2003)_ (qv), _\"Navy NCIS: Naval Criminal Investigative Service\" (2003)_ (qv), and acting alongside 'Martin Lawrence' (qv) in _Big Momma's House 2 (2006)_ (qv). Wendy is now recurring as \"Ms. Sneed\" on _\"General Hospital\" (1963)_ (qv) and plays 'Vincent Spano' (qv)'s FBI partner in the mini-series _Pandemic (2007) (TV)_ (qv). Wendy is also a fitness enthusiast and triathlete. She recently completed the Malibu Triathlon, where she won medals two years in a row in the Female Celebrity Division, and helped to raise money for the 'Elizabeth Glaser' (qv) Pediatric Aids Foundation."
+      }
+   },
+   {
+      "pk":109,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:29:50",
+         "birthplace":"Los Angeles, California, USA",
+         "surname":"Bridges",
+         "created":"2009-02-22 23:29:50",
+         "image":"",
+         "birthdate":"4 December 1949",
+         "imdb_id":"0000313",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Jeff",
+         "height":null,
+         "slug":"jeff-bridges",
+         "biography":"The son of well-known film and TV star 'Lloyd Bridges' (qv) and his long-time wife 'Dorothy Dean Bridges' (qv), Jeff was born on December 4, 1949 in Los Angeles, California, and grew up amid the happening Hollywood scene with big brother 'Beau Bridges' (qv). Both boys popped up unbilled alongside their mother in the film _The Company She Keeps (1951)_ (qv), and appeared on occasion with their famous dad on his popular underwater TV series _\"Sea Hunt\" (1958)_ (qv) while growing up. At age 14, Jeff toured with his father in a stage production of \"Anniversary Waltz\". The \"troublesome teen\" years proved just that for Jeff and his parents were compelled at one point to intervene when problems with drugs and marijuana got out of hand. He recovered and began shaping his nascent young adult career appearing on TV as a younger version of his father in the acclaimed TV-movie _Silent Night, Lonely Night (1969) (TV)_ (qv), and in the strange 'Burgess Meredith' (qv) film _The Yin and the Yang of Mr. Go (1970)_ (qv). Following fine notices for his portrayal of a white student caught up in the racially-themed _Halls of Anger (1970)_ (qv), his career-maker arrived just a year later when he earned a coming-of-age role in the critically-acclaimed ensemble film _The Last Picture Show (1971)_ (qv). The 'Peter Bogdanovich' (qv)- helmed film made stars out off its young leads (Bridges, 'Timothy Bottoms' (qv), 'Cybill Shepherd' (qv)) and Oscar winners out of its older cast ('Ben Johnson' (qv), 'Cloris Leachman' (qv)). The role, for which Jeff received an Oscar-nomination (for \"best supporting actor\") set the tone for the types of roles Jeff would acquaint himself with his fans -- rambling, reckless, rascally and usually unpredictable). Owning a casual carefree handsomeness and armed with a perpetual grin and sly charm, he started immediately on an intriguing 70s sojourn into offbeat filming. Chief among them were his boxer on his way up opposite a declining 'Stacy Keach' (qv) in _Fat City (1972)_ (qv); his Civil War-era conman in the western _Bad Company (1972)_ (qv); his redneck stock car racer in _The Last American Hero (1973)_ (qv); his young student anarchist opposite a stellar veteran cast in Eugene O'Neill's _The Iceman Cometh (1973)_ (qv); his bank-robbing (also Oscar-nominated) sidekick to 'Clint Eastwood' (qv) in _Thunderbolt and Lightfoot (1974)_ (qv); his aimless cattle rustler in _Rancho Deluxe (1975)_ (qv); his low-level western writer who wants to be a real-life cowboy in _Hearts of the West (1975)_ (qv); and his brother of an assassinated President who pursues leads to the crime in _Winter Kills (1979)_ (qv). All are simply marvelous characters that should have propelled him to the very top rungs of stardom...but strangely didn't. Perhaps it was his trademark ease and naturalistic approach that made him somewhat under appreciated at that time when Hollywood was run by a 'Dustin Hoffman' (qv), 'Robert De Niro' (qv) and 'Al Pacino' (qv)-like intensity. Neverthless, Jeff continued to be a scene-stealing favorite into the next decade, notably as the video game programmer in the 1982 sci-fi cult classic _TRON (1982)_ (qv), and the struggling musician brother vying with brother 'Beau Bridges' (qv) over the attentions of sexy singer 'Michelle Pfeiffer' (qv) in _The Fabulous Baker Boys (1989)_ (qv). Jeff became a third-time Oscar nominee with his highly intriguing (and strangely sexy) portrayal of a blank-faced alien in _\"Starman\" (1986)_ (qv), and earned high regard as the ever-optimistic inventor Preston Tucker in _Tucker: The Man and His Dream (1988)_ (qv). Since then Jeff has continued to pour on the Bridges magic on film. Few enjoy such an enduring popularity while maintaining equal respect with the critics. _The Fisher King (1991)_ (qv), _American Heart (1992)_ (qv), _Fearless (1993)_ (qv), _The Big Lebowski (1998)_ (qv) and _The Contender (2000)_ (qv) (a fourth Oscar nomination) are prime examples. More recently he seized the moment as a bald-pated villain as 'Robert Downey Jr.' (qv)'s nemesis in _Iron Man (2008)_ (qv). Jeff has been married since 1977 to non-professional Susan Geston (they met on the set of _Rancho Deluxe (1975)_ (qv)). The couple have three daughters, Isabelle (born 1981), Jessica (born 1983), and Hayley (born 1985). He hobbies as a photographer on and off his film sets, and has been known to play around as a cartoonist and pop musician."
+      }
+   },
+   {
+      "pk":55,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:18:24",
+         "birthplace":"New York City, New York, USA",
+         "surname":"Brooks",
+         "created":"2009-02-22 23:18:24",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0112207",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Randy",
+         "height":null,
+         "slug":"randy-brooks",
+         "biography":""
+      }
+   },
+   {
+      "pk":135,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:31:16",
+         "birthplace":"New York City, New York, USA",
+         "surname":"Bugin",
+         "created":"2009-02-22 23:31:16",
+         "image":"",
+         "birthdate":"10 March 1929",
+         "imdb_id":"0119505",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Harry",
+         "height":null,
+         "slug":"harry-bugin",
+         "biography":""
+      }
+   },
+   {
+      "pk":57,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:18:31",
+         "birthplace":"Hollywood, California, USA",
+         "surname":"Bunker",
+         "created":"2009-02-22 23:18:31",
+         "image":"",
+         "birthdate":"31 December 1933",
+         "imdb_id":"0120483",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Edward",
+         "height":null,
+         "slug":"edward-bunker",
+         "biography":""
+      }
+   },
+   {
+      "pk":124,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:30:44",
+         "birthplace":"",
+         "surname":"Burton",
+         "created":"2009-02-22 23:30:44",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0123738",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Terrence",
+         "height":null,
+         "slug":"terrence-burton",
+         "biography":""
+      }
+   },
+   {
+      "pk":20,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:30:02",
+         "birthplace":"Brooklyn, New York, USA",
+         "surname":"Buscemi",
+         "created":"2009-02-22 23:11:37",
+         "image":"",
+         "birthdate":"13 December 1957",
+         "imdb_id":"0000114",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Steve",
+         "height":null,
+         "slug":"steve-buscemi",
+         "biography":"'Steve Buscemi' (qv) was born in Brooklyn, New York, USA. He became interested in acting during his last year of high school. After graduating, he moved to Manhattan to study acting with John Strasberg. He began writing and performing original theatre pieces with fellow actor/writer 'Mark Boone Junior' (qv). This led to his being cast in his first lead role in _Parting Glances (1986)_ (qv). Since then, he has worked with many of the top filmmakers in Hollywood, including 'Quentin Tarantino' (qv), 'Jerry Bruckheimer' (qv), and The Coen Brothers. He is a highly respected actor."
+      }
+   },
+   {
+      "pk":15,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:15:18",
+         "birthplace":"",
+         "surname":"Calderon",
+         "created":"2009-02-22 23:11:22",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0129538",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Paul",
+         "height":null,
+         "slug":"paul-calderon",
+         "biography":""
+      }
+   },
+   {
+      "pk":107,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:29:07",
+         "birthplace":"Birmingham, Michigan, USA",
+         "surname":"Campbell",
+         "created":"2009-02-22 23:29:07",
+         "image":"",
+         "birthdate":"22 June 1958",
+         "imdb_id":"0132257",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Bruce",
+         "height":null,
+         "slug":"bruce-campbell",
+         "biography":"\"Uncle Sam's favorite son\" as the lyrics to the theme of _\"Jack of All Trades\" (2000)_ (qv) go, was born June 22, 1958 (the youngest of 3 brothers) in Royal Oak, Michigan. As a child, Bruce watched _\"Lost in Space\" (1965)_ (qv) on TV, and ran around dressed as Zorro. He got the acting bug at age 8; his dad was performing in local community theater. At 14, Bruce got to play the young prince in \"The King and I\" and even got to sing. He went on to appear in several community theater productions, including \"South Pacific\". However, he was also interested in directing, and shot super-8 flicks with a neighborhood pal. Perhaps through fate, he met future director 'Sam Raimi' (qv) in a high school drama class in 1975. Soon, along with Sam, and now a bunch of other high school pals, Bruce filmed about 50 super-8 movies. During the summer of 1976, he was an apprentice in northern Michigan at Traverse City's Cherry County Playhouse, a summer-stock company. Bruce worked 18-hour days putting up sets, being assistant stage manager, doing errands, etc. No money, but it was a learning experience (it was show biz). He attended Western Michigan University and took theater courses. Bruce became a production assistant for a company that made commercials in Detroit. In the early part of 1979, with buddy 'Sam Raimi' (qv), he decided to become a pro filmmaker. Armed with a super-8 horror film _Within the Woods (1978)_ (qv) which they showed potential investors, they raised $350,000 to make _The Evil Dead (1981)_ (qv) which Bruce co-produced and starred in as \"Ash\". Four years later, the completed film became the best-selling video of 1983 in England, and New Line Cinema got it a US release. Around this time, he married his first wife, and they had 2 kids. They raised 10 times as much cash for the sequel _Evil Dead II (1987)_ (qv) again co-produced by Bruce and starring him as \"Ash\". He moved to L.A. In 1990, while filming _Mindwarp (1992)_ (qv), he met his future second wife (costume designer 'Ida Gearon' (qv)) on the set. In 1992, he rejoined Sam, and Bruce co-produced and starred as \"Ash\" in the 3rd of the Evil Dead trilogy, _Army of Darkness (1992)_ (qv) for Universal Studios. On TV, Bruce directed many episodes of _\"Hercules: The Legendary Journeys\" (1995)_ (qv). Bruce also acted as the recurring character \"Autolycus\", the King of Thieves; he portrayed this villain with zest in both _\"Hercules: The Legendary Journeys\" (1995)_ (qv) and _\"Xena: Warrior Princess\" (1995)_ (qv). Bruce's latest television venture was starring as the title rogue of _\"Jack of All Trades\" (2000)_ (qv). Everybody loves Jack. And everybody's heard of him -- \"There ain't a French or pirate rogue who don't know Jack!\"."
+      }
+   },
+   {
+      "pk":147,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:31:56",
+         "birthplace":"New York City, New York, USA",
+         "surname":"Carrera",
+         "created":"2009-02-22 23:31:56",
+         "image":"",
+         "birthdate":"6 August 1973",
+         "imdb_id":"0006562",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Asia",
+         "height":null,
+         "slug":"asia-carrera",
+         "biography":"'Asia Carrera' (qv)'s stunning curves can be seen in more than 250 hardcore movies. Asia's looks combine delicate Asian features with voluptuous silicone breasts. Her fans not only admire her mouth-watering body but also her brains - Asia is known to be a very intelligent person. At the tender age of 13 the daughter of a German father and a Japanese mother already played J. S. Bach on the piano in Carnegie Hall. Thanks to a federal grant she was able to study Japanese language and Economics at Rutgers University in the USA. But this was only after she had run away from home as a teenager because of the pressure her demanding parents put on her. By the age of 17 she was homeless. To get through her studies at the university she turned to stripping. After becoming one of New Jersey's best-paid exotic dancers she decided to devote her life to getting richer and richer. She never wanted to live out on the street again. When she heard about girls making thousands of dollars in the porn biz she moved to Los Angeles. A mutual friend introduced her to director 'Bud Lee' (qv) who instantly put her in one of his feature films. The rest - as they say - is history... Today Asia has retired from making adult movies and only ever returns to do the occasional big-budget flick. She runs her own homepage and spends her time chatting with fans via email or day trading shares at the stock exchange."
+      }
+   },
+   {
+      "pk":63,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:19:00",
+         "birthplace":"",
+         "surname":"Celeste",
+         "created":"2009-02-22 23:19:00",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0148019",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Suzanne",
+         "height":null,
+         "slug":"suzanne-celeste",
+         "biography":""
+      }
+   },
+   {
+      "pk":21,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:15:41",
+         "birthplace":"",
+         "surname":"Clark",
+         "created":"2009-02-22 23:11:39",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0163916",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Eric",
+         "height":null,
+         "slug":"eric-clark",
+         "biography":""
+      }
+   },
+   {
+      "pk":126,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:30:50",
+         "birthplace":"Humboldt, Iowa, USA",
+         "surname":"Clemenson",
+         "created":"2009-02-22 23:30:50",
+         "image":"",
+         "birthdate":"17 March 1958",
+         "imdb_id":"0166061",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Christian",
+         "height":null,
+         "slug":"christian-clemenson",
+         "biography":""
+      }
+   },
+   {
+      "pk":69,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:29:46",
+         "birthplace":"Minneapolis, Minnesota, USA",
+         "surname":"Coen",
+         "created":"2009-02-22 23:27:25",
+         "image":"",
+         "birthdate":"21 September 1957",
+         "imdb_id":"0001053",
+         "is_director":true,
+         "visible":1,
+         "width":null,
+         "forename":"Ethan",
+         "height":null,
+         "slug":"ethan-coen",
+         "biography":""
+      }
+   },
+   {
+      "pk":68,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:29:43",
+         "birthplace":"Minneapolis, Minnesota, USA",
+         "surname":"Coen",
+         "created":"2009-02-22 23:27:22",
+         "image":"",
+         "birthdate":"29 November 1954",
+         "imdb_id":"0001054",
+         "is_director":true,
+         "visible":1,
+         "width":null,
+         "forename":"Joel",
+         "height":null,
+         "slug":"joel-coen",
+         "biography":""
+      }
+   },
+   {
+      "pk":138,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:31:24",
+         "birthplace":"",
+         "surname":"Colina",
+         "created":"2009-02-22 23:31:24",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0171537",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Luis",
+         "height":null,
+         "slug":"luis-colina",
+         "biography":""
+      }
+   },
+   {
+      "pk":60,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:18:45",
+         "birthplace":"",
+         "surname":"Cosmo",
+         "created":"2009-02-22 23:18:45",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0181922",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Tony",
+         "height":null,
+         "slug":"tony-cosmo",
+         "biography":""
+      }
+   },
+   {
+      "pk":148,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:31:59",
+         "birthplace":"Santa Monica, California, USA",
+         "surname":"Dawson",
+         "created":"2009-02-22 23:31:59",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0206176",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Kiva",
+         "height":null,
+         "slug":"kiva-dawson",
+         "biography":"Kiva is an only child born in Santa Monica, California. Kiva grew up in a very creative and nurturing environment and was always encouraged to express herself through the arts. Kiva remembers witnessing the diva, Toni Basil, (Later in life, Kiva was blessed to work with her on the film, \"That Thing You Do\") perform and credits her and the film, \"That's Entertainment\", for being her first methods of inspiration, not to mention the fact that her mother was a writer, (she was nominated for a cable ACE award for narrating and contributing to the lifetime cable documentary, \"Dying for Love\") and always made sure she exposed Kiva to plays, musicals and film. Kiva's first agent was Iris Burton and she did a number of commercials, a M.O.W with Brian Dennehy and a famous episode of \"Taxi,\" before falling in love with the world of ballet."
+      }
+   },
+   {
+      "pk":74,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:27:44",
+         "birthplace":"Minneapolis, Minnesota, USA",
+         "surname":"Denman",
+         "created":"2009-02-22 23:27:44",
+         "image":"",
+         "birthdate":"22 October 1979",
+         "imdb_id":"0219301",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Tony",
+         "height":null,
+         "slug":"tony-denman",
+         "biography":""
+      }
+   },
+   {
+      "pk":82,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:28:04",
+         "birthplace":"",
+         "surname":"Edelman",
+         "created":"2009-02-22 23:28:04",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0249009",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Steve",
+         "height":null,
+         "slug":"steve-edelman",
+         "biography":""
+      }
+   },
+   {
+      "pk":133,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:31:10",
+         "birthplace":"Sacramento, California, USA",
+         "surname":"Elliott",
+         "created":"2009-02-22 23:31:10",
+         "image":"",
+         "birthdate":"9 August 1944",
+         "imdb_id":"0000385",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Sam",
+         "height":null,
+         "slug":"sam-elliott",
+         "biography":"Tall, thin, wiry 'Sam Elliott' (qv) is the classic picture of the American cowboy. Elliott began his acting career on the stage and his film debut was in _Butch Cassidy and the Sundance Kid (1969)_ (qv). Although his future wife, 'Katharine Ross' (qv) co-starred in the film, the two did not meet until they filmed _The Legacy (1978)_ (qv) Together. Over the years there would be few opportunities to act in feature westerns, but it would be television that gave him that opportunity, in _The Sacketts (1979) (TV)_ (qv), _The Shadow Riders (1982) (TV)_ (qv) and _\"The Yellow Rose\" (1983)_ (qv), among others. He would also work in non-westerns, usually as a tough guy, as in _Lifeguard (1976/I)_ (qv) and _Road House (1989)_ (qv). In the 1990s, Elliott was back on the western trail, playing everyone from Brig. Gen. John Buford in the film _Gettysburg (1993)_ (qv) to Wild Bill Hickok in the made-for-TV movie _Buffalo Girls (1995) (TV)_ (qv). In 1991 he wrote the screenplay and co-starred with his wife in the made-for-TV western _Conagher (1991) (TV)_ (qv)."
+      }
+   },
+   {
+      "pk":130,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:31:01",
+         "birthplace":"",
+         "surname":"Elrod",
+         "created":"2009-02-22 23:31:01",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0255585",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Lu",
+         "height":null,
+         "slug":"lu-elrod",
+         "biography":"'Lu Elrod' (qv) is a versatile character actress who has appeared in more than a dozen feature films over the past three decades. Her memorable film appearances include: _The Seduction of Joe Tynan (1979)_ (qv), _High School High (1996)_ (qv), _Wag the Dog (1997)_ (qv), _The Big Lebowski (1998)_ (qv), _Primary Colors (1998)_ (qv), _Freaky Friday (2003)_ (qv), and _Kicking & Screaming (2005)_ (qv). She has also appeared in a variety of television programs including _\"General Hospital\" (1972)_ (qv), _\"Hill Street Blues\" (1981)_ (qv), _\"Superior Court\" (1986)_ (qv), and _\"Dream On\" (1990)_ (qv). Dr. 'Lu Elrod' (qv) is a Professor Emeritus of Music at California State University, Los Angeles and continues to teach and play an active role in fund-raising for music scholarships at Cal State LA. She has written a number of professional articles and videotape programs for instructional television on music education and on building a positive self-concept through music. Dr. Elrod has been a Metropolitan Opera Regional Auditions finalist and is a critically acclaimed opera singer and expert in music education. She is listed in national directories, including Who's Who in America, International Who's Who in Music, and is a multiple year honoree in Who's Who Among America's Teachers. As an actress, she is a member of SAG, AFTRA, and AGVA."
+      }
+   },
+   {
+      "pk":93,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:28:33",
+         "birthplace":"",
+         "surname":"Evenson",
+         "created":"2009-02-22 23:28:33",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0263449",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Wayne A.",
+         "height":null,
+         "slug":"wayne-a-evenson",
+         "biography":""
+      }
+   },
+   {
+      "pk":100,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:28:50",
+         "birthplace":"Lares, Puerto Rico",
+         "surname":"Feliciano",
+         "created":"2009-02-22 23:28:50",
+         "image":"",
+         "birthdate":"10 September 1945",
+         "imdb_id":"0004913",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Jos\u00e9",
+         "height":null,
+         "slug":"jose-feliciano",
+         "biography":""
+      }
+   },
+   {
+      "pk":136,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:31:18",
+         "birthplace":"Santa Monica, California, USA",
+         "surname":"Flanagan",
+         "created":"2009-02-22 23:31:18",
+         "image":"",
+         "birthdate":"14 April 1982",
+         "imdb_id":"0281041",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Jesse",
+         "height":null,
+         "slug":"jesse-flanagan",
+         "biography":""
+      }
+   },
+   {
+      "pk":117,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:30:26",
+         "birthplace":"Melbourne, Victoria, Australia",
+         "surname":"Flea",
+         "created":"2009-02-22 23:30:26",
+         "image":"",
+         "birthdate":"16 October 1962",
+         "imdb_id":"0281359",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"",
+         "height":null,
+         "slug":"flea",
+         "biography":"Michael Peter Balzary was born on the 16th of October 1962, in Melbourne, Australia. When he was four, his parents divorced and Michael, his sister Karen and his mother Patricia headed for New York, but they didn't stay long and soon ended up in L.A. (in 1972), where his step-father, a jazz musician named Walter Urban Jr, intended to start a career. 'Flea' (qv) would often sit in on weekly jam sessions with his stepdad and the constant flow of musicians who trucked through. High school was not always an easy road for young Michael. He was kind of a misfit because of his unusual musical taste. While most of the kids were into disco and dance music, 'Flea' (qv) preferred jazz artists like 'Miles Davis' (qv) and 'Dizzy Gillespie' (qv). 'Flea' (qv)'s first musical instrument were the drums, but soon he choosed the trumpet; after school he would race home to listen to his Gillespie records and play along with his idol. He counts as his greatest childhood memory the time his mother got him backstage to meet Gillespie after one of his concerts. He also played with the Los Angeles Junior Philarmonic Orchestra. Influenced by some of his friends from school who shared the same passion for music - among them, 'Jack Irons' (qv) and 'Hillel Slovak' (qv), who would later play in the 'Red Hot Chili Peppers' (qv) with him - his musical interests then diversified, he discovered funk music, and 'Jimi Hendrix' (qv) became his new idol. At the end of 1977, he met 'Anthony Kiedis' (qv). For some reason, Michael was holding a young schoolmate named Tony Sherr in a headlock, when Kiedis, who was Tony's best friend at the time, came to rescue him, and the both almost had a fight, but soon became aware they were made to be friends, and have been inseparable since. The two became known for their mischievous antics, which often got them into trouble. That's also at this time that he gained his nickname 'Flea' (qv), while he was joking with some friends about calling each other with a cartoon name. Around 1979, due to 'Flea' (qv)'s obvious musical talent, he was sought out as a recruit for a band formed by his schoolmates, Anthym, with 'Jack Irons' (qv) (drums), 'Hillel Slovak' (qv) (guitar) and 'Alain Johannes' (qv) (vocals and guitar) as members. 'Flea' (qv) picked up the bass, which he had never played before, and became so good that within a few months he had forged his very own style, which later would make him one of the most famous and talented bass players in the world. After a shaky start the band got a few club gigs but no major breaks. 'Anthony Kiedis' (qv) was always there to support them, and became the presenter of their shows, that he opened with a few jokes or improvised poems of his own. During the year 1982, 'Flea' (qv) joined the L.A. punk band Fear. He also landed a small role in the 'Penelope Spheeris' (qv) film Suburbia (1984) . John Lydon of PIL asked 'Flea' (qv) to join his band when he left Fear in 1984, but 'Flea' (qv) decided to rejoin his friends instead. With Kiedis, Slovak and Irons, they had started another band together, the 'Red Hot Chili Peppers' (qv), which soon earned a good reputation in the Los Angeles underground music scene. 'Flea' (qv) was married in 1985 to Loesha Zeviar, whose first name he got tattooed above his left nipple - close to his heart. They have since divorced, but still share daughter Clara, born on September 16, 1988. Clara sometimes goes on theroad with her dad, and has done artwork for the Chili Peppers' t-shirts and promotional material. In 2001, along with friends Pete Weiss and Keith Barry, 'Flea' (qv) founded the Silverlake Conservatory Of Music, a organization whose aim is to provide affordable music lessons to everyone and to encourage children's musical education."
+      }
+   },
+   {
+      "pk":18,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:15:30",
+         "birthplace":"County Londonderry, Northern Ireland, UK",
+         "surname":"Gallagher",
+         "created":"2009-02-22 23:11:31",
+         "image":"",
+         "birthdate":"1972",
+         "imdb_id":"0302345",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Bronagh",
+         "height":null,
+         "slug":"bronagh-gallagher",
+         "biography":""
+      }
+   },
+   {
+      "pk":125,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:30:47",
+         "birthplace":"San Francisco, California, USA",
+         "surname":"Gant",
+         "created":"2009-02-22 23:30:47",
+         "image":"",
+         "birthdate":"10 March 1944",
+         "imdb_id":"0304579",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Richard",
+         "height":null,
+         "slug":"richard-gant",
+         "biography":""
+      }
+   },
+   {
+      "pk":85,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:28:10",
+         "birthplace":"",
+         "surname":"Gaulke",
+         "created":"2009-02-22 23:28:10",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0310086",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"James",
+         "height":null,
+         "slug":"james-gaulke",
+         "biography":""
+      }
+   },
+   {
+      "pk":139,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:31:28",
+         "birthplace":"New York City, New York, USA",
+         "surname":"Gazzara",
+         "created":"2009-02-22 23:31:28",
+         "image":"",
+         "birthdate":"28 August 1930",
+         "imdb_id":"0001262",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Ben",
+         "height":null,
+         "slug":"ben-gazzara",
+         "biography":"'Ben Gazzara' (qv)'s screen career began with two critically acclaimed roles as heavies in the late fifties. He turned to television in the sixties but made a big screen comeback with roles in three 'John Cassavetes' (qv) films in the seventies. The 1980s and 1990s saw Gazzara work more frequently than ever before in character parts. If he never became the leading man his early films and stage work promised he has had a career notable for its longevity. He was born Biagio Anthony Gazzara in New York City in 1930. The son of a Sicilian immigrant laborer, he grew up on New York's tough Lower East Side. After seeing 'Laurette Taylor' (qv) in \"The Glass Menagerie\", Gazzara decided he wanted to become an actor. He studied engineering (unhappily) but quit after receiving an acting scholarship (he worked under well-known coach 'Erwin Piscator' (qv)). He then joined the Actors' Studio where a group of students improvised a play from 'Calder Willingham' (qv)'s novel End as a Man. The tale of a brutal Southern Military academy reached Broadway slightly changed in 1953 but with Gazzara still in the principal role. It was a star making part (he won a Theatre World award) and he then played leads in the original productions of \"Cat on a Hot Tin Roof\" (1955) and \"A Hatful of Rain\" (1955) (he was nominated for a Tony). Bigger names 'Paul Newman' (qv) and 'Don Murray' (qv) played those last two roles on the big screen but Gazzara made his movie debut in _The Strange One (1957)_ (qv) the film version of \"End as a Man\". The film was a critical but not commercial success. His next role was as the defendant in _Anatomy of a Murder (1959)_ (qv) which was a big hit. He followed this with an Italian venture co-starring 'Anna Magnani' (qv), _Risate di gioia (1960)_ (qv), two Hollywood films _The Young Doctors (1961)_ (qv) and _Convicts 4 (1962)_ (qv) and then another Italian film _Citt\u00e0 prigioniera, La (1962)_ (qv). None of these did much for his career and he turned to television. He appeared in the successful shows _\"Arrest and Trial\" (1963)_ (qv) and _\"Run for Your Life\" (1965)_ (qv). In between, he made _A Rage to Live (1965)_ (qv), a film version of 'John O'Hara' (qv)'s novel. He returned to films in _The Bridge at Remagen (1969)_ (qv) and with a cameo appearance in _If It's Tuesday, This Must Be Belgium (1969)_ (qv). His buddy in the cameo was 'John Cassavetes' (qv) who directed and co-starred with him in _Husbands (1970)_ (qv), a critical success. Gazzara made two more well-received films with his good friend Cassavetes: _The Killing of a Chinese Bookie (1976)_ (qv) and _Opening Night (1977)_ (qv). Gazzara's other films in the 1970s were undistinguished apart from the sprawling _Voyage of the Damned (1976)_ (qv) and a rare leading role in director 'Peter Bogdanovich' (qv)'s _Saint Jack (1979)_ (qv). _Bloodline (1979)_ (qv) and _They All Laughed (1981)_ (qv) (also directed by Bogdanovich) were only notable because of Gazzara's off-screen relationship with co-star 'Audrey Hepburn' (qv) (ironically, Gazzara had declined to make his screen debut in _War and Peace (1956)_ (qv) starring Hepburn). _Storie di ordinaria follia (1981)_ (qv) was another lead for Gazzara but it received a mixed critical reception. Other big screen roles in the eighties were scarce apart from _Road House (1989)_ (qv), a 'Patrick Swayze' (qv) vehicle which Gazzara believed out of all his films has been the most repeated on television. He worked much on the small screen, including the ground-breaking television movie _An Early Frost (1985) (TV)_ (qv), playing the father of an AIDS victim. The 1990s saw Gazzarra working like never before, appearing in 38 films! Most were for free-to-air television or cable but he also worked on the big screen in _The Spanish Prisoner (1997)_ (qv), _The Big Lebowski (1998)_ (qv), _Happiness (1998)_ (qv) and _Summer of Sam (1999)_ (qv). His TV work included a guest appearance as an executive assistant attorney in a 2001 episode of _\"Law & Order: Special Victims Unit\" (1999)_ (qv) - a nice touch since _\"Arrest and Trial\" (1963)_ (qv) was the predecessor of _\"Law & Order\" (1990)_ (qv) and its spin-off shows. Gazzara has often returned to the stage throughout his career - in \"The Night Circus\" (1958) (where he met second wife 'Janice Rule' (qv)), \"Strange Interlude\" (1963), \"Traveller Without Luggage\" (1964), Hughie/Duet (1975) (nominated for a Tony), \"Who's Afraid of Virginia Woolf?\" (1976) (again Tony nominated) and \"Shimada\" (1992). He has also worked as a director on episodes his series _\"Run for Your Life\" (1965)_ (qv) and _\"The Name of the Game\" (1968)_ (qv) and the television movies _Columbo: A Friend in Deed (1974) (TV)_ (qv) and _Columbo: Troubled Waters (1975) (TV)_ (qv) featuring his friend 'Peter Falk' (qv). The unreleased _Oltre l'oceano (1990)_ (qv) (which he also wrote) is his final film as a director to date. Now in his seventies, Gazzara is still acting. In 2003 he appeared in the independent _Dogville (2003)_ (qv) adding 'Lars von Trier' (qv) to the list of interesting and acclaimed directors with whom he has worked. There can't be many actors who can boast that they have acted in films by 'Otto Preminger' (qv) (_Anatomy of a Murder (1959)_ (qv)), 'John Cassavetes' (qv), 'Joel Coen' (qv) (_Big Lebowksi, The (1998)_ ), 'Spike Lee' (qv) (_Summer of Sam (1999)_ (qv)) and 'Lars von Trier' (qv) among others!"
+      }
+   },
+   {
+      "pk":31,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:16:13",
+         "birthplace":"Los Angeles, California, USA",
+         "surname":"Gilden",
+         "created":"2009-02-22 23:16:13",
+         "image":"",
+         "birthdate":"22 September 1962",
+         "imdb_id":"0318402",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Michael",
+         "height":null,
+         "slug":"michael-gilden",
+         "biography":""
+      }
+   },
+   {
+      "pk":119,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:30:31",
+         "birthplace":"",
+         "surname":"Gilmore",
+         "created":"2009-02-22 23:30:31",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0319541",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Jimmie Dale",
+         "height":null,
+         "slug":"jimmie-dale-gilmore",
+         "biography":"Country-folk singer/songwriter 'Jimmie Dale Gilmore' (qv) is best known for his unusual fusion of traditional honky-tonk, Hank Williams-ish country stylings with lyrics influenced by Eastern mysticism and philosophy. Born and raised among country musicians in West Texas, Gilmore grew up in Lubbock, a small, dying cattle ranch community that, by chance, has produced some of Texas' most critically acclaimed musicians, including the great Buddy Holly, folk songstress Nanci Griffith, country superstar Waylon Jennings, and Gilmore's friends and collaborators, Joe Ely and Butch Hancock. Part Cherokee, Gilmore's look and style have always been somewhat unusual for the honky-tonk milieu. Gilmore briefly attempted a music career after high school, forming the now-legendary Flatlanders with Hancock and Ely, but by 1974 his growing interest in spirituality led him to leave Texas behind - and music along with it - to join a Taoist community in Denver, Colorado. In the '80s, having developed an aesthetic that merged his love of country with his spiritual interests, Gilmore moved to Austin, Texas to re-initiate his music career, and within a few months was playing regularly around town. He released two independent label records in the late '80s before Elektra released his breakthrough album \"Spinning Around the Sun\" in 1993. The album made numerous end-of-the-year 'best of' lists in the media, and Gilmore's career was given an extra boost by high profile fans such as David Letterman and Natalie Merchant. Gilmore's reputation was further enhanced by the reissue of an out-of-print Flatlanders record made in Nashville in 1972, released by Rounder records in 1991 under the title 'More a Legend Than a Band.' He has continued to release solo records, and in 2002, reunited with high school buddies Butch Hancock and Joe Ely (the Bruce Springsteen of Texas), to reform the Flatlanders. Gilmore's first film appearance was a brief cameo in 1993's 'The Thing Called Love,' an account of young singer/songwriters trying to break into the Nashville music scene, directed by Peter Bogdanovich and starring then-unknown Sandra Bullock and River Phoenix in one of his final roles. In 1996, Gilmore was recruited by his producer, T-Bone Burnett, to appear in the new Coen Brothers film, 'The Big Lebowski,' on which Burnett was also working as musical director (One of the world's foremost authorities on traditional American music, Burnett has collaborated on several Coen films, and was largely responsible for the massively successful 'O Brother, Where Art Thou' soundtrack). Gilmore appears as Smokey, the 'pacifist' bowler whom John Goodman's Walter threatens to shoot for allegedly stepping 'over the line' when throwing a strike. The inside joke, of course, is that, as a practicing Taoist, Gilmore is himself a pacifist. Gilmore was also recruited by fan and friend Billy Bob Thornton to contribute to the soundtrack and appear briefly in \"Monster's Ball\" singing in a honky-tonk; he has also contributed original music for the soundtrack of Robert Redford's \"The Horse Whisperer.\""
+      }
+   },
+   {
+      "pk":131,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:31:04",
+         "birthplace":"Dallas, Texas, USA",
+         "surname":"Gomez",
+         "created":"2009-02-22 23:31:04",
+         "image":"",
+         "birthdate":"18 April 1951",
+         "imdb_id":"0327059",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Mike",
+         "height":null,
+         "slug":"mike-gomez",
+         "biography":""
+      }
+   },
+   {
+      "pk":110,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:29:54",
+         "birthplace":"St. Louis, Missouri, USA",
+         "surname":"Goodman",
+         "created":"2009-02-22 23:29:54",
+         "image":"",
+         "birthdate":"20 June 1952",
+         "imdb_id":"0000422",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"John",
+         "height":null,
+         "slug":"john-goodman",
+         "biography":""
+      }
+   },
+   {
+      "pk":12,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:15:07",
+         "birthplace":"Montclair, New Jersey, USA",
+         "surname":"Greene",
+         "created":"2009-02-22 23:11:12",
+         "image":"",
+         "birthdate":"8 October 1965",
+         "imdb_id":"0338886",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Peter",
+         "height":null,
+         "slug":"peter-greene",
+         "biography":""
+      }
+   },
+   {
+      "pk":43,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:16:41",
+         "birthplace":"Oak Park, Illinois, USA",
+         "surname":"Griffin",
+         "created":"2009-02-22 23:16:41",
+         "image":"",
+         "birthdate":"4 November 1960",
+         "imdb_id":"0004980",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Kathy",
+         "height":null,
+         "slug":"kathy-griffin",
+         "biography":"'Kathy Griffin' (qv), a native of near-west Chicago suburbs, is the youngest of five children. She has three older brothers and an older sister. When her parents retired to California, Kathy moved west with them after graduating from Oak Park River Forest High School and began trying to break into show business. She performed with the Groundlings and then paid her dues doing stand-up at various clubs until she was discovered. According to her brothers, as a kid, Kathy would circulate among the guests at parties and tell jokes. Kathy has a regular stand-up engagement at the Laugh Factory in L.A. and hosted the reality series _\"Average Joe\" (2003)_ (qv). She stars in the Emmy winning reality series \"'Kathy Griffin' (qv): My Life on the D-List\" (2005)."
+      }
+   },
+   {
+      "pk":19,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:15:33",
+         "birthplace":"",
+         "surname":"Griffiths",
+         "created":"2009-02-22 23:11:33",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0341601",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Susan",
+         "height":null,
+         "slug":"susan-griffiths",
+         "biography":""
+      }
+   },
+   {
+      "pk":144,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:31:44",
+         "birthplace":"USA",
+         "surname":"Haleva",
+         "created":"2009-02-22 23:31:44",
+         "image":"",
+         "birthdate":"26 May 1946",
+         "imdb_id":"0355062",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Jerry",
+         "height":null,
+         "slug":"jerry-haleva",
+         "biography":""
+      }
+   },
+   {
+      "pk":66,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:19:10",
+         "birthplace":"",
+         "surname":"Hamann",
+         "created":"2009-02-22 23:19:10",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0357326",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Craig",
+         "height":null,
+         "slug":"craig-hamann",
+         "biography":""
+      }
+   },
+   {
+      "pk":28,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:16:05",
+         "birthplace":"",
+         "surname":"Hibbert",
+         "created":"2009-02-22 23:12:00",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0382512",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Stephen",
+         "height":null,
+         "slug":"stephen-hibbert",
+         "biography":""
+      }
+   },
+   {
+      "pk":35,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:16:22",
+         "birthplace":"",
+         "surname":"Hillhouse",
+         "created":"2009-02-22 23:16:22",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0384936",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Brenda",
+         "height":null,
+         "slug":"brenda-hillhouse",
+         "biography":""
+      }
+   },
+   {
+      "pk":32,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:16:15",
+         "birthplace":"",
+         "surname":"Hoban",
+         "created":"2009-02-22 23:16:15",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0387533",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Jerome Patrick",
+         "height":null,
+         "slug":"jerome-patrick-hoban",
+         "biography":""
+      }
+   },
+   {
+      "pk":113,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:30:09",
+         "birthplace":"Fairport, New York, USA",
+         "surname":"Hoffman",
+         "created":"2009-02-22 23:30:09",
+         "image":"",
+         "birthdate":"23 July 1967",
+         "imdb_id":"0000450",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Philip Seymour",
+         "height":null,
+         "slug":"philip-seymour-hoffman",
+         "biography":"Film and stage actor and theater director 'Philip Seymour Hoffman' (qv) was born in the Rochester, New York, suburb of Fairport on July 23, 1967. After becoming involved in high school theatrics, he attended New York University's Tisch School of the Arts, graduating with a B.F.A. degree in Drama in 1989. He made his feature film debut in the indie production _Triple Bogey on a Par Five Hole (1991)_ (qv) as Phil Hoffman, and his first role in a major release came the next year in _My New Gun (1992)_ (qv). While he had supporting roles in some other major productions, his breakthrough role came in 'Paul Thomas Anderson' (qv)'s _Boogie Nights (1997)_ (qv). He quickly became an icon of indie cinema, establishing a reputation as one of the screen's finest actors, in a variety of supporting and second leads in indie and major features, including 'Todd Solondz' (qv)'s _Happiness (1998)_ (qv), _Flawless (1999)_ (qv), _The Talented Mr. Ripley (1999)_ (qv), 'Paul Thomas Anderson' (qv)'s _Magnolia (1999)_ (qv), _Almost Famous (2000)_ (qv) and _State and Main (2000)_ (qv). He also appeared in supporting roles in such mainstream, big-budget features as _Red Dragon (2002)_ (qv), _Cold Mountain (2003)_ (qv) and the upcoming _Mission: Impossible III (2006)_ (qv). Hoffman is also quite active on the stage. On Broadway, he has earned two Tony nominations, as Best Actor (Play) in 2000 for a revival of 'Sam Shepard' (qv)'s \"True West\" and as Best Actor (Featured Role - Play) in 2003 for a revival of 'Eugene O'Neill' (qv) (I)'s \"Long Day's Journey into Night\". His other acting credits in the New York theater include \"The Seagull\" (directed by 'Mike Nichols' (qv) for The New York Shakespeare Festival), \"Defying Gravity\", \"The Merchant of Venice\" (directed by 'Peter Sellars' (qv)), \"Shopping and F*@%ing\" and \"The Author's Voice\" (Drama Desk nomination). He is the Co-Artistic Director of the LAByrinth Theater Company in New York, for which he directed \"Our Lady of 121st Street\" by 'Stephen Adly Guirgis' (qv). He also has directed \"In Arabia, We'd All Be Kings\" and \"Jesus Hopped the A Train\" by Guirgis for LAByrinth, and \"The Glory of Living\" by 'Rebecca Gilman' (qv) at the Manhattan Class Company. Hoffman consolidated his reputation as one of the finest actors under the age of 40 with his turn in the title role of _Capote (2005)_ (qv), for which he won the Los Angeles Film Critics Award as Best Actor. In 2006, he was awarded the Best Actor Oscar for the same role."
+      }
+   },
+   {
+      "pk":122,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:30:40",
+         "birthplace":"",
+         "surname":"Hoosier",
+         "created":"2009-02-22 23:30:40",
+         "image":"",
+         "birthdate":"1952",
+         "imdb_id":"0393841",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"James G.",
+         "height":null,
+         "slug":"james-g-hoosier",
+         "biography":"Jim Hoosier was born in the spring on 1952 to a rural family in West Arundel, Maine. Some of his earliest memories include collecting eggs from the chicken coupe, returning with upwards of 19 or 20 peck marks on his face alone. James lettered in soccer and wrestling at Chevrous High School, where he came under the personal tutilege of Rev. Francis \"Mad Dog\" McManus SJ. Father Frank, as he so affectionately referred to him, taught him the true meaning of wrestling. Later in life, Hoosier grew to be an avid bowler, which made him the obvious choice to play Liam, the silent but deadly, fat guy dancing associate of Jesus \"The Jesus\" Quintano. When the Cohen brothers came calling at his adopted home in Winthrop, Massachusetts' prestigious Governors Park, He couldn't refuse. Today, Jim Hoosier entertains captive audiences with his own one man show, entitled, \"No Father, Don't\", which runs every winter at the Cape Cod Playhouse in Hyannis."
+      }
+   },
+   {
+      "pk":75,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:27:47",
+         "birthplace":"",
+         "surname":"Houston",
+         "created":"2009-02-22 23:27:47",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0396828",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Gary",
+         "height":null,
+         "slug":"gary-houston",
+         "biography":""
+      }
+   },
+   {
+      "pk":112,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:30:05",
+         "birthplace":"Vinton, Virginia, USA",
+         "surname":"Huddleston",
+         "created":"2009-02-22 23:30:05",
+         "image":"",
+         "birthdate":"17 September 1930",
+         "imdb_id":"0399663",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"David",
+         "height":null,
+         "slug":"david-huddleston",
+         "biography":""
+      }
+   },
+   {
+      "pk":98,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:28:45",
+         "birthplace":"",
+         "surname":"Hutchison",
+         "created":"2009-02-22 23:28:45",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0404460",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Michelle",
+         "height":null,
+         "slug":"michelle-hutchison",
+         "biography":""
+      }
+   },
+   {
+      "pk":127,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:30:53",
+         "birthplace":"Philadelphia, Pennsylvania, USA",
+         "surname":"Irrera",
+         "created":"2009-02-22 23:30:53",
+         "image":"",
+         "birthdate":"1947",
+         "imdb_id":"0410101",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Dom",
+         "height":null,
+         "slug":"dom-irrera",
          "biography":""
       }
    },
@@ -22,76 +1223,1844 @@
       "pk":3,
       "model":"movie.person",
       "fields":{
-         "edited":"2009-02-18 00:56:51",
-         "birthplace":"",
-         "surname":"Brolin",
-         "created":"2009-02-18 00:56:51",
-         "imdb_id":"0000982",
+         "edited":"2009-02-22 23:14:36",
+         "birthplace":"Washington, District of Columbia, USA",
+         "surname":"Jackson",
+         "created":"2009-02-22 23:10:39",
          "image":"",
-         "birthdate":"1968-02-12",
-         "height":null,
+         "birthdate":"21 December 1948",
+         "imdb_id":"0000168",
          "is_director":false,
          "visible":1,
-         "forename":"Josh",
          "width":null,
+         "forename":"Samuel L.",
+         "height":null,
+         "slug":"samuel-l-jackson",
+         "biography":"'Samuel L. Jackson' (qv) usually played bad guys and drug addicts before becoming an action hero, as the character Mitch Henessey, in _The Long Kiss Goodnight (1996)_ (qv) and in _Die Hard: With a Vengeance (1995)_ (qv). From character player to leading man. His performance in _Pulp Fiction (1994)_ (qv) gave him an Oscar nomination for his character Jules Winnfield. He was active in the black student movement. In the seventies he joined the Negro Ensemble Company (together with 'Morgan Freeman' (qv)). In the eighties he became well known by three movies made by 'Spike Lee' (qv) - _Do the Right Thing (1989)_ (qv), _Mo' Better Blues (1990)_ (qv) and _Jungle Fever (1991)_ (qv). He received a Silver Berlin Bear for his part in the movie _Jackie Brown (1997)_ (qv) as Ordell Robbi."
+      }
+   },
+   {
+      "pk":24,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:15:51",
+         "birthplace":"Greensburg, Pennsylvania, USA",
+         "surname":"Jones",
+         "created":"2009-02-22 23:11:48",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0427484",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Angela",
+         "height":null,
+         "slug":"angela-jones",
          "biography":""
       }
    },
    {
-      "pk":1,
+      "pk":149,
       "model":"movie.person",
       "fields":{
-         "edited":"2009-02-18 00:45:11",
+         "edited":"2009-02-22 23:32:01",
          "birthplace":"",
-         "surname":"Coen",
-         "created":"2009-02-18 00:45:00",
-         "imdb_id":"0001053",
+         "surname":"Jones",
+         "created":"2009-02-22 23:32:01",
          "image":"",
-         "birthdate":"1957-09-21",
-         "height":null,
-         "is_director":true,
+         "birthdate":"",
+         "imdb_id":"1326017",
+         "is_director":false,
          "visible":1,
-         "forename":"Ethan",
          "width":null,
-         "biography":"Brother of Joel Coen.\r\n\r\nGraduated from Princeton University.\r\n\r\nWorks so closely with his brother Joel Coen that the two of them have been jokingly referred to as \"The Two-Headed Director\".\r\n\r\nAlumnus of Simon's Rock College, Great Barrington, MA, with brother Joel Coen. This is a fully-accredited college for students who typically enter the age of 16 - before graduating high school.\r\n\r\nRanked #88 in Premiere's 2003 annual Power 100 List with brother Joel Coen. They had been ranked #92 in 2002.\r\n\r\nBrother-in-law of Frances McDormand."
+         "forename":"Robin",
+         "height":null,
+         "slug":"robin-jones",
+         "biography":""
+      }
+   },
+   {
+      "pk":42,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:18:58",
+         "birthplace":"",
+         "surname":"Kaye",
+         "created":"2009-02-22 23:16:38",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0443344",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Linda",
+         "height":null,
+         "slug":"linda-kaye",
+         "biography":""
+      }
+   },
+   {
+      "pk":120,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:30:34",
+         "birthplace":"",
+         "surname":"Kehler",
+         "created":"2009-02-22 23:30:34",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0444940",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Jack",
+         "height":null,
+         "slug":"jack-kehler",
+         "biography":""
+      }
+   },
+   {
+      "pk":44,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:18:03",
+         "birthplace":"Brooklyn, New York, USA",
+         "surname":"Keitel",
+         "created":"2009-02-22 23:16:50",
+         "image":"",
+         "birthdate":"13 May 1939",
+         "imdb_id":"0000172",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Harvey",
+         "height":null,
+         "slug":"harvey-keitel",
+         "biography":"Came to prominence in the early films of 'Martin Scorsese' (qv) after working in theatre for around ten years, particularly _Mean Streets (1973)_ (qv) and _Taxi Driver (1976)_ (qv). Faded into anonymity in the eighties even though he turned in some impressive performances in films by some of America's leading directors. He re-emergered into star status with his role as Mr. White in 'Quentin Tarantino' (qv)'s _Reservoir Dogs (1992)_ (qv), 'Abel Ferrara' (qv)'s _Bad Lieutenant (1992)_ (qv), _The Piano (1993)_ (qv) 0110912."
+      }
+   },
+   {
+      "pk":81,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:31:49",
+         "birthplace":"",
+         "surname":"Keith",
+         "created":"2009-02-22 23:28:01",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0445316",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Warren",
+         "height":null,
+         "slug":"warren-keith",
+         "biography":""
+      }
+   },
+   {
+      "pk":141,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:31:33",
+         "birthplace":"",
+         "surname":"Kirkland",
+         "created":"2009-02-22 23:31:33",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0456627",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Ajgie",
+         "height":null,
+         "slug":"ajgie-kirkland",
+         "biography":""
+      }
+   },
+   {
+      "pk":78,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:27:54",
+         "birthplace":"",
+         "surname":"Kokernot",
+         "created":"2009-02-22 23:27:54",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0463698",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Larissa",
+         "height":null,
+         "slug":"larissa-kokernot",
+         "biography":""
+      }
+   },
+   {
+      "pk":128,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:30:56",
+         "birthplace":"",
+         "surname":"L'Heureux",
+         "created":"2009-02-22 23:30:56",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0478311",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"G\u00e9rard",
+         "height":null,
+         "slug":"gerard-lheureux",
+         "biography":""
+      }
+   },
+   {
+      "pk":9,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:14:58",
+         "birthplace":"Los Angeles, California, USA",
+         "surname":"LaMarr",
+         "created":"2009-02-22 23:11:02",
+         "image":"",
+         "birthdate":"24 January 1967",
+         "imdb_id":"0482851",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Phil",
+         "height":null,
+         "slug":"phil-lamarr",
+         "biography":""
+      }
+   },
+   {
+      "pk":145,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:31:47",
+         "birthplace":"",
+         "surname":"Lamb",
+         "created":"2009-02-22 23:31:47",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0482968",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Jennifer",
+         "height":null,
+         "slug":"jennifer-lamb",
+         "biography":""
+      }
+   },
+   {
+      "pk":64,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:19:02",
+         "birthplace":"",
+         "surname":"Latham",
+         "created":"2009-02-22 23:19:02",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0490101",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Laurie",
+         "height":null,
+         "slug":"laurie-latham",
+         "biography":""
+      }
+   },
+   {
+      "pk":87,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:28:16",
+         "birthplace":"",
+         "surname":"LeDoux",
+         "created":"2009-02-22 23:28:16",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0496626",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Michelle Suzanne",
+         "height":null,
+         "slug":"michelle-suzanne-ledoux",
+         "biography":""
+      }
+   },
+   {
+      "pk":123,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:30:42",
+         "birthplace":"Cuba",
+         "surname":"Leon",
+         "created":"2009-02-22 23:30:42",
+         "image":"",
+         "birthdate":"10 July 1966",
+         "imdb_id":"0502458",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Carlos",
+         "height":null,
+         "slug":"carlos-leon",
+         "biography":"Born July 10, 1966. A native New Yorker from the South Bronx. Former celebrity personal trainer turned accomplished actor. Has also appeared on- and off-Broadway, including \"Aunt Dan and Lemon\". As of Summer, 2006 he can be seen nightly on Broadway in the Roundabout Theatre Company's production of \"The Three Penny Opera\" (a new translation by Wallace Shawn)."
+      }
+   },
+   {
+      "pk":34,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:16:19",
+         "birthplace":"",
+         "surname":"Leslie",
+         "created":"2009-02-22 23:16:19",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0504147",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Lorelei",
+         "height":null,
+         "slug":"lorelei-leslie",
+         "biography":""
+      }
+   },
+   {
+      "pk":36,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:16:24",
+         "birthplace":"USA",
+         "surname":"Lindauer",
+         "created":"2009-02-22 23:16:24",
+         "image":"",
+         "birthdate":"1986",
+         "imdb_id":"0511323",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Chandler",
+         "height":null,
+         "slug":"chandler-lindauer",
+         "biography":""
+      }
+   },
+   {
+      "pk":99,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:28:47",
+         "birthplace":"",
+         "surname":"Lomax",
+         "created":"2009-02-22 23:28:47",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0518257",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"David S.",
+         "height":null,
+         "slug":"david-s-lomax",
+         "biography":""
+      }
+   },
+   {
+      "pk":30,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:16:10",
+         "birthplace":"",
+         "surname":"Lovelace",
+         "created":"2009-02-22 23:16:10",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0522503",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Laura",
+         "height":null,
+         "slug":"laura-lovelace",
+         "biography":""
+      }
+   },
+   {
+      "pk":89,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:28:23",
+         "birthplace":"Boulder, Colorado, USA",
+         "surname":"Lynch",
+         "created":"2009-02-22 23:28:23",
+         "image":"",
+         "birthdate":"1 August 1963",
+         "imdb_id":"0002253",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"John Carroll",
+         "height":null,
+         "slug":"john-carroll-lynch",
+         "biography":"'John Carroll Lynch' (qv) was born August 1st, 1963 in Boulder, Colorado. He was raised in Denver Colorado. It was there John found a passion for acting and became a Denver Broncos fan. He graduated in the mid-80s with a B.F.A. in theatre from the The Catholic University of America / Hartke Theatre Acting program. From then, he continued to work in theatre around the country, but concentrated mostly on his work at the Guthrie Theater in Minneapolis, acting in many plays from Shakespeare to Shaw to Chekhov. In the early nineties, John was able to find time away from the theatre to work in film, as productions came through Minnesota. In 1996, he received critical acclaim for his role as Marge Gunderson's simple husband Norm Gunderson in _Fargo (1996)_ (qv). He went on to make two more films that year, both of which were conveniently set in Minnesota, the acclaimed _Beautiful Girls (1996)_ (qv) and _Feeling Minnesota (1996)_ (qv). Since then, John's film career has been on an amazing climb. Much like other well respected actors from the theatre, such as 'John Malkovich' (qv) and 'Gary Sinise' (qv), he chooses to play very interesting and diverse roles."
+      }
+   },
+   {
+      "pk":137,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:31:21",
+         "birthplace":"",
+         "surname":"L\u00f3pez",
+         "created":"2009-02-22 23:31:21",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0530151",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Irene Olga",
+         "height":null,
+         "slug":"irene-olga-lopez",
+         "biography":""
+      }
+   },
+   {
+      "pk":70,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:27:29",
+         "birthplace":"Miami, Florida, USA",
+         "surname":"Macy",
+         "created":"2009-02-22 23:27:29",
+         "image":"",
+         "birthdate":"13 March 1950",
+         "imdb_id":"0000513",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"William H.",
+         "height":null,
+         "slug":"william-h-macy",
+         "biography":""
+      }
+   },
+   {
+      "pk":52,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:18:11",
+         "birthplace":"Chicago, Illinois, USA",
+         "surname":"Madsen",
+         "created":"2009-02-22 23:18:11",
+         "image":"",
+         "birthdate":"25 September 1958",
+         "imdb_id":"0000514",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Michael",
+         "height":null,
+         "slug":"michael-madsen",
+         "biography":"At 6' 2\" and 190 pounds, 'Michael Madsen' (qv) - the brother of actress 'Virginia Madsen' (qv) - is equally adept at portraying heroic as well as villainous characters. There's just something in the way he delivers his lines with an underlying aggression masked behind his gravelly tones that makes you feel very uneasy about his true intentions! Madsen first learned his craft at Chicago's Steppenwolf Theatre, where he worked under 'John Malkovich' (qv), one of the theater's founders. His first few film roles were minor ones, in such projects as _Against All Hope (1982)_ (qv), _Racing with the Moon (1984)_ (qv) and _The Natural (1984)_ (qv). His work received considerable notice, however, after his knife-edged performance as deranged killer Vince Miller in _Kill Me Again (1989)_ (qv) and then as 'Susan Sarandon' (qv)'s rough-edged boyfriend Jimmy in _Thelma & Louise (1991)_ (qv). His big breakthrough, however, came as the sadistic jewel thief Mr. Blonde in 'Quentin Tarantino' (qv)'s low-budget hit _Reservoir Dogs (1992)_ (qv). Movie audiences were glued to their seats as Madsen playfully danced around a tied-down and terrified police officer, slicing him with a knife and splashing gasoline all over the petrified man, all to the cheery tunes of \"Stealer's Wheels' \"Stuck In the Middle With You.\" Not to be typecast, Madsen surprised many with his performance as foster parent Glen Greenwood in the hit family movie _Free Willy (1993)_ (qv) before returning to another criminal role as bank robber Rudy Travis in the remake of the 'Steve McQueen' (qv) heist flick _The Getaway (1994)_ (qv), and then back again as Glen Greenwood in _Free Willy 2: The Adventure Home (1995)_ (qv). Madsen continues to turn in edge-of-the-seat performances as morally bankrupt individuals on the wrong side of the law, as in his intense on-screen showings in _Donnie Brasco (1997)_ (qv), _Mulholland Falls (1996)_ (qv), and _High Noon (2000) (TV)_ (qv). In 2003 he teamed up again with Tarantino in both \"volumes\" of Tarantino's magnum martial arts/revenge opus _Kill Bill: Vol. 1 (2003)_ (qv) and _Kill Bill: Vol. 2 (2004)_ (qv) as the coldly evil Budd (aka \"Sidewinder\"). In addition to his film work, Madsen has contributed dialogue to two of Sony PlayStations's biggest-selling games, _Grand Theft Auto III (2001) (VG)_ (qv) and _Driv3r (2004) (VG)_ (qv), as well as writing several books of his own poetry. Although uncomfortable with fame, Madsen's star continues to shine in Hollywood and his droll, yet captivating acting style is ensuring him a steady flow of work as one on the screen's favorite \"heavies\"."
+      }
+   },
+   {
+      "pk":134,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:31:13",
+         "birthplace":"Mashhad, Iran",
+         "surname":"Manesh",
+         "created":"2009-02-22 23:31:13",
+         "image":"",
+         "birthdate":"16 August 1950",
+         "imdb_id":"0542000",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Marshall",
+         "height":null,
+         "slug":"marshall-manesh",
+         "biography":"'Marshall Manesh' (qv) was born on August 16, 1950 in Iran. He lost his father at an early age and was raised by his beloved mother, whom he feels he got his strength from to make it in acting. He came to America in the mid \"70s\" and joined the Persian Theater Group and traveled extensively through out The United States, Canada and Europe for 8 years. His debut film was \"True Lies\" as Jamal Khaled, directed by James Cameron. Marshall has done more than 75 feature Films, Television projects and more than 40 commercials. He currently has a recurring roles on: Will & Grace as \"Mr. Zamir\", \"How I met your mother as \"Ranjit\", Scrubs as \"Dr. Akbar\" and Boston Legal as \"George Keene\"."
+      }
+   },
+   {
+      "pk":143,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:31:41",
+         "birthplace":"Richmond, Virginia, USA",
+         "surname":"Mann",
+         "created":"2009-02-22 23:31:41",
+         "image":"",
+         "birthdate":"8 September 1960",
+         "imdb_id":"0005181",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Aimee",
+         "height":null,
+         "slug":"aimee-mann",
+         "biography":""
+      }
+   },
+   {
+      "pk":45,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:16:52",
+         "birthplace":"USA",
+         "surname":"Maruyama",
+         "created":"2009-02-22 23:16:52",
+         "image":"",
+         "birthdate":"29 May 1958",
+         "imdb_id":"0555462",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Karen",
+         "height":null,
+         "slug":"karen-maruyama",
+         "biography":""
+      }
+   },
+   {
+      "pk":88,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:28:19",
+         "birthplace":"Chicago, Illinois, USA",
+         "surname":"McDormand",
+         "created":"2009-02-22 23:28:19",
+         "image":"",
+         "birthdate":"23 June 1957",
+         "imdb_id":"0000531",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Frances",
+         "height":null,
+         "slug":"frances-mcdormand",
+         "biography":"'Frances McDormand' (qv) was born in Chicago in 1957, and was adopted by Canadian minister Vernan McDormand and his wife Noreen, who raised her in the suburbs of Pittsburgh. She earned her B.A. in Theater from Bethany College in 1979 and her MFA from Yale in 1982. Her career after graduation began onstage, and she has retained her association with the theater throughout her career. She soon obtained prominent roles in movies as well, first starring in _Blood Simple. (1984)_ (qv), in which she worked with filmmaker 'Joel Coen' (qv), whom she married that year. She frequently collaborated with Coen and his brother 'Ethan Coen' (qv) in their films. McDormand's skilled and versatile acting has been recognized by both the critics and the Academy and, in addition to many critics' awards, she has been nominated for an Academy award four times - for _Mississippi Burning (1988)_ (qv), _Fargo (1996)_ (qv) (for which she won the Best Actress award), _Almost Famous (2000)_ (qv) and _North Country (2005)_ (qv). Keenly intelligent and possessed of a sharp wit, McDormand is the antithesis of the Hollywood starlet - rather than making every role about 'Frances McDormand' (qv), 'Frances McDormand' (qv) dissolves into the characters she plays. Accordingly, she has expressed some reservations about the iconic recognition she has gained from her touching and amusing portrayal of Police Chief Marge Gunderson, the quintessential Minnesota Scandinavian, in _Fargo (1996)_ (qv). McDormand and Coen adopted a son, Pedro, who was born in Paraguay, in 1994. They live in Manhattan."
+      }
+   },
+   {
+      "pk":48,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:17:02",
+         "birthplace":"The Bronx, New York, USA",
+         "surname":"Miller",
+         "created":"2009-02-22 23:17:02",
+         "image":"",
+         "birthdate":"25 December 1928",
+         "imdb_id":"0588241",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Dick",
+         "height":null,
+         "slug":"dick-miller",
+         "biography":"A native from the Bronx, New York, Richard \"Dick\" Miller served in the U.S. Navy for a few years and earned a prize title as a middleweight boxer. He settled in Los Angeles in the mid 1950s where he was noticed by Roger Corman who cast him in most of his low budget horror films where he usually played unlikeable sorts beginning as a vacuum cleaning salesman in Not of This Earth. But his most memorable role is in a rare starring role in playing the mentally unstable, busboy/beatnik artist Walter Paisley, whose clay sculptures are suspiciously lifelike in A Bucket of Blood. But he is best remembered for a supporting role as the flower-eating Vurson Fouch in Corman's The Little Shop of Horrors. He then spent the next 20 years working in Roger Corman productions, and starting in the late 1970s 'Joe Dante' (qv) flicks, appearing in credited and uncredited walk-on bits playing quirky chatterboxes which he stole every scene he appeared in. His role of Walter Paisley has been repeated many times such as a diner owner (Twilight Zone-The Movie) or a janitor (Chopping Mall). One of his best bits is the funny occult bookshop owner in The Howling. Being short (so he never played a romantic lead or a threatening villain), with wavy hair, long sideburns, a pointed nose, and a face as trustful as a used-car dealer's, he was, and still is to this day, an immediately recognizable character actor whose one-scene appearances in countless movies and TV shows guarantee audience applause."
+      }
+   },
+   {
+      "pk":115,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:30:16",
+         "birthplace":"",
+         "surname":"Moon",
+         "created":"2009-02-22 23:30:16",
+         "image":"",
+         "birthdate":"5 November 1961",
+         "imdb_id":"0600657",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Philip",
+         "height":null,
+         "slug":"philip-moon",
+         "biography":""
+      }
+   },
+   {
+      "pk":111,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:29:58",
+         "birthplace":"Fayetteville, North Carolina, USA",
+         "surname":"Moore",
+         "created":"2009-02-22 23:29:58",
+         "image":"",
+         "birthdate":"3 December 1960",
+         "imdb_id":"0000194",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Julianne",
+         "height":null,
+         "slug":"julianne-moore",
+         "biography":"The daughter of a military judge and a Scottish social worker, 'Julianne Moore' (qv) was born in Fayetteville, North Carolina on December 3, 1960. She spent the early years of her life in over two dozen locations around the world with her parents before she finally found her place at Boston University, where she earned her Bachelor of Fine Arts (B.F.A.) degree in acting from the School of the Performing Arts. After graduation (in 1983), Julianne moved to New York and worked extensively in theater, including appearances off-Broadway in two Caryl Churchill plays, Serious Money and Ice Cream With Hot Fudge and as Ophelia in Hamlet at The Guthrie Theatre. But despite her formal training, Julianne fell into the attractive actress' trap of the mid-1980's: TV soaps and miniseries. She appeared briefly in the daytime serial _\"The Edge of Night\" (1956)_ (qv) and from 1985 to 1988 she played two half-sisters Frannie and Sabrina on the soap _\"As the World Turns\" (1956)_ (qv). This performance later led to an Outstanding Ing\u00e9nue Daytime Emmy Award in 1988. Her subsequent appearances were in mostly forgettable TV-movies, such as _Money, Power, Murder. (1989) (TV)_ (qv), _The Last to Go (1991) (TV)_ (qv) and _Cast a Deadly Spell (1991) (TV)_ (qv). She made her entrance into the big screen with 1990's _Tales from the Darkside: The Movie (1990)_ (qv), where she played the victim of a mummy. Two years later, Julianne appeared in feature films with supporting parts in _The Hand That Rocks the Cradle (1992)_ (qv) and the comedy _The Gun in Betty Lou's Handbag (1992)_ (qv). She kept winning better and more powerful roles as time went on, including a small but memorable role as 'Harrison Ford' (qv)'s colleague in _The Fugitive (1993)_ (qv). (A role that made such an impression on 'Steven Spielberg' (qv) that he cast her in the _Jurassic Park (1993)_ (qv) sequel without an audition in 1997). In one of Moore's most distinguished performances, she recapitulated her \"beguiling Yelena\" from 'Andre Gregory' (qv)'s workshop version of Chekhov's Uncle Vanya in 'Louis Malle' (qv)'s critically acclaimed _Vanya on 42nd Street (1994)_ (qv). Director 'Todd Haynes' (qv) gave Julianne her first opportunity to take on a lead role in _Safe (1995)_ (qv). Her portrayal of Carol White, an affluent L.A. housewife who develops an inexplicable allergic reaction to her environment, won critical praise as well as an Independent Spirit Award nomination. Later that year she found her way into romantic comedy, co-starring as 'Hugh Grant' (qv)'s pregnant girlfriend in _Nine Months (1995)_ (qv). Following films included _Assassins (1995)_ (qv), where she played an electronics security expert targeted for death (next to 'Sylvester Stallone' (qv) and 'Antonio Banderas' (qv)) and _Surviving Picasso (1996)_ (qv), where she played Dora Maar, one of the numerous lovers of Picasso (portrayed by her hero, 'Anthony Hopkins' (qv)). A year later, after co-starring in Spielberg's _The Lost World: Jurassic Park (1997)_ (qv), opposite 'Jeff Goldblum' (qv), a young and unknown director, 'Paul Thomas Anderson' (qv) asked Julianne to appear in his movie, _Boogie Nights (1997)_ (qv). Despite her misgivings, she finally was won over by the script and her decision to play the role of Amber Waves, a loving porn star who acts as a mother figure to a ragtag crew, proved to be a wise one, since she received both Golden Globe and Academy Award nominations. Julianne started 1998 by playing an erotic artist in _The Big Lebowski (1998)_ (qv), continued with a small role in the social comedy _Chicago Cab (1997)_ (qv) and ended with a subtle performance in 'Gus Van Sant' (qv)'s remake of _Psycho (1960)_ (qv). 1999 had Moore as busy as an actress can be. She starred in a number of high-profile projects, beginning with 'Robert Altman' (qv)'s _Cookie's Fortune (1999)_ (qv) , in which she was cast as the mentally challenged but adorable sister of a decidedly unhinged 'Glenn Close' (qv). A portrayal of the scheming Mrs. Cheveley followed in 'Oliver Parker' (qv)'s _An Ideal Husband (1999)_ (qv) with a number of critics asserting that Moore was the best part of the movie. She then enjoyed another collaboration with director Anderson in _Magnolia (1999)_ (qv) and continued with an outstanding performance in _The End of the Affair (1999)_ (qv), for which she garnered another Oscar nomination. She ended 1999 with another great performance, that of a grieving mother in _A Map of the World (1999)_ (qv), opposite 'Sigourney Weaver' (qv)."
+      }
+   },
+   {
+      "pk":108,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:29:09",
+         "birthplace":"",
+         "surname":"Nelson",
+         "created":"2009-02-22 23:29:09",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0625257",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Clifford",
+         "height":null,
+         "slug":"clifford-nelson",
+         "biography":""
+      }
+   },
+   {
+      "pk":104,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:28:59",
+         "birthplace":"",
+         "surname":"Ozasky",
+         "created":"2009-02-22 23:28:59",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0654709",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Robert",
+         "height":null,
+         "slug":"robert-ozasky",
+         "biography":""
+      }
+   },
+   {
+      "pk":92,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:28:30",
+         "birthplace":"",
+         "surname":"Park",
+         "created":"2009-02-22 23:28:30",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0661950",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Steve",
+         "height":null,
+         "slug":"steve-park",
+         "biography":""
+      }
+   },
+   {
+      "pk":23,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:15:48",
+         "birthplace":"",
+         "surname":"Parker",
+         "created":"2009-02-22 23:11:44",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0662085",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Brad",
+         "height":null,
+         "slug":"brad-parker",
+         "biography":""
+      }
+   },
+   {
+      "pk":116,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:30:20",
+         "birthplace":"Los Angeles, California, USA",
+         "surname":"Pellegrino",
+         "created":"2009-02-22 23:30:20",
+         "image":"",
+         "birthdate":"9 April 1965",
+         "imdb_id":"0671032",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Mark",
+         "height":null,
+         "slug":"mark-pellegrino",
+         "biography":""
+      }
+   },
+   {
+      "pk":53,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:18:14",
+         "birthplace":"Los Angeles, California, USA",
+         "surname":"Penn",
+         "created":"2009-02-22 23:18:14",
+         "image":"",
+         "birthdate":"10 October 1965",
+         "imdb_id":"0001606",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Chris",
+         "height":null,
+         "slug":"chris-penn",
+         "biography":""
+      }
+   },
+   {
+      "pk":79,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:27:56",
+         "birthplace":"Minneapolis, Minnesota, USA",
+         "surname":"Peterman",
+         "created":"2009-02-22 23:27:56",
+         "image":"",
+         "birthdate":"1 July 1971",
+         "imdb_id":"0676292",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Melissa",
+         "height":null,
+         "slug":"melissa-peterman",
+         "biography":"Peterman is from Minneapolis, Minnesota, USA. After graduating from Minnesota State University with theater as one of her majors, she was cast as Madeline Monroe in Hey City Theater's production of \"Tony & Tina's Wedding\". After more than 600 performances, she went on to work as a writer and performer at the improvisational comedy theater The Brave New Workshop. While with the Brave New Workshop, she also performed at the Chicago Improv Festival and the Big Stink Comedy Festival in Austin, Texas. She made her film debut as Hooker #2 in the Coen brothers' Oscar-winning movie _Fargo (1996)_ (qv). On television, she appeared in the Oxygen sketch comedy show Running With Scissors and guest-starred on Just Shoot Me. Peterman currently lives in Los Angeles with her husband, fellow actor ''John Brady' (qv)'."
+      }
+   },
+   {
+      "pk":22,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:15:44",
+         "birthplace":"Boston, Massachusetts, USA",
+         "surname":"Pilato",
+         "created":"2009-02-22 23:11:42",
+         "image":"",
+         "birthdate":"16 March 1949",
+         "imdb_id":"0683334",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Joseph",
+         "height":null,
+         "slug":"joseph-pilato",
+         "biography":""
+      }
+   },
+   {
+      "pk":5,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:14:42",
+         "birthplace":"New York City, New York, USA",
+         "surname":"Plummer",
+         "created":"2009-02-22 23:10:46",
+         "image":"",
+         "birthdate":"23 March 1957",
+         "imdb_id":"0001625",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Amanda",
+         "height":null,
+         "slug":"amanda-plummer",
+         "biography":"The daughter of 'Christopher Plummer' (qv) and 'Tammy Grimes' (qv), 'Amanda Plummer' (qv) was born in New York City on March 23, 1957. Her breakthrough role came when she starred opposite 'Robin Williams' (qv) in _The Fisher King (1991)_ (qv). However, Plummer may be best remembered for her work in the 'Quentin Tarantino' (qv) classic _Pulp Fiction (1994)_ (qv). Tarantino wrote the parts of two robbers who hold up a restaurant specifically for Plummer and her partner-in-screen-crime 'Tim Roth' (qv). Since that stand-out role, Plummer has continued to appear in a wide variety of films, including _The Prophecy (1995)_ (qv), _Freeway (1996)_ (qv), and _My Life Without Me (2003)_ (qv)."
+      }
+   },
+   {
+      "pk":142,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:31:39",
+         "birthplace":"Philadelphia, Pennsylvania, USA",
+         "surname":"Polito",
+         "created":"2009-02-22 23:31:39",
+         "image":"",
+         "birthdate":"29 December 1950",
+         "imdb_id":"0689237",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Jon",
+         "height":null,
+         "slug":"jon-polito",
+         "biography":"A heavy set, bald character player who often sports a distinctive, pencil-thin mustache and is frequently cast as gangsters or cops, Polito appeared on Broadway in \"American Buffalo\" (1977), \"Curse of the Aching Heart\" (1982) and the 1984 revival of \"Death of a Salesman\" (which was broadcast on CBS in 1985) and starred in the original Hartford Stage Company production of \"Other People's Money\". He made his film debut in _The Clairvoyant (1982)_ (qv) and played Tommy Lucchese in the TV series _\"The Gangster Chronicles\" (1981)_ (qv). Polito is best known for his roles in the films by the Coen Brothers: as obsequious yet vicious crime lord Johnny Caspar in _Miller's Crossing (1990)_ (qv) as the toadying Lou Breeze in _Barton Fink (1991)_ and as the pansy dry cleaning investor Creighton Tolliver in The Man Who Wasn't There (2001)."
+      }
+   },
+   {
+      "pk":61,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:18:48",
+         "birthplace":"",
+         "surname":"Polyi",
+         "created":"2009-02-22 23:18:48",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0689957",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Stevo",
+         "height":null,
+         "slug":"stevo-polyi",
+         "biography":""
+      }
+   },
+   {
+      "pk":73,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:27:42",
+         "birthplace":"Modesto, California, USA",
+         "surname":"Presnell",
+         "created":"2009-02-22 23:27:42",
+         "image":"",
+         "birthdate":"14 September 1933",
+         "imdb_id":"0696193",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Harve",
+         "height":null,
+         "slug":"harve-presnell",
+         "biography":"By the time brawny baritone 'Harve Presnell' (qv) arrived on the film scene, the \"Golden Age\" of musicals had long passed. Born in Modesto, California in 1933, he graduated from Modesto High School and initially trained for an operatic career. He was performing nationally when the opportunity for Broadway first came his way. Legendary composer 'Meredith Willson' (qv) happened to catch an earful of the gifted singer in concert at the Hollywood Bowl in Los Angeles and, in the virile mold of an 'Alfred Drake' (qv) or 'Howard Keel' (qv), wrote the role of Johnny \"Leadville\" Brown in \"The Unsinkable Molly Brown\" specifically for him as a showcase. The Broadway musical, with 'Tammy Grimes' (qv) as the spunky title heroine, was a resounding hit while Harve wrapped his glorious tonsils around such sturdy, wide-stanced songs as \"Colorado, My Home\" and \"I'll Never Say No.\" Unlike Grimes, Presnell managed to recreate his part when the celluloid version of _The Unsinkable Molly Brown (1964)_ (qv) came out with a certifiable film star, the indomitable 'Debbie Reynolds' (qv), inhabiting the backwoods role. The film version was also hugely popular with audiences. It seemed like a star was about to be born but there were precious few movie musicals for Presnell to sink his teeth into and he quickly faded into the woodwork. He tried adjusting to straight dramatics with the rugged western _The Glory Guys (1965)_ (qv) and sang again in the highly unworthy teen frolic _When the Boys Meet the Girls (1965)_ (qv) with 'Connie Francis' (qv), but little else came his way. The disastrous film version of _Paint Your Wagon (1969)_ (qv) starring the highly miscast 'Lee Marvin' (qv), 'Clint Eastwood' (qv) and 'Jean Seberg' (qv), was redeemed only by the presence of Presnell and his superb rendition of \"They Call the Wind Mariah.\"By the 70s he was finished in films and was relegated to Keel-like stock and tour roles in such productions as \"Annie Get Your Gun\" (as Frank Butler) and \"On a Clear Day You Can See Forever,\" among others. He even played Rhett Butler in a musical version of \"Gone With the Wind\" at London's Drury Lane Theatre, but did not generate much of a stir. In 1979, Presnell served as a replacement in the Broadway musical \"Annie\" as Daddy Warbucks and stayed with the role for years on tour, also reprising the tycoon in the failed 90s sequel \"Annie II: Miss Hannigan's Revenge,\" which was later retitled \"Annie Warbucks.\"More than 25 years had passed by the time Presnell returned to the movies as a brash and balding character actor. He struck pure gold as the righteous, dominating, ill-fated father-in-law of 'William H. Macy' (qv) in the Coen Brothers' cult film hit _Fargo (1996)_ (qv). This success, in turn, led to meaty roles in _Larger Than Life (1996)_ (qv), _The Whole Wide World (1996)_ (qv), _The Chamber (1996)_ (qv), _Face/Off (1997)_ (qv), _Saving Private Ryan (1998)_ (qv) and _The Legend of Bagger Vance (2000)_ (qv), to name a few. Over the course of his career, he has proven himself a strong presence on TV as well with recurring roles on prime-time (\"Lois & Clark\") and daytime (\"Ryan's Hope\"). Presnell may have been born 10-20 years too late to have become a singing film star, but he has come back in spades to launch a whole new career as a noted character performer. Recent roles at age 70+ include TV's \"The Pretender,\" \"The Monk\" and \"ER,\" and the films _Mr. Deeds (2002)_ (qv) and _Old School (2003)_ (qv), indicate there are no signs that the twice-married actor is interested in slowing down."
+      }
+   },
+   {
+      "pk":94,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:28:35",
+         "birthplace":"",
+         "surname":"Rakerd",
+         "created":"2009-02-22 23:28:35",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0707531",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Cliff",
+         "height":null,
+         "slug":"cliff-rakerd",
+         "biography":""
+      }
+   },
+   {
+      "pk":80,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:27:59",
+         "birthplace":"Browning, Montana, USA",
+         "surname":"Reevis",
+         "created":"2009-02-22 23:27:59",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0716324",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Steve",
+         "height":null,
+         "slug":"steve-reevis",
+         "biography":""
+      }
+   },
+   {
+      "pk":114,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:30:14",
+         "birthplace":"Wyckoff, New Jersey, USA",
+         "surname":"Reid",
+         "created":"2009-02-22 23:30:14",
+         "image":"",
+         "birthdate":"8 November 1975",
+         "imdb_id":"0005346",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Tara",
+         "height":null,
+         "slug":"tara-reid",
+         "biography":"Born in Wyckoff, New Jersey, USA on November 8, 1975. She got her career start at six, when she appeared on a children's game show called _\"Child's Play\" (1982)_ (qv). Later, she appeared in commercials for Jell-O, McDonald's, and Crayola. She attended the Professional Children's School in New York City. Her classmates included 'Sarah Michelle Gellar' (qv), 'Jerry O'Connell' (qv), 'Macaulay Culkin' (qv), and Ben Taylor. After several career moves, she became known after her role as Bunny, in _The Big Lebowski (1998)_ (qv)."
+      }
+   },
+   {
+      "pk":8,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:14:54",
+         "birthplace":"New York City, New York, USA",
+         "surname":"Rhames",
+         "created":"2009-02-22 23:10:59",
+         "image":"",
+         "birthdate":"12 May 1959",
+         "imdb_id":"0000609",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Ving",
+         "height":null,
+         "slug":"ving-rhames",
+         "biography":"Irving \"Ving\" Rhames was born in New York City, New York, and grew up in Harlem, New York. A good student, Ving entered the New York High School of Performing Arts, where he discovered his love of acting. He studied at the Julliard School of Drama, and began his career in New York theater. He first appeared on Broadway in the play \"The Winter Boys\" in 1984. Ving continued his rise to fame through his work in soap operas. He found work as a supporting actor, and came to the attention of the general public in _Pulp Fiction (1994)_ (qv)."
+      }
+   },
+   {
+      "pk":50,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:17:06",
+         "birthplace":"",
+         "surname":"Rich",
+         "created":"2009-02-22 23:17:06",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0723651",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Glendon",
+         "height":null,
+         "slug":"glendon-rich",
+         "biography":""
+      }
+   },
+   {
+      "pk":49,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:17:04",
+         "birthplace":"",
+         "surname":"Richardson",
+         "created":"2009-02-22 23:17:04",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"1771244",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Devan",
+         "height":null,
+         "slug":"devan-richardson",
+         "biography":""
       }
    },
    {
       "pk":4,
       "model":"movie.person",
       "fields":{
-         "edited":"2009-02-18 01:02:26",
-         "birthplace":"",
-         "surname":"Coen",
-         "created":"2009-02-18 01:02:16",
-         "imdb_id":"0001054",
+         "edited":"2009-02-22 23:18:07",
+         "birthplace":"London, England, UK",
+         "surname":"Roth",
+         "created":"2009-02-22 23:10:43",
          "image":"",
-         "birthdate":"1954-11-29",
+         "birthdate":"14 May 1961",
+         "imdb_id":"0000619",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Tim",
          "height":null,
+         "slug":"tim-roth",
+         "biography":"British actor whose greatest success came after 1990 when he moved to the States to play American heavies. He has been a favorite of director 'Quentin Tarantino' (qv)."
+      }
+   },
+   {
+      "pk":72,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:27:38",
+         "birthplace":"Fargo, North Dakota, USA",
+         "surname":"Rudr\u00fcd",
+         "created":"2009-02-22 23:27:38",
+         "image":"",
+         "birthdate":"23 May 1955",
+         "imdb_id":"0749021",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Kristin",
+         "height":null,
+         "slug":"kristin-rudrud",
+         "biography":""
+      }
+   },
+   {
+      "pk":140,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:31:31",
+         "birthplace":"Little Rock, Arkansas, USA",
+         "surname":"Russom",
+         "created":"2009-02-22 23:31:31",
+         "image":"",
+         "birthdate":"6 December 1941",
+         "imdb_id":"0751762",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Leon",
+         "height":null,
+         "slug":"leon-russom",
+         "biography":""
+      }
+   },
+   {
+      "pk":38,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:18:53",
+         "birthplace":"",
+         "surname":"Ruth",
+         "created":"2009-02-22 23:16:28",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0751936",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Robert",
+         "height":null,
+         "slug":"robert-ruth",
+         "biography":""
+      }
+   },
+   {
+      "pk":51,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:17:08",
+         "birthplace":"",
+         "surname":"Sava",
+         "created":"2009-02-22 23:17:08",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0767216",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Ani",
+         "height":null,
+         "slug":"ani-sava",
+         "biography":""
+      }
+   },
+   {
+      "pk":97,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:28:41",
+         "birthplace":"",
+         "surname":"Schafer",
+         "created":"2009-02-22 23:28:41",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0769795",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Steven I.",
+         "height":null,
+         "slug":"steven-i-schafer",
+         "biography":""
+      }
+   },
+   {
+      "pk":96,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:28:39",
+         "birthplace":"",
+         "surname":"Schmitz",
+         "created":"2009-02-22 23:28:39",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"2909493",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Peter",
+         "height":null,
+         "slug":"peter-schmitz",
+         "biography":""
+      }
+   },
+   {
+      "pk":77,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:27:51",
+         "birthplace":"",
+         "surname":"Schweickhardt",
+         "created":"2009-02-22 23:27:51",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0777754",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Kurt",
+         "height":null,
+         "slug":"kurt-schweickhardt",
+         "biography":""
+      }
+   },
+   {
+      "pk":95,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:28:37",
+         "birthplace":"",
+         "surname":"Shepherd",
+         "created":"2009-02-22 23:28:37",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0791801",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Jessica",
+         "height":null,
+         "slug":"jessica-shepherd",
+         "biography":""
+      }
+   },
+   {
+      "pk":37,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:16:26",
+         "birthplace":"",
+         "surname":"Sher",
+         "created":"2009-02-22 23:16:26",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0792051",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Sy",
+         "height":null,
+         "slug":"sy-sher",
+         "biography":""
+      }
+   },
+   {
+      "pk":33,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:16:17",
+         "birthplace":"",
+         "surname":"Shorelle",
+         "created":"2009-02-22 23:16:17",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0794967",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Gary",
+         "height":null,
+         "slug":"gary-shorelle",
+         "biography":""
+      }
+   },
+   {
+      "pk":132,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:31:06",
+         "birthplace":"Boston, Massachusetts, USA",
+         "surname":"Siragusa",
+         "created":"2009-02-22 23:31:06",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0802742",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Peter",
+         "height":null,
+         "slug":"peter-siragusa",
+         "biography":""
+      }
+   },
+   {
+      "pk":47,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:16:58",
+         "birthplace":"Johnstown, Pennsylvania, USA",
+         "surname":"Sitka",
+         "created":"2009-02-22 23:16:58",
+         "image":"",
+         "birthdate":"22 December 1914",
+         "imdb_id":"0803238",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Emil",
+         "height":null,
+         "slug":"emil-sitka",
+         "biography":"Orphaned at twelve, Sitka caught the acting bug while living with a priest in Pittsburgh. He road the rails as a hobo for years during the Depression before arriving in Hollywood in 1936. Theatre work, including directing, eventually brought him to the attention of a talent scout, who contracted him to Columbia Studios. Famous for his character roles in slapstick comedy (he claims to have appeared in 450 movies), he became a regular in shorts and feature films with the Three Stooges, making thirty-five shorts with the boys before 1958. He holds the further distinction of appearing with each of the six Stooges (Moe, Shemp, and Curly Howard; 'Larry Fine' (qv); Joe Besser; and Joe DeRita). Sitka's most famous role, as a justice of the peace who begins every service with the words, \"Hold hands, you love birds\", brought him lasting fame among Stooge fans, who would sometimes ask him to repeat the phrase during their own wedding ceremonies."
+      }
+   },
+   {
+      "pk":101,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:28:52",
+         "birthplace":"",
+         "surname":"Skahill",
+         "created":"2009-02-22 23:28:52",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0803771",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Bix",
+         "height":null,
+         "slug":"bix-skahill",
+         "biography":""
+      }
+   },
+   {
+      "pk":62,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:18:51",
+         "birthplace":"",
+         "surname":"Sottile",
+         "created":"2009-02-22 23:18:51",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0815649",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Michael",
+         "height":null,
+         "slug":"michael-sottile",
+         "biography":""
+      }
+   },
+   {
+      "pk":59,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:18:43",
+         "birthplace":"USA",
+         "surname":"Steen",
+         "created":"2009-02-22 23:18:43",
+         "image":"",
+         "birthdate":"26 June 1954",
+         "imdb_id":"0824741",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"David",
+         "height":null,
+         "slug":"david-steen",
+         "biography":""
+      }
+   },
+   {
+      "pk":17,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:19:07",
+         "birthplace":"USA",
+         "surname":"Steers",
+         "created":"2009-02-22 23:11:28",
+         "image":"",
+         "birthdate":"8 October 1965",
+         "imdb_id":"0824882",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Burr",
+         "height":null,
+         "slug":"burr-steers",
+         "biography":""
+      }
+   },
+   {
+      "pk":103,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:28:57",
+         "birthplace":"",
+         "surname":"Stockton",
+         "created":"2009-02-22 23:28:57",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0830960",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Rose",
+         "height":null,
+         "slug":"rose-stockton",
+         "biography":""
+      }
+   },
+   {
+      "pk":6,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:14:46",
+         "birthplace":"Whittier, California, USA",
+         "surname":"Stoltz",
+         "created":"2009-02-22 23:10:50",
+         "image":"",
+         "birthdate":"30 September 1961",
+         "imdb_id":"0000655",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Eric",
+         "height":null,
+         "slug":"eric-stoltz",
+         "biography":"Born 30 September, 1961 Los Angeles, California, 'Eric Stoltz' (qv) is a theater trained actor and producer who has starred in both independent and studio films. Born to two teachers in Los Angeles, Eric was raised in both American Samoa and Santa Barbara California, where by the age of 14 he was earning money by playing piano for the local musical theater productions, including \"Mame\" starring 'Anthony Edwards' (qv). The two became friends, and then college roommates when both attended the University of Southern California. Dropping out in his Junior year, Eric joined a repertory company that did 10 plays at the Edinburgh Festival in Scotland, UK. Moving to New York in 1981, he studied with 'Stella Adler' (qv) and 'Peggy Feury' (qv), and soon appeared in his first film, _Fast Times at Ridgemont High (1982)_ (qv). In the 1980s he garnered attention (and a Golden Globe Nomination) starring as Rocky Dennis in _Mask (1985)_ (qv), and in 'John Hughes' (qv)' _Some Kind of Wonderful (1987)_ (qv). In 1988, he made his Broadway debut in _Our Town (1989) (TV)_ (qv), for which he was nominated for a Tony Award. In the 1990's he went back and forth from stage to film, building up an eclectic resume that included studio films (_Pulp Fiction (1994)_ (qv)), independent films (Sundance Festival Winner _The Waterdance (1992)_ (qv)), and films that he himself produced ( _Mr. Jealousy (1997)_ (qv)). He also continued to appear on the New York Stage both on Broadway (Three Sisters, Two Shakespearean Actors) and off-Broadway (The Importance of Being Ernest, The Glass Menagerie). He continues to work in television as well, doing a recurring role as 'Helen Hunt' (qv)'s ex on _\"Mad About You\" (1992)_ (qv), a year on _\"Chicago Hope\" (1994)_ (qv), and in the tv and cable movies _Inside (1996) (TV)_ (qv) (directed by 'Arthur Penn' (qv)), _A Killer in the Family (1983) (TV)_ (qv) (with 'Robert Mitchum' (qv)) and _The Passion of Ayn Rand (1999)_ (qv) (with 'Helen Mirren' (qv)). Mr. Stoltz lives in New Mexico, and has been romantically linked to 'Ally Sheedy' (qv), 'Jennifer Jason Leigh' (qv), 'Lili Taylor' (qv), 'Bridget Fonda' (qv), and most recently (in the summer of 1999 during the shooting of _The House of Mirth (2000)_ (qv)) the Australian actress 'Rachel Griffiths' (qv)."
+      }
+   },
+   {
+      "pk":71,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:30:23",
+         "birthplace":"Arbr\u00e5, G\u00e4vleborgs l\u00e4n, Sweden",
+         "surname":"Stormare",
+         "created":"2009-02-22 23:27:36",
+         "image":"",
+         "birthdate":"27 August 1953",
+         "imdb_id":"0001780",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Peter",
+         "height":null,
+         "slug":"peter-stormare",
+         "biography":"'Peter Stormare' (qv) began his acting career at the Royal National Theatre of Sweden, performing for eleven years. In 1990 he became the Associate Artistic Director at the Tokyo Globe Theatre and directed productions of many Shakespeare plays, including \"Hamlet\". In 1993 he moved to New York, where he appeared in English productions. He continues to work in both the United States and his his homeland of Sweden. He resides in Los Angeles, California, USA, with his wife."
+      }
+   },
+   {
+      "pk":65,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:19:05",
+         "birthplace":"",
+         "surname":"Strova",
+         "created":"2009-02-22 23:19:05",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0835211",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Maria",
+         "height":null,
+         "slug":"maria-strova",
+         "biography":""
+      }
+   },
+   {
+      "pk":29,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:16:08",
+         "birthplace":"Spokane, Washington, USA",
+         "surname":"Sweeney",
+         "created":"2009-02-22 23:12:02",
+         "image":"",
+         "birthdate":"10 October 1959",
+         "imdb_id":"0842140",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Julia",
+         "height":null,
+         "slug":"julia-sweeney",
+         "biography":"Benevolent, sweet-faced, actress and comedienne 'Julia Sweeney' (qv), who was born in 1959 in Spokane, Washington, is normally identified with one single, highly unappetizing androgynous character. This sniveling, chunky-framed, springy-haired, plaid shirt-wearing, grotesque-looking character named Pat was the basis of many hilarious sketches that toyed with revealing his/her true gender. The oldest of five children, Julia demonstrated an early talent for mimicry but downplayed any interest in performing for serious college studies. She first came into contact with the show business arena following graduation. Behind the scenes she worked for five years as an accountant for Columbia Studios in Los Angeles. Developing the courage to realize her dream, she started taking classes on a whim at the famed Groundlings Theater. After fine-tuning her skills in improv, character development and sketch-writing, Julia was escalated to the big time when she was selected to join _\"Saturday Night Live\" (1975)_ (qv) in 1990 as a featured player. Though she became a regular cast member the following season and found an instant audience rapport with her creepy Pat character, she was vastly underused, which seemed to be the case for many of its distaff team at the time. \"Pat\" would outshine practically everything else she did on the show, including her timid wallflower type named \"Mea Culpa,\" whose character became the basis of a stage show co-written by Julia and actor/writer/husband 'Stephen Hibbert' (qv) called \"Mea's Big Apology\" in 1992. Discouraged, Julia parted ways with SNL in 1994 and worked up a feature film version of _It's Pat (1994)_ (qv) while her irons in the fire were hot. She co-wrote the script with Hibbert and co-starred with 'Dave Foley' (qv) who played Pat's equally androgynous partner \"Chris.\" The feature film did not generate great buzz, however, as it was basically a one-joke premise stretched to the limit. Following this and a few other insignificant character cameos on film, life turned extremely dark for Julia. Divorced from Hibbert, brother Michael developed lymphoma. She and her family vainly tried to nurse him back to health. Following his death, Julia herself was forced to fight a life-threatening illness -- cervical cancer. The whole process triggered an outpouring of writing which evolved into a hit one-woman stage show entitled, \"God Said, Ha!\" Applauded for its candor, wit and humorous handling of such painful subjects, the monologue debuted in San Francisco in 1995, and was playing Broadway by November of the following year. Preserving her work on film, she wrote and directed, with 'Quentin Tarantino' (qv) in the producer's chair. While embracing this second career-defining moment, Julia won an Audience Award at the New York Comedy Festival in 1998 for her efforts, and earned a Grammy nomination for the CD version. She went on to complete a trilogy of personal sojourns. \"In the Family Way\" (2003) recounted her experience adopting a daughter as a single parent, and \"Letting Go of God\" (2004) traced her religious roots from devout Catholic to atheist."
+      }
+   },
+   {
+      "pk":1,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:18:36",
+         "birthplace":"Knoxville, Tennessee, USA",
+         "surname":"Tarantino",
+         "created":"2009-02-22 23:10:30",
+         "image":"",
+         "birthdate":"27 March 1963",
+         "imdb_id":"0000233",
          "is_director":true,
          "visible":1,
-         "forename":"Joel",
          "width":null,
+         "forename":"Quentin",
+         "height":null,
+         "slug":"quentin-tarantino",
+         "biography":"In January of 1992 a film titled _Reservoir Dogs (1992)_ (qv) hit the Sundance Film festival. The writer-director was a first-timer by the name of 'Quentin Tarantino' (qv). The film garnered critical acclaim and the director became a legend in the England, UK and the cult film circuit. Two years later he followed up 'Dogs' with the film _Pulp Fiction (1994)_ (qv). 'Pulp' premiered at the Cannes film festival, where it won the coveted 'Palme D'Or' the virtual equal of the Best Picture at the Academy Awards. At the 1995 Academy Awards, 'Pulp' was nominated for the Best Picture Oscar, also for Best Director and Best Original Screenplay, among others. Tarantino and writing partner 'Roger Avary' (qv) came away with the award only for Best Original Screenplay. In 1995, Tarantino directed one fourth of the Anthology _Four Rooms (1995)_ (qv) with friends and fellow auteurs 'Alexandre Rockwell' (qv), 'Robert Rodriguez' (qv), and 'Allison Anders' (qv). That film was released on December 25th in the United States to very weak reviews. This is mainly due to the heavy cutting of the first two segments and the introduction which make much of the plotline unintelligible, and creates a complete mess out of the second segment, directed by 'Alexandre Rockwell' (qv). The best two segments of the film are 'Robert Rodriguez' (qv)'s and Tarantino's. Tarantino's next film was _From Dusk Till Dawn (1996)_ (qv), a crime/vampire film which he wrote and co-starred with 'George Clooney' (qv). The film did fairly well theatrically."
+      }
+   },
+   {
+      "pk":129,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:30:58",
+         "birthplace":"Blackpool, Lancashire, England, UK",
+         "surname":"Thewlis",
+         "created":"2009-02-22 23:30:58",
+         "image":"",
+         "birthdate":"20 March 1963",
+         "imdb_id":"0000667",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"David",
+         "height":null,
+         "slug":"david-thewlis",
+         "biography":"'David Thewlis' (qv) was born David Wheeler in 1963 and lived with his parents above their combination wallpaper and toy shop in Blackpool during his childhood. Originally he came to London with his band Door 66, however he changed his plans and entered Guildhall School of Drama. He had minor roles in films and TV until he took the main role in _Naked (1993)_ (qv). The film won him several awards including the New York Critics Award. He has since been in many other films including _Dragonheart (1996)_ (qv), _Restoration (1995)_ (qv), _Black Beauty (1994)_ (qv) and recently took the part of Professor Remus John Lupin in _Harry Potter and the Prisoner of Azkaban (2004)_ (qv). He has lived with the British actress 'Anna Friel' (qv) since 2001."
+      }
+   },
+   {
+      "pk":13,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:15:12",
+         "birthplace":"Boston, Massachusetts, USA",
+         "surname":"Thurman",
+         "created":"2009-02-22 23:11:16",
+         "image":"",
+         "birthdate":"29 April 1970",
+         "imdb_id":"0000235",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Uma",
+         "height":null,
+         "slug":"uma-thurman",
+         "biography":"Uma Karuna Thurman, daughter of 'Robert Thurman' (qv) and 'Nena Thurman' (qv), was born in Boston, Massachusetts, on April 29, 1970. Uma grew up in Amherst, Massachusetts, where her father worked at Amherst College. She left boarding school at just 15, already determined to become an actress. She moved to New York to follow her dream. A breakthrough role for the tall, blonde actress came when she played Cecile de Volanges in _Dangerous Liaisons (1988)_ (qv). More attention came with the NC-17 rated _Henry & June (1990)_ (qv), but it was Thurman's role in the 'Quentin Tarantino' (qv) classic _Pulp Fiction (1994)_ (qv) that earned her an Oscar nomination for Best Supporting Actress. Donning a short black wig to play femme fatale Mia Wallace opposite 'John Travolta' (qv)'s hit man Vincent Vega, Thurman earned a place in film history. After roles in _The Truth About Cats & Dogs (1996)_ (qv) and the 'Ted Demme' (qv) film _Beautiful Girls (1996)_ (qv), Thurman met her future husband 'Ethan Hawke' (qv) on the set of _Gattaca (1997)_ (qv). Thurman returned to smaller films after playing the villainess Poison Ivy in the reviled 'Joel Schumacher' (qv) effort _Batman & Robin (1997)_ (qv) and Emma Peel in a remake of _The Avengers (1998)_ (qv). She worked with 'Woody Allen' (qv) and 'Sean Penn' (qv) on _Sweet and Lowdown (1999)_ (qv), and starred in 'Richard Linklater' (qv)'s drama _Tape (2001)_ (qv) opposite Hawke. Thurman also won a Golden Globe award for her turn in the made-for-television film _Hysterical Blindness (2002) (TV)_ (qv), directed by 'Mira Nair' (qv). A return to the mainstream spotlight came when Thurman redeemed with 'Quentin Tarantino' (qv) for _Kill Bill: Vol. 1 (2003)_ (qv), a revenge flick the two had dreamed up on the set of _Pulp Fiction (1994)_ (qv). She also turned up in the 'John Woo' (qv) cautioner _Paycheck (2003)_ (qv) that same year. The renewed attention was not altogether welcome because Thurman was dealing with the break-up of her marriage with Hawke at about this time. Thurman handled the situation with grace, however, and took her surging popularity in stride. She garnered critical acclaim for her work in _Kill Bill: Vol. 2 (2004)_ (qv) and was hailed as Tarantino's muse. Thurman reunited with _Pulp Fiction (1994)_ (qv) dance partner 'John Travolta' (qv) for the _Get Shorty (1995)_ (qv) sequel _Be Cool (2005)_ (qv) and landed a role in _The Producers (2005)_ (qv) after 'Nicole Kidman' (qv) backed out of the project."
+      }
+   },
+   {
+      "pk":54,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:18:21",
+         "birthplace":"Brooklyn, New York, USA",
+         "surname":"Tierney",
+         "created":"2009-02-22 23:18:21",
+         "image":"",
+         "birthdate":"15 March 1919",
+         "imdb_id":"0862937",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Lawrence",
+         "height":null,
+         "slug":"lawrence-tierney",
+         "biography":"Legendary Hollywood \"tough guy\", on screen and off. Remembered as the title character in _Dillinger (1945)_ (qv) and as the consummately brutal lover of 'Claire Trevor' (qv) in _Born to Kill (1947)_ (qv). Notorious also for his frequent, well-publicized past involvements in public altercations - like barroom brawls - and other real-life manifestations of rowdiness. (In a 1973 incident, he managed to get himself stabbed.) Though now a puffy-faced, totally bald old man, he continues as screen actor to project the hard-as-nails mien that has been ingrained since his younger days, as he evidences quite amply in 'Quentin Tarantino' (qv)'s _Reservoir Dogs (1992)_ (qv)."
+      }
+   },
+   {
+      "pk":2,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:14:31",
+         "birthplace":"Englewood, New Jersey, USA",
+         "surname":"Travolta",
+         "created":"2009-02-22 23:10:35",
+         "image":"",
+         "birthdate":"18 February 1954",
+         "imdb_id":"0000237",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"John",
+         "height":null,
+         "slug":"john-travolta",
+         "biography":"'John Travolta' (qv) first gained fame as the swaggering Vinnie Barbarino on the television series _\"Welcome Back, Kotter\" (1975)_ (qv). In 1977, he parlayed his teeny-bopper fame into a big-screen career with the disco blockbuster _Saturday Night Fever (1977)_ (qv). He languished in light dramas and television movies in the 1980s, but started a comeback in 1989 with _Look Who's Talking (1989)_ (qv). He further resuscitated his career with an Oscar nomination for his role as a heavyset sympathetic hitman in _Pulp Fiction (1994)_ (qv) in 1994."
+      }
+   },
+   {
+      "pk":39,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:18:41",
+         "birthplace":"",
+         "surname":"Turner",
+         "created":"2009-02-22 23:16:31",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0877822",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Rich",
+         "height":null,
+         "slug":"rich-turner",
          "biography":""
+      }
+   },
+   {
+      "pk":121,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:30:38",
+         "birthplace":"Brooklyn, New York, USA",
+         "surname":"Turturro",
+         "created":"2009-02-22 23:30:38",
+         "image":"",
+         "birthdate":"28 February 1957",
+         "imdb_id":"0001806",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"John",
+         "height":null,
+         "slug":"john-turturro",
+         "biography":"Highly talented, lightly built Italian American actor who always looks unsettled and jumpy has become a favourite of cult/arthouse film aficionados with his compelling performances in a broad range of cinematic vehicles. Has become a regular in the thought provoking films of 'Spike Lee' (qv) and the off the wall comedies of 'Joel Coen' (qv) & 'Ethan Coen' (qv). His wonderful performances include as the highly agitated \"Pino\" in _Do the Right Thing (1989)_ (qv), as an intellectual playwright in _Barton Fink (1991)_ (qv), a pedophile tenpin bowler in _The Big Lebowski (1998)_ (qv), a confused boyfriend in _Jungle Fever (1991)_ (qv) and as the voice of Harvey the dog in _Summer of Sam (1999)_ (qv). Turturro has continued to appeal to audiences despite his unconventional looks and the often annoying onscreen mannerisms of his characters which he used to great effect in films such as his blue collar tale of warring brothers in the construction business, _Mac (1992)_ (qv), as the irate, dumped game show contestant, Herbie Stempel, in 'Robert Redford' (qv)'s dynamic _Quiz Show (1994)_ (qv). One of modern American cinema's gems of acting, Turturro remains in strong demand for his high calibre thespian talents."
+      }
+   },
+   {
+      "pk":40,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:16:33",
+         "birthplace":"",
+         "surname":"Valentino",
+         "created":"2009-02-22 23:16:33",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0884395",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Venessia",
+         "height":null,
+         "slug":"venessia-valentino",
+         "biography":""
+      }
+   },
+   {
+      "pk":118,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:30:29",
+         "birthplace":"",
+         "surname":"Voges",
+         "created":"2009-02-22 23:30:29",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0901024",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Torsten",
+         "height":null,
+         "slug":"torsten-voges",
+         "biography":""
+      }
+   },
+   {
+      "pk":67,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:19:13",
+         "birthplace":"",
+         "surname":"Wafford",
+         "created":"2009-02-22 23:19:13",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0905658",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Rowland",
+         "height":null,
+         "slug":"rowland-wafford",
+         "biography":""
+      }
+   },
+   {
+      "pk":26,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:16:00",
+         "birthplace":"Queens, New York, USA",
+         "surname":"Walken",
+         "created":"2009-02-22 23:11:55",
+         "image":"",
+         "birthdate":"31 March 1943",
+         "imdb_id":"0000686",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Christopher",
+         "height":null,
+         "slug":"christopher-walken",
+         "biography":"Nervous-looking lead and supporting actor of the American stage and films. He won an Oscar as best supporting actor for his performance in _The Deer Hunter (1978)_ (qv). Seen in mostly supporting roles throughout the 80s and early 90s, often portraying psychologically unstable characters."
+      }
+   },
+   {
+      "pk":106,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:29:03",
+         "birthplace":"",
+         "surname":"Wescott",
+         "created":"2009-02-22 23:29:03",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0921682",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Don",
+         "height":null,
+         "slug":"don-wescott",
+         "biography":""
+      }
+   },
+   {
+      "pk":16,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:15:22",
+         "birthplace":"Syracuse, New York, USA",
+         "surname":"Whaley",
+         "created":"2009-02-22 23:11:26",
+         "image":"",
+         "birthdate":"20 July 1963",
+         "imdb_id":"0001844",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Frank",
+         "height":null,
+         "slug":"frank-whaley",
+         "biography":"'Frank Whaley' (qv) grew up in Syracuse, New York, and left home at eighteen to pursue an acting career. His older brother Robert originally wanted to be an actor but Frank later became interested in the profession and followed in his brother's footsteps. He not only has a brother but two sisters as well. His brother is the lead singer of the New York based band, the Niagras, and was also the composer for Frank's directorial debut _Joe the King (1999)_ (qv). Frank makes his home in New York and is close friends with actor 'Ethan Hawke' (qv) who he made friends with on the set of _A Midnight Clear (1992)_ (qv)."
+      }
+   },
+   {
+      "pk":14,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:15:15",
+         "birthplace":"Abilene, Texas, USA",
+         "surname":"Whitaker",
+         "created":"2009-02-22 23:11:20",
+         "image":"",
+         "birthdate":"23 June 1959",
+         "imdb_id":"0924261",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Duane",
+         "height":null,
+         "slug":"duane-whitaker",
+         "biography":"'Duane Whitaker' (qv) came to Hollywood from Lubbock, Texas, in the early 1980s to pursue an acting career. He began writing and directing plays as well as working in film and television. Four of his plays have been produced in Los Angeles, including \"Eddie Presley\", which was adapted and became his first produced screenplay (_Eddie Presley (1992)_ (qv)). He also wrote the screenplay for _Stripteaser (1995)_ (qv), which was released on video in 1995. Duane continued to work as an actor and scored the role of Maynard in 'Quentin Tarantino' (qv)'s _Pulp Fiction (1994)_ (qv). He then co-wrote _From Dusk Till Dawn 2: Texas Blood Money (1999) (V)_ (qv) with director 'Scott Spiegel' (qv) and co-stars with 'Robert Patrick' (qv) and 'Bo Hopkins' (qv). He wrote and directed a low-budget feature, _Together & Alone (1998)_ (qv), which screened in Park City, Utah, during the Sundance Film Festival."
+      }
+   },
+   {
+      "pk":7,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:14:50",
+         "birthplace":"Idar-Oberstein, West Germany",
+         "surname":"Willis",
+         "created":"2009-02-22 23:10:55",
+         "image":"",
+         "birthdate":"19 March 1955",
+         "imdb_id":"0000246",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Bruce",
+         "height":null,
+         "slug":"bruce-willis",
+         "biography":"'Bruce Willis' (qv) grew up mainly in Penns Grove, New Jersey, and graduated from high school there before going to New York to become an actor. He waited tables and tended bar for a living until he began to get roles in plays. While tending bar one night he was seen by a casting director who liked his personality and needed a bartender for a small movie role."
+      }
+   },
+   {
+      "pk":76,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:27:49",
+         "birthplace":"",
+         "surname":"Wingert",
+         "created":"2009-02-22 23:27:49",
+         "image":"",
+         "birthdate":"",
+         "imdb_id":"0935041",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Sally",
+         "height":null,
+         "slug":"sally-wingert",
+         "biography":""
+      }
+   },
+   {
+      "pk":58,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:18:38",
+         "birthplace":"New York City, New York, USA",
+         "surname":"Wright",
+         "created":"2009-02-22 23:18:38",
+         "image":"",
+         "birthdate":"6 December 1955",
+         "imdb_id":"0942833",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Steven",
+         "height":null,
+         "slug":"steven-wright",
+         "biography":""
+      }
+   },
+   {
+      "pk":10,
+      "model":"movie.person",
+      "fields":{
+         "edited":"2009-02-22 23:15:01",
+         "birthplace":"Lisbon, Portugal",
+         "surname":"de Medeiros",
+         "created":"2009-02-22 23:11:06",
+         "image":"",
+         "birthdate":"19 August 1965",
+         "imdb_id":"0210218",
+         "is_director":false,
+         "visible":1,
+         "width":null,
+         "forename":"Maria",
+         "height":null,
+         "slug":"maria-de-medeiros",
+         "biography":"'Maria de Medeiros' (qv) is the older of three daughters by the pianist, maestro and composer 'Ant\u00f3nio Vitorino D'Almeida' (qv) and Maria Armanda Esteves. Her sisters are 'In\u00eas de Medeiros' (qv), stage actress and film and stage director and 'Ana Medeiros' (qv), violinist, composer, and music teacher. Studied at Lyc\u00e9e Fran\u00e7ais Charles Le Pierre, Lisbon, and when she was 15 years old, she acted in her father's movie, Silvestre. Went to Paris in 1984, aiming to take a college degree in the Beaux Arts, and ended by taking Philosophy, and Drama instead, at the National Schools of Arts and Theatre Techniques. Lived and filmed in Portugal, and abroad, then she returned to Paris, where she is established since 1987. She married a Catalonian (Spain), and has two daughters. She acquired the French nationality because of her children, and because she has a French culture as well as a Portuguese one. She is fluent in Portuguese, French, English, German and Spanish."
+      }
+   },
+   {
+      "pk":3,
+      "model":"movie.movie",
+      "fields":{
+         "edited":"2009-02-22 23:27:18",
+         "genres":"Crime, Thriller",
+         "rating":8.3000000000000007,
+         "title":"Fargo",
+         "image":"",
+         "created":"2009-02-22 23:27:18",
+         "plot":"Fargo is based on true events that occurred in Minnesota in 1987 with the names changed to protect the victims. Jerry works in his father-in-law's car dealership and has gotten himself in financial problems. He tries various schemes to come up with money needed for a reason that is never really explained. It has to be assumed that his huge embezzlement of money from the dealership is about to be discovered by father-in-law. When all else falls through, plans he set in motion earlier for two men to kidnap his wife for ransom to be paid by her wealthy father (who doesn't seem to have the time of day for son-in-law). From the moment of the kidnapping, things go wrong and what was supposed to be a non-violent affair turns bloody with more blood added by the minute. Jerry is upset at the blood shed, which turns loose a pregnant sheriff from MN who is tenacious in attempting to solve the three murders in her jurisdiction.",
+         "imdb_id":"0116282",
+         "height":null,
+         "visible":1,
+         "width":null,
+         "year":1996,
+         "plot_author":"Anonymous",
+         "runtime":98,
+         "slug":"fargo-1996"
       }
    },
    {
       "pk":1,
       "model":"movie.movie",
       "fields":{
-         "edited":"2009-02-18 00:46:38",
-         "rating":8.3000000000000007,
-         "plot":"In rural Texas, welder and hunter Llewelyn Moss discovers the remains of several drug runners who have all killed each other in an exchange gone violently wrong. Rather than report the discovery to the police, Moss decides to simply take the two million dollars present for himself. This puts the psychopathic killer, Anton Chigurh, on his trail as he dispassionately murders nearly every rival, bystander and even employer in his pursuit of his quarry and the money. As Moss desperately attempts to keep one step ahead, the blood from this hunt begins to flow behind him with relentlessly growing intensity as Chigurh closes in. Meanwhile, the laconic Sherrif Ed Tom Bell blithely oversees the investigation even as he struggles to face the sheer enormity of the crimes he is attempting to thwart.  Written by Kenneth Chisholm (kchishol@rogers.com)\r\n\r\nAfter stumbling across a case of money among dead bodies, Llewelyn Moss thinks he can keep it quiet, but when silent killer Anton Chigurh locates Moss and his money, Vietnam veteran Moss makes a run for it. With bodies falling everywhere Anton goes, it's only a matter of time before he catches up with Llewelyn. Whilst all this is going on, Sheriff Ed Tom Bell is overseeing the investigation and begins to see the country in a different light than it once was. Written by FilmFanUk\r\n\r\nAfter he finds $2 million in the desert where a drug deal has apparently gone wrong, working man Llewelyn Moss finds himself on the run. His pursuer is Anton Chigurh, an unemotional killer with a unique murder weapon at his disposal. Throughout, soon to be retired Sheriff Ed Tom Bell attempts to convince Moss, mostly through his wife Carla Jean, that he should turn the money over to the authorities or this could all end in tragedy. Written by garykmcd ",
-         "title":"No Country for Old Men",
+         "edited":"2009-02-22 23:14:22",
+         "genres":"Crime, Drama",
+         "rating":8.9000000000000004,
+         "title":"Pulp Fiction",
          "image":"",
-         "created":"2009-02-18 00:46:38",
+         "created":"2009-02-22 23:14:22",
+         "plot":"Jules Winnfield and Vincent Vega are two hitmen who are out to retrieve a suitcase stolen from their employer, mob boss Marsellus Wallace. Wallace has also asked Vincent to take his wife Mia out a few days later when Wallace himself will be out of town. Butch Coolidge is an aging boxer who is paid by Wallace to lose his next fight. The lives of these seemingly unrelated people are woven together comprising of a series of funny, bizarre and uncalled-for incidents.",
+         "imdb_id":"0110912",
          "height":null,
          "visible":1,
-         "year":2007,
-         "runtime":122,
          "width":null,
-         "imdb_id":"0477348",
-         "genres":"Crime, Drama, Thriller, Western"
+         "year":1994,
+         "plot_author":"Soumitra",
+         "runtime":154,
+         "slug":"pulp-fiction-1994"
+      }
+   },
+   {
+      "pk":2,
+      "model":"movie.movie",
+      "fields":{
+         "edited":"2009-02-22 23:17:55",
+         "genres":"Crime, Drama, Thriller",
+         "rating":8.4000000000000004,
+         "title":"Reservoir Dogs",
+         "image":"",
+         "created":"2009-02-22 23:17:55",
+         "plot":"Six criminals, who are strangers to each other, are hired by a crime boss Joe Cabot to carry out a diamond robbery. Right at the outset, they are given false names with an intention that they won't get too close and concentrate on the job instead. They are completely sure that the robbery is going to be a success. But when the police show up right at the time and the site of the robbery, panic spreads amongst the group members and one of them is killed in the subsequent shootout along with a few policemen and civilians. When the remaining people assemble at the premeditated rendezvous point (a warehouse), they begin to suspect that one of them is an undercover cop.",
+         "imdb_id":"0105236",
+         "height":null,
+         "visible":1,
+         "width":null,
+         "year":1992,
+         "plot_author":"Soumitra",
+         "runtime":99,
+         "slug":"reservoir-dogs-1992"
+      }
+   },
+   {
+      "pk":4,
+      "model":"movie.movie",
+      "fields":{
+         "edited":"2009-02-22 23:29:39",
+         "genres":"Comedy, Crime",
+         "rating":8.1999999999999993,
+         "title":"The Big Lebowski",
+         "image":"",
+         "created":"2009-02-22 23:29:39",
+         "plot":"When \"The Dude\" Lebowski is mistaken for a millionaire Lebowski, two thugs urinate on his rug to coerce him into paying a debt he knows nothing about. While attempting to gain recompense for the ruined rug from his wealthy counterpart, he accepts a one-time job with high pay-off. He enlists the help of his bowling buddy, Walter, a gun-toting Jewish-convert with anger issues. Deception leads to more trouble, and it soon seems that everyone from porn empire tycoons to nihilists want something from The Dude.",
+         "imdb_id":"0118715",
+         "height":null,
+         "visible":1,
+         "width":null,
+         "year":1998,
+         "plot_author":"J. Lake",
+         "runtime":117,
+         "slug":"the-big-lebowski-1998"
       }
    },
    {
@@ -106,8 +3075,40 @@
       "pk":2,
       "model":"movie.director",
       "fields":{
-         "director":4,
-         "movie":1
+         "director":1,
+         "movie":2
+      }
+   },
+   {
+      "pk":3,
+      "model":"movie.director",
+      "fields":{
+         "director":68,
+         "movie":3
+      }
+   },
+   {
+      "pk":4,
+      "model":"movie.director",
+      "fields":{
+         "director":69,
+         "movie":3
+      }
+   },
+   {
+      "pk":5,
+      "model":"movie.director",
+      "fields":{
+         "director":68,
+         "movie":4
+      }
+   },
+   {
+      "pk":6,
+      "model":"movie.director",
+      "fields":{
+         "director":69,
+         "movie":4
       }
    },
    {
@@ -115,7 +3116,7 @@
       "model":"movie.cast",
       "fields":{
          "movie":1,
-         "role":"Anton Chigurh",
+         "role":"Vincent Vega",
          "actor":2
       }
    },
@@ -124,8 +3125,1412 @@
       "model":"movie.cast",
       "fields":{
          "movie":1,
-         "role":"Llewelyn Moss",
+         "role":"Jules Winnfield",
          "actor":3
+      }
+   },
+   {
+      "pk":3,
+      "model":"movie.cast",
+      "fields":{
+         "movie":1,
+         "role":"Pumpkin - Ringo",
+         "actor":4
+      }
+   },
+   {
+      "pk":4,
+      "model":"movie.cast",
+      "fields":{
+         "movie":1,
+         "role":"Honey Bunny - Yolanda",
+         "actor":5
+      }
+   },
+   {
+      "pk":5,
+      "model":"movie.cast",
+      "fields":{
+         "movie":1,
+         "role":"Lance",
+         "actor":6
+      }
+   },
+   {
+      "pk":6,
+      "model":"movie.cast",
+      "fields":{
+         "movie":1,
+         "role":"Butch Coolidge",
+         "actor":7
+      }
+   },
+   {
+      "pk":7,
+      "model":"movie.cast",
+      "fields":{
+         "movie":1,
+         "role":"Marsellus Wallace",
+         "actor":8
+      }
+   },
+   {
+      "pk":8,
+      "model":"movie.cast",
+      "fields":{
+         "movie":1,
+         "role":"Marvin",
+         "actor":9
+      }
+   },
+   {
+      "pk":9,
+      "model":"movie.cast",
+      "fields":{
+         "movie":1,
+         "role":"Fabienne",
+         "actor":10
+      }
+   },
+   {
+      "pk":10,
+      "model":"movie.cast",
+      "fields":{
+         "movie":1,
+         "role":"Jody",
+         "actor":11
+      }
+   },
+   {
+      "pk":11,
+      "model":"movie.cast",
+      "fields":{
+         "movie":1,
+         "role":"Zed",
+         "actor":12
+      }
+   },
+   {
+      "pk":12,
+      "model":"movie.cast",
+      "fields":{
+         "movie":1,
+         "role":"Mia Wallace",
+         "actor":13
+      }
+   },
+   {
+      "pk":13,
+      "model":"movie.cast",
+      "fields":{
+         "movie":1,
+         "role":"Maynard",
+         "actor":14
+      }
+   },
+   {
+      "pk":14,
+      "model":"movie.cast",
+      "fields":{
+         "movie":1,
+         "role":"Paul",
+         "actor":15
+      }
+   },
+   {
+      "pk":15,
+      "model":"movie.cast",
+      "fields":{
+         "movie":1,
+         "role":"Brett",
+         "actor":16
+      }
+   },
+   {
+      "pk":16,
+      "model":"movie.cast",
+      "fields":{
+         "movie":1,
+         "role":"Roger",
+         "actor":17
+      }
+   },
+   {
+      "pk":17,
+      "model":"movie.cast",
+      "fields":{
+         "movie":1,
+         "role":"Trudi",
+         "actor":18
+      }
+   },
+   {
+      "pk":18,
+      "model":"movie.cast",
+      "fields":{
+         "movie":1,
+         "role":"Marilyn Monroe",
+         "actor":19
+      }
+   },
+   {
+      "pk":19,
+      "model":"movie.cast",
+      "fields":{
+         "movie":1,
+         "role":"Buddy Holly",
+         "actor":20
+      }
+   },
+   {
+      "pk":20,
+      "model":"movie.cast",
+      "fields":{
+         "movie":1,
+         "role":"James Dean",
+         "actor":21
+      }
+   },
+   {
+      "pk":21,
+      "model":"movie.cast",
+      "fields":{
+         "movie":1,
+         "role":"Dean Martin",
+         "actor":22
+      }
+   },
+   {
+      "pk":22,
+      "model":"movie.cast",
+      "fields":{
+         "movie":1,
+         "role":"Jerry Lewis",
+         "actor":23
+      }
+   },
+   {
+      "pk":23,
+      "model":"movie.cast",
+      "fields":{
+         "movie":1,
+         "role":"Esmeralda Villalobos",
+         "actor":24
+      }
+   },
+   {
+      "pk":24,
+      "model":"movie.cast",
+      "fields":{
+         "movie":1,
+         "role":"Wilson's Trainer",
+         "actor":25
+      }
+   },
+   {
+      "pk":25,
+      "model":"movie.cast",
+      "fields":{
+         "movie":1,
+         "role":"Captain Koons",
+         "actor":26
+      }
+   },
+   {
+      "pk":26,
+      "model":"movie.cast",
+      "fields":{
+         "movie":1,
+         "role":"Dead Floyd Wilson",
+         "actor":27
+      }
+   },
+   {
+      "pk":27,
+      "model":"movie.cast",
+      "fields":{
+         "movie":1,
+         "role":"The Gimp",
+         "actor":28
+      }
+   },
+   {
+      "pk":28,
+      "model":"movie.cast",
+      "fields":{
+         "movie":1,
+         "role":"Raquel",
+         "actor":29
+      }
+   },
+   {
+      "pk":29,
+      "model":"movie.cast",
+      "fields":{
+         "movie":1,
+         "role":"Waitress",
+         "actor":30
+      }
+   },
+   {
+      "pk":30,
+      "model":"movie.cast",
+      "fields":{
+         "movie":1,
+         "role":"Phillip Morris Page",
+         "actor":31
+      }
+   },
+   {
+      "pk":31,
+      "model":"movie.cast",
+      "fields":{
+         "movie":1,
+         "role":"Ed Sullivan",
+         "actor":32
+      }
+   },
+   {
+      "pk":32,
+      "model":"movie.cast",
+      "fields":{
+         "movie":1,
+         "role":"Ricky Nelson",
+         "actor":33
+      }
+   },
+   {
+      "pk":33,
+      "model":"movie.cast",
+      "fields":{
+         "movie":1,
+         "role":"Mamie van Doren",
+         "actor":34
+      }
+   },
+   {
+      "pk":34,
+      "model":"movie.cast",
+      "fields":{
+         "movie":1,
+         "role":"Mrs. Coolidge - Butch's Mother",
+         "actor":35
+      }
+   },
+   {
+      "pk":35,
+      "model":"movie.cast",
+      "fields":{
+         "movie":1,
+         "role":"Young Butch",
+         "actor":36
+      }
+   },
+   {
+      "pk":36,
+      "model":"movie.cast",
+      "fields":{
+         "movie":1,
+         "role":"Klondike",
+         "actor":37
+      }
+   },
+   {
+      "pk":37,
+      "model":"movie.cast",
+      "fields":{
+         "movie":1,
+         "role":"Sportscaster #1 - Coffee Shop",
+         "actor":38
+      }
+   },
+   {
+      "pk":38,
+      "model":"movie.cast",
+      "fields":{
+         "movie":1,
+         "role":"Sportscaster #2",
+         "actor":39
+      }
+   },
+   {
+      "pk":39,
+      "model":"movie.cast",
+      "fields":{
+         "movie":1,
+         "role":"Pedestrian / Bonnie Dimmick",
+         "actor":40
+      }
+   },
+   {
+      "pk":40,
+      "model":"movie.cast",
+      "fields":{
+         "movie":1,
+         "role":"Man #4",
+         "actor":41
+      }
+   },
+   {
+      "pk":41,
+      "model":"movie.cast",
+      "fields":{
+         "movie":1,
+         "role":"Shot Woman",
+         "actor":42
+      }
+   },
+   {
+      "pk":42,
+      "model":"movie.cast",
+      "fields":{
+         "movie":1,
+         "role":"Kathy Griffin",
+         "actor":43
+      }
+   },
+   {
+      "pk":43,
+      "model":"movie.cast",
+      "fields":{
+         "movie":1,
+         "role":"Jimmie Dimmick",
+         "actor":1
+      }
+   },
+   {
+      "pk":44,
+      "model":"movie.cast",
+      "fields":{
+         "movie":1,
+         "role":"Winston 'The Wolf' Wolfe",
+         "actor":44
+      }
+   },
+   {
+      "pk":45,
+      "model":"movie.cast",
+      "fields":{
+         "movie":1,
+         "role":"Gawker #1",
+         "actor":45
+      }
+   },
+   {
+      "pk":46,
+      "model":"movie.cast",
+      "fields":{
+         "movie":1,
+         "role":"Long Hair Yuppy Scum",
+         "actor":46
+      }
+   },
+   {
+      "pk":47,
+      "model":"movie.cast",
+      "fields":{
+         "movie":1,
+         "role":"Monster Joe",
+         "actor":48
+      }
+   },
+   {
+      "pk":48,
+      "model":"movie.cast",
+      "fields":{
+         "movie":1,
+         "role":"Hop along cassidy",
+         "actor":49
+      }
+   },
+   {
+      "pk":49,
+      "model":"movie.cast",
+      "fields":{
+         "movie":1,
+         "role":"Drug Dealer",
+         "actor":50
+      }
+   },
+   {
+      "pk":50,
+      "model":"movie.cast",
+      "fields":{
+         "movie":1,
+         "role":"Woman in Bathroom",
+         "actor":51
+      }
+   },
+   {
+      "pk":51,
+      "model":"movie.cast",
+      "fields":{
+         "movie":2,
+         "role":"Mr. White - Larry Dimmick",
+         "actor":44
+      }
+   },
+   {
+      "pk":52,
+      "model":"movie.cast",
+      "fields":{
+         "movie":2,
+         "role":"Mr. Orange - Freddy Newandyke",
+         "actor":4
+      }
+   },
+   {
+      "pk":53,
+      "model":"movie.cast",
+      "fields":{
+         "movie":2,
+         "role":"Mr. Blonde - Vic Vega",
+         "actor":52
+      }
+   },
+   {
+      "pk":54,
+      "model":"movie.cast",
+      "fields":{
+         "movie":2,
+         "role":"Nice Guy Eddie Cabot",
+         "actor":53
+      }
+   },
+   {
+      "pk":55,
+      "model":"movie.cast",
+      "fields":{
+         "movie":2,
+         "role":"Mr. Pink",
+         "actor":20
+      }
+   },
+   {
+      "pk":56,
+      "model":"movie.cast",
+      "fields":{
+         "movie":2,
+         "role":"Joe Cabot",
+         "actor":54
+      }
+   },
+   {
+      "pk":57,
+      "model":"movie.cast",
+      "fields":{
+         "movie":2,
+         "role":"Holdaway",
+         "actor":55
+      }
+   },
+   {
+      "pk":58,
+      "model":"movie.cast",
+      "fields":{
+         "movie":2,
+         "role":"Ofcr. Marvin Nash",
+         "actor":56
+      }
+   },
+   {
+      "pk":59,
+      "model":"movie.cast",
+      "fields":{
+         "movie":2,
+         "role":"Mr. Blue",
+         "actor":57
+      }
+   },
+   {
+      "pk":60,
+      "model":"movie.cast",
+      "fields":{
+         "movie":2,
+         "role":"Mr. Brown",
+         "actor":1
+      }
+   },
+   {
+      "pk":61,
+      "model":"movie.cast",
+      "fields":{
+         "movie":2,
+         "role":"K-Billy DJ",
+         "actor":58
+      }
+   },
+   {
+      "pk":62,
+      "model":"movie.cast",
+      "fields":{
+         "movie":2,
+         "role":"Sheriff #1",
+         "actor":39
+      }
+   },
+   {
+      "pk":63,
+      "model":"movie.cast",
+      "fields":{
+         "movie":2,
+         "role":"Sheriff #2",
+         "actor":59
+      }
+   },
+   {
+      "pk":64,
+      "model":"movie.cast",
+      "fields":{
+         "movie":2,
+         "role":"Sheriff #3",
+         "actor":60
+      }
+   },
+   {
+      "pk":65,
+      "model":"movie.cast",
+      "fields":{
+         "movie":2,
+         "role":"Sheriff #4",
+         "actor":61
+      }
+   },
+   {
+      "pk":66,
+      "model":"movie.cast",
+      "fields":{
+         "movie":2,
+         "role":"Teddy",
+         "actor":62
+      }
+   },
+   {
+      "pk":67,
+      "model":"movie.cast",
+      "fields":{
+         "movie":2,
+         "role":"Shot Cop",
+         "actor":38
+      }
+   },
+   {
+      "pk":68,
+      "model":"movie.cast",
+      "fields":{
+         "movie":2,
+         "role":"Young Cop / Radio Play Background Voice",
+         "actor":46
+      }
+   },
+   {
+      "pk":69,
+      "model":"movie.cast",
+      "fields":{
+         "movie":2,
+         "role":"Shocked Woman",
+         "actor":42
+      }
+   },
+   {
+      "pk":70,
+      "model":"movie.cast",
+      "fields":{
+         "movie":2,
+         "role":"Shot Woman",
+         "actor":63
+      }
+   },
+   {
+      "pk":71,
+      "model":"movie.cast",
+      "fields":{
+         "movie":2,
+         "role":"Radio Play Background Voice",
+         "actor":64
+      }
+   },
+   {
+      "pk":72,
+      "model":"movie.cast",
+      "fields":{
+         "movie":2,
+         "role":"Radio Play Background Voice",
+         "actor":65
+      }
+   },
+   {
+      "pk":73,
+      "model":"movie.cast",
+      "fields":{
+         "movie":2,
+         "role":"Radio Play Background Voice",
+         "actor":17
+      }
+   },
+   {
+      "pk":74,
+      "model":"movie.cast",
+      "fields":{
+         "movie":2,
+         "role":"Radio Play Background Voice",
+         "actor":66
+      }
+   },
+   {
+      "pk":75,
+      "model":"movie.cast",
+      "fields":{
+         "movie":2,
+         "role":"Diner Patron",
+         "actor":67
+      }
+   },
+   {
+      "pk":76,
+      "model":"movie.cast",
+      "fields":{
+         "movie":3,
+         "role":"Jerome 'Jerry' Lundegaard",
+         "actor":70
+      }
+   },
+   {
+      "pk":77,
+      "model":"movie.cast",
+      "fields":{
+         "movie":3,
+         "role":"Carl Showalter",
+         "actor":20
+      }
+   },
+   {
+      "pk":78,
+      "model":"movie.cast",
+      "fields":{
+         "movie":3,
+         "role":"Gaear Grimsrud",
+         "actor":71
+      }
+   },
+   {
+      "pk":79,
+      "model":"movie.cast",
+      "fields":{
+         "movie":3,
+         "role":"Jean Lundegaard",
+         "actor":72
+      }
+   },
+   {
+      "pk":80,
+      "model":"movie.cast",
+      "fields":{
+         "movie":3,
+         "role":"Wade Gustafson",
+         "actor":73
+      }
+   },
+   {
+      "pk":81,
+      "model":"movie.cast",
+      "fields":{
+         "movie":3,
+         "role":"Scotty Lundegaard",
+         "actor":74
+      }
+   },
+   {
+      "pk":82,
+      "model":"movie.cast",
+      "fields":{
+         "movie":3,
+         "role":"Irate Customer",
+         "actor":75
+      }
+   },
+   {
+      "pk":83,
+      "model":"movie.cast",
+      "fields":{
+         "movie":3,
+         "role":"Irate Customer's Wife",
+         "actor":76
+      }
+   },
+   {
+      "pk":84,
+      "model":"movie.cast",
+      "fields":{
+         "movie":3,
+         "role":"Car Salesman",
+         "actor":77
+      }
+   },
+   {
+      "pk":85,
+      "model":"movie.cast",
+      "fields":{
+         "movie":3,
+         "role":"Hooker #1",
+         "actor":78
+      }
+   },
+   {
+      "pk":86,
+      "model":"movie.cast",
+      "fields":{
+         "movie":3,
+         "role":"Hooker #2",
+         "actor":79
+      }
+   },
+   {
+      "pk":87,
+      "model":"movie.cast",
+      "fields":{
+         "movie":3,
+         "role":"Shep Proudfoot",
+         "actor":80
+      }
+   },
+   {
+      "pk":88,
+      "model":"movie.cast",
+      "fields":{
+         "movie":3,
+         "role":"Reilly Diefenbach",
+         "actor":81
+      }
+   },
+   {
+      "pk":89,
+      "model":"movie.cast",
+      "fields":{
+         "movie":3,
+         "role":"Morning Show Host",
+         "actor":82
+      }
+   },
+   {
+      "pk":90,
+      "model":"movie.cast",
+      "fields":{
+         "movie":3,
+         "role":"Morning Show Hostess",
+         "actor":83
+      }
+   },
+   {
+      "pk":91,
+      "model":"movie.cast",
+      "fields":{
+         "movie":3,
+         "role":"Stan Grossman",
+         "actor":84
+      }
+   },
+   {
+      "pk":92,
+      "model":"movie.cast",
+      "fields":{
+         "movie":3,
+         "role":"State Trooper",
+         "actor":85
+      }
+   },
+   {
+      "pk":93,
+      "model":"movie.cast",
+      "fields":{
+         "movie":3,
+         "role":"Victim in the Field",
+         "actor":86
+      }
+   },
+   {
+      "pk":94,
+      "model":"movie.cast",
+      "fields":{
+         "movie":3,
+         "role":"Victim in Car",
+         "actor":87
+      }
+   },
+   {
+      "pk":95,
+      "model":"movie.cast",
+      "fields":{
+         "movie":3,
+         "role":"Police Chief Marge Gunderson",
+         "actor":88
+      }
+   },
+   {
+      "pk":96,
+      "model":"movie.cast",
+      "fields":{
+         "movie":3,
+         "role":"Norm Gunderson",
+         "actor":89
+      }
+   },
+   {
+      "pk":97,
+      "model":"movie.cast",
+      "fields":{
+         "movie":3,
+         "role":"Officer Lou",
+         "actor":90
+      }
+   },
+   {
+      "pk":98,
+      "model":"movie.cast",
+      "fields":{
+         "movie":3,
+         "role":"Cashier",
+         "actor":91
+      }
+   },
+   {
+      "pk":99,
+      "model":"movie.cast",
+      "fields":{
+         "movie":3,
+         "role":"Mike Yanagita",
+         "actor":92
+      }
+   },
+   {
+      "pk":100,
+      "model":"movie.cast",
+      "fields":{
+         "movie":3,
+         "role":"Customer",
+         "actor":93
+      }
+   },
+   {
+      "pk":101,
+      "model":"movie.cast",
+      "fields":{
+         "movie":3,
+         "role":"Officer Olson",
+         "actor":94
+      }
+   },
+   {
+      "pk":102,
+      "model":"movie.cast",
+      "fields":{
+         "movie":3,
+         "role":"Hotel Clerk",
+         "actor":95
+      }
+   },
+   {
+      "pk":103,
+      "model":"movie.cast",
+      "fields":{
+         "movie":3,
+         "role":"Airport Lot Attendant",
+         "actor":96
+      }
+   },
+   {
+      "pk":104,
+      "model":"movie.cast",
+      "fields":{
+         "movie":3,
+         "role":"Mechanic",
+         "actor":97
+      }
+   },
+   {
+      "pk":105,
+      "model":"movie.cast",
+      "fields":{
+         "movie":3,
+         "role":"Escort",
+         "actor":98
+      }
+   },
+   {
+      "pk":106,
+      "model":"movie.cast",
+      "fields":{
+         "movie":3,
+         "role":"Man in Hallway",
+         "actor":99
+      }
+   },
+   {
+      "pk":107,
+      "model":"movie.cast",
+      "fields":{
+         "movie":3,
+         "role":"Night Parking Attendant",
+         "actor":101
+      }
+   },
+   {
+      "pk":108,
+      "model":"movie.cast",
+      "fields":{
+         "movie":3,
+         "role":"Mr. Mohra - Bartender in Driveway",
+         "actor":102
+      }
+   },
+   {
+      "pk":109,
+      "model":"movie.cast",
+      "fields":{
+         "movie":3,
+         "role":"Valerie",
+         "actor":103
+      }
+   },
+   {
+      "pk":110,
+      "model":"movie.cast",
+      "fields":{
+         "movie":3,
+         "role":"Bismarck Cop #1",
+         "actor":104
+      }
+   },
+   {
+      "pk":111,
+      "model":"movie.cast",
+      "fields":{
+         "movie":3,
+         "role":"Bismarck Cop #2",
+         "actor":105
+      }
+   },
+   {
+      "pk":112,
+      "model":"movie.cast",
+      "fields":{
+         "movie":3,
+         "role":"Bark Beetle Narrator",
+         "actor":106
+      }
+   },
+   {
+      "pk":113,
+      "model":"movie.cast",
+      "fields":{
+         "movie":3,
+         "role":"Soap Opera Actor",
+         "actor":107
+      }
+   },
+   {
+      "pk":114,
+      "model":"movie.cast",
+      "fields":{
+         "movie":3,
+         "role":"Heavyset Man In Bar",
+         "actor":108
+      }
+   },
+   {
+      "pk":115,
+      "model":"movie.cast",
+      "fields":{
+         "movie":4,
+         "role":"Jeffrey Lebowski - The Dude",
+         "actor":109
+      }
+   },
+   {
+      "pk":116,
+      "model":"movie.cast",
+      "fields":{
+         "movie":4,
+         "role":"Walter Sobchak",
+         "actor":110
+      }
+   },
+   {
+      "pk":117,
+      "model":"movie.cast",
+      "fields":{
+         "movie":4,
+         "role":"Maude Lebowski",
+         "actor":111
+      }
+   },
+   {
+      "pk":118,
+      "model":"movie.cast",
+      "fields":{
+         "movie":4,
+         "role":"Theodore Donald 'Donny' Kerabatsos",
+         "actor":20
+      }
+   },
+   {
+      "pk":119,
+      "model":"movie.cast",
+      "fields":{
+         "movie":4,
+         "role":"Jeffrey Lebowski - The Big Lebowski",
+         "actor":112
+      }
+   },
+   {
+      "pk":120,
+      "model":"movie.cast",
+      "fields":{
+         "movie":4,
+         "role":"Brandt",
+         "actor":113
+      }
+   },
+   {
+      "pk":121,
+      "model":"movie.cast",
+      "fields":{
+         "movie":4,
+         "role":"Bunny Lebowski",
+         "actor":114
+      }
+   },
+   {
+      "pk":122,
+      "model":"movie.cast",
+      "fields":{
+         "movie":4,
+         "role":"Woo, Treehorn Thug",
+         "actor":115
+      }
+   },
+   {
+      "pk":123,
+      "model":"movie.cast",
+      "fields":{
+         "movie":4,
+         "role":"Blond Treehorn Thug",
+         "actor":116
+      }
+   },
+   {
+      "pk":124,
+      "model":"movie.cast",
+      "fields":{
+         "movie":4,
+         "role":"Nihilist #1, Uli Kunkel / 'Karl Hungus'",
+         "actor":71
+      }
+   },
+   {
+      "pk":125,
+      "model":"movie.cast",
+      "fields":{
+         "movie":4,
+         "role":"Nihilist #2, Kieffer",
+         "actor":117
+      }
+   },
+   {
+      "pk":126,
+      "model":"movie.cast",
+      "fields":{
+         "movie":4,
+         "role":"Nihilist #3, Franz",
+         "actor":118
+      }
+   },
+   {
+      "pk":127,
+      "model":"movie.cast",
+      "fields":{
+         "movie":4,
+         "role":"Smokey",
+         "actor":119
+      }
+   },
+   {
+      "pk":128,
+      "model":"movie.cast",
+      "fields":{
+         "movie":4,
+         "role":"Marty",
+         "actor":120
+      }
+   },
+   {
+      "pk":129,
+      "model":"movie.cast",
+      "fields":{
+         "movie":4,
+         "role":"Jesus Quintana",
+         "actor":121
+      }
+   },
+   {
+      "pk":130,
+      "model":"movie.cast",
+      "fields":{
+         "movie":4,
+         "role":"Liam O'Brien, Quintana's Partner",
+         "actor":122
+      }
+   },
+   {
+      "pk":131,
+      "model":"movie.cast",
+      "fields":{
+         "movie":4,
+         "role":"Maude's Thug #1",
+         "actor":123
+      }
+   },
+   {
+      "pk":132,
+      "model":"movie.cast",
+      "fields":{
+         "movie":4,
+         "role":"Maude's Thug #2",
+         "actor":124
+      }
+   },
+   {
+      "pk":133,
+      "model":"movie.cast",
+      "fields":{
+         "movie":4,
+         "role":"Older Cop",
+         "actor":125
+      }
+   },
+   {
+      "pk":134,
+      "model":"movie.cast",
+      "fields":{
+         "movie":4,
+         "role":"Younger Cop",
+         "actor":126
+      }
+   },
+   {
+      "pk":135,
+      "model":"movie.cast",
+      "fields":{
+         "movie":4,
+         "role":"Tony the Chauffeur",
+         "actor":127
+      }
+   },
+   {
+      "pk":136,
+      "model":"movie.cast",
+      "fields":{
+         "movie":4,
+         "role":"Lebowski's Chauffeur",
+         "actor":128
+      }
+   },
+   {
+      "pk":137,
+      "model":"movie.cast",
+      "fields":{
+         "movie":4,
+         "role":"Knox Harrington",
+         "actor":129
+      }
+   },
+   {
+      "pk":138,
+      "model":"movie.cast",
+      "fields":{
+         "movie":4,
+         "role":"Coffee Shop Waitress",
+         "actor":130
+      }
+   },
+   {
+      "pk":139,
+      "model":"movie.cast",
+      "fields":{
+         "movie":4,
+         "role":"Auto Circus Cop",
+         "actor":131
+      }
+   },
+   {
+      "pk":140,
+      "model":"movie.cast",
+      "fields":{
+         "movie":4,
+         "role":"Gary the Bartender",
+         "actor":132
+      }
+   },
+   {
+      "pk":141,
+      "model":"movie.cast",
+      "fields":{
+         "movie":4,
+         "role":"The Stranger",
+         "actor":133
+      }
+   },
+   {
+      "pk":142,
+      "model":"movie.cast",
+      "fields":{
+         "movie":4,
+         "role":"Doctor",
+         "actor":134
+      }
+   },
+   {
+      "pk":143,
+      "model":"movie.cast",
+      "fields":{
+         "movie":4,
+         "role":"Arthur Digby Sellers",
+         "actor":135
+      }
+   },
+   {
+      "pk":144,
+      "model":"movie.cast",
+      "fields":{
+         "movie":4,
+         "role":"Little Larry Sellers",
+         "actor":136
+      }
+   },
+   {
+      "pk":145,
+      "model":"movie.cast",
+      "fields":{
+         "movie":4,
+         "role":"Pilar, Sellers' Housekeeper",
+         "actor":137
+      }
+   },
+   {
+      "pk":146,
+      "model":"movie.cast",
+      "fields":{
+         "movie":4,
+         "role":"Corvette Owner",
+         "actor":138
+      }
+   },
+   {
+      "pk":147,
+      "model":"movie.cast",
+      "fields":{
+         "movie":4,
+         "role":"Jackie Treehorn",
+         "actor":139
+      }
+   },
+   {
+      "pk":148,
+      "model":"movie.cast",
+      "fields":{
+         "movie":4,
+         "role":"Malibu Police Chief",
+         "actor":140
+      }
+   },
+   {
+      "pk":149,
+      "model":"movie.cast",
+      "fields":{
+         "movie":4,
+         "role":"Cab Driver",
+         "actor":141
+      }
+   },
+   {
+      "pk":150,
+      "model":"movie.cast",
+      "fields":{
+         "movie":4,
+         "role":"Da Fino",
+         "actor":142
+      }
+   },
+   {
+      "pk":151,
+      "model":"movie.cast",
+      "fields":{
+         "movie":4,
+         "role":"Nihilist Woman, Franz' Girlfriend",
+         "actor":143
+      }
+   },
+   {
+      "pk":152,
+      "model":"movie.cast",
+      "fields":{
+         "movie":4,
+         "role":"Saddam Hussein",
+         "actor":144
+      }
+   },
+   {
+      "pk":153,
+      "model":"movie.cast",
+      "fields":{
+         "movie":4,
+         "role":"Pancake Waitress",
+         "actor":145
+      }
+   },
+   {
+      "pk":154,
+      "model":"movie.cast",
+      "fields":{
+         "movie":4,
+         "role":"Francis Donnelly, Funeral Director",
+         "actor":81
+      }
+   },
+   {
+      "pk":155,
+      "model":"movie.cast",
+      "fields":{
+         "movie":4,
+         "role":"Chorine Dancer",
+         "actor":146
+      }
+   },
+   {
+      "pk":156,
+      "model":"movie.cast",
+      "fields":{
+         "movie":4,
+         "role":"Sherry in 'Logjammin'",
+         "actor":147
+      }
+   },
+   {
+      "pk":157,
+      "model":"movie.cast",
+      "fields":{
+         "movie":4,
+         "role":"Dancer",
+         "actor":148
+      }
+   },
+   {
+      "pk":158,
+      "model":"movie.cast",
+      "fields":{
+         "movie":4,
+         "role":"Checker at Ralph's",
+         "actor":149
       }
    }
 ]
