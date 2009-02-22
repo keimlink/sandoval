@@ -47,6 +47,14 @@ class Person(Abstract):
     def __unicode__(self):
         return '%s %s' % (self.forename, self.surname)
     
+    def get_cast_count(self):
+        return Cast.objects.filter(actor__exact=self).count()
+    get_cast_count.short_description = 'Rollen'
+    
+    def get_director_count(self):
+        return Director.objects.filter(director__exact=self).count()
+    get_director_count.short_description = 'Regie'
+    
     def get_absulote_url(self):
         return '/person/' + self.slug
 
@@ -80,6 +88,10 @@ class Movie(Abstract):
     
     def __unicode__(self):
         return '%s (%d)' % (self.title, self.year)
+    
+    def get_director(self):
+        return ', '.join([person.__str__() for person in self.directors.all()])
+    get_director.short_description = 'Regisseur(e)'
     
     def get_absolute_url(self):
         return '/movies/' + self.slug
