@@ -24,11 +24,14 @@ class Abstract(models.Model):
 class Person(Abstract):
     forename = models.CharField('Vorname', max_length=100)
     surname = models.CharField('Nachname', max_length=100)
+    slug = models.SlugField(unique=True, help_text='Der Inhalt dieses Feldes \
+        wird automatisch aus Vornamen und Nachnamen erzeugt und darf nur einmal vorkommen.')
     birthdate = models.CharField('Geburtsdatum', max_length=100, blank=True)
     birthplace = models.CharField('Geburtsort', max_length=200, blank=True)
     biography = models.TextField('Biografie', blank=True)
     is_director = models.BooleanField('Regisseur', 
-        help_text='Wenn diese Checkbox aktiviert ist kann die Person als Regisseur ausgewählt werden.')
+        help_text='Wenn diese Checkbox aktiviert ist kann die Person als \
+        Regisseur ausgewählt werden.')
     imdb_id = models.CharField('IMDB ID', max_length=10)
     image = models.ImageField('Foto', upload_to='images/actors', blank=True,
         height_field='height', width_field='width')
@@ -44,10 +47,12 @@ class Person(Abstract):
         return '%s %s' % (self.forename, self.surname)
     
     def get_absulote_url(self):
-        return '/person/' + self.id
+        return '/person/' + self.slug
 
 class Movie(Abstract):
     title = models.CharField('Titel', max_length=200)
+    slug = models.SlugField(unique=True, help_text='Der Inhalt dieses Feldes \
+        wird automatisch aus dem Titel und dem Jahr erzeugt und darf nur einmal vorkommen.')
     plot = models.TextField('Handlung', blank=True)
     plot_author = models.CharField('Autor', max_length=100, blank=True,
         help_text='Autor der Handlung.')
@@ -74,7 +79,7 @@ class Movie(Abstract):
         return '%s (%d)' % (self.title, self.year)
     
     def get_absolute_url(self):
-        return '/movies/' + self.id
+        return '/movies/' + self.slug
 
 class Director(models.Model):
     movie = models.ForeignKey(Movie)
