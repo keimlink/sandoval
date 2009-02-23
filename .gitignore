@@ -4,3 +4,4 @@
 .*project
 .settings
 .DS_Store
+settings.py
