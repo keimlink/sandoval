@@ -1,0 +1,15 @@
+{% extends "main.html" %}
+{% block title %}neuste Filme{% endblock %}
+{% block content %}
+	<div id="person-list">
+		<ul>
+			{% for movie in movies %}
+				<li>
+					<a href="{% url movie.views.get_movie id=movie.id%}">
+						{{movie.title}}
+					</a>
+				</li>
+			{% endfor %}
+		</ul>
+	</div>
+{% endblock %}
