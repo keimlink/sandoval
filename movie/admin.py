@@ -3,9 +3,11 @@ from sandoval.movie.models import Director, Cast, Feed, Movie, Person
 
 class EntryCast(admin.ModelAdmin):
     list_display = ('role', 'actor', 'movie')
+    search_fields = ['role', 'actor__surname', 'actor__forename', 'movie__title']
 
 class EntryDirector(admin.ModelAdmin):
     list_display = ('director', 'movie')
+    search_fields = ('director__surname', 'director__forename', 'movie__title')
 
 class EntryFeed(admin.ModelAdmin):
     list_display = ('title', 'url')
