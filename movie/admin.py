@@ -20,10 +20,11 @@ class EntryMovie(admin.ModelAdmin):
             'image']})
     ]
     prepopulated_fields = {'slug': ('title', 'year')}
-    list_display = ('title', 'year', 'get_director', 'rating', 'genres', 
+    list_display = ('title', 'year', 'director', 'rating', 'genres', 
         'edited')
     list_filter = ['edited', 'year']
     search_fields = ['title']
+    radio_fields = {'visible': admin.HORIZONTAL}
 
 class EntryPerson(admin.ModelAdmin):
     fieldsets = [
@@ -32,10 +33,12 @@ class EntryPerson(admin.ModelAdmin):
             'birthplace', 'biography', 'image']})
     ]
     prepopulated_fields = {'slug': ('forename', 'surname')}
-    list_display = ('surname', 'forename', 'is_director', 'get_cast_count', 
-        'get_director_count', 'edited')
+    list_display = ('surname', 'forename', 'is_director', 'cast_count', 
+        'director_count', 'edited')
+    list_display_links = ('surname', 'forename')
     list_filter = ['edited', 'is_director']
     search_fields = ['surname', 'forename']
+    radio_fields = {'visible': admin.HORIZONTAL}
 
 admin.site.register(Director, EntryDirector)
 admin.site.register(Cast, EntryCast)

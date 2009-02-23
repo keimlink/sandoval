@@ -42,18 +42,18 @@ class Person(Abstract):
     class Meta():
         verbose_name = 'Person'
         verbose_name_plural = 'Personen'
-        ordering = ['surname', 'forename']
+        ordering = ('surname', 'forename')
     
     def __unicode__(self):
         return '%s %s' % (self.forename, self.surname)
     
-    def get_cast_count(self):
+    def cast_count(self):
         return Cast.objects.filter(actor__exact=self).count()
-    get_cast_count.short_description = 'Rollen'
+    cast_count.short_description = 'Rollen'
     
-    def get_director_count(self):
+    def director_count(self):
         return Director.objects.filter(director__exact=self).count()
-    get_director_count.short_description = 'Regie'
+    director_count.short_description = 'Regie'
     
     def get_absulote_url(self):
         return '/person/' + self.slug
@@ -84,14 +84,14 @@ class Movie(Abstract):
     class Meta():
         verbose_name = 'Film'
         verbose_name_plural = 'Filme'
-        ordering = ['title', 'year']
+        ordering = ('title',)
     
     def __unicode__(self):
         return '%s (%d)' % (self.title, self.year)
     
-    def get_director(self):
+    def director(self):
         return ', '.join([person.__str__() for person in self.directors.all()])
-    get_director.short_description = 'Regisseur(e)'
+    director.short_description = 'Regisseur(e)'
     
     def get_absolute_url(self):
         return '/movies/' + self.slug
@@ -104,6 +104,7 @@ class Director(models.Model):
     class Meta():
         verbose_name = 'Regisseur'
         verbose_name_plural = 'Regisseure'
+        ordering = ('director__surname', 'movie')
     
     def __unicode__(self):
         return self.director.__str__()
@@ -116,6 +117,7 @@ class Cast(models.Model):
     class Meta():
         verbose_name = 'Rolle'
         verbose_name_plural = 'Rollen'
+        ordering = ('movie',)
     
     def __unicode__(self):
         return self.role.__str__()
@@ -139,6 +141,7 @@ class Feed(models.Model):
     class Meta():
         verbose_name = 'Feed'
         verbose_name_plural = 'Feeds'
+        ordering = ('title',)
     
     def __unicode__(self):
         return self.title
