@@ -3,20 +3,21 @@
 	<head>
 	    <title>{% block title %}{% endblock %}</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<link rel="stylesheet" type="text/css" href="/static/css/site.css" />
 	</head>
 
-	<body id="html-body"class=" adminhtml-system-config-edit">
+	<body>
 		<div id="wrapper">
 			<div id="header">
-				<div id="logo">
-					<h1>Sandoval</h1>
-				</div>
 				<div id="menu">
 					<ul>
 						<li><a href="{% url movie.views.get_detailed_movies %}">Home</a></li>
 						<li><a href="{% url movie.views.get_detailed_movies order_by="title" %}">Filme A-Z</a></li>
 						<li><a href="{% url movie.views.get_persons order_by="surname" %}">Personen A-Z</a></li>
 					</ul>
+				</div>
+				<div id="logo">
+					<h1>Sandoval</h1>
 				</div>
 			</div>
 			<div id="content">

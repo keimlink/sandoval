@@ -27,4 +27,7 @@ urlpatterns = patterns('',
     
     (r'^persons/orderby/(?P<order_by>.*)/$', get_persons),
     (r'^person/(?P<slug>.+)$', get_person),
+    
+    (r'^static/(?P<path>.*)$', 'django.views.static.serve',{'document_root': 'media'}),
+
 )
