@@ -12,20 +12,20 @@ from sandoval.movie.models import Feed
 class Rss(object):
     def __init__(self, feed_model):
         self.field = feed_model.field
-        self.re = feed_model.re
+        self.regexp = feed_model.regexp
         try:
             print '\nParsing "%s".' % feed_model.title
             print 'Testing %s' % feed_model.url
             feedparser.urllib.urlopen(feed_model.url)
-        except IOError, e:
-            raise Exception, e.__str__()
+        except IOError, exception:
+            raise Exception, exception.__str__()
         else:
             print 'Fetching %s\n' % feed_model.url
             self.feed = feedparser.parse(feed_model.url)
     
     def __iter__(self):
         for entry in self.feed.entries:
-            yield re.search(self.re, entry.get('title')).group(1)
+            yield re.search(self.regexp, entry.get('title')).group(1)
 
 class Dispatcher(object):
     def __init__(self):
@@ -35,8 +35,8 @@ class Dispatcher(object):
                 try:
                     for entry in Rss(feed):
                         Movie(entry)
-                except Exception, e:
-                    print e.message
+                except Exception, exception:
+                    print exception.message
         else:
             print 'No feeds found in database!'
 

@@ -11,20 +11,28 @@ from sandoval import settings
 setup_environ(settings)
 from sandoval.movie import models
 
+class InsertionException(Exception):
+    def __init__(self, message):
+        self.message = message
+    
+    def __str__(self):
+        return self.message
+
 class Movie(object):
     def __init__(self, title):
         # Suppress imdb warnings.
-        warnings.filterwarnings('ignore', 'unable to use "lxml": No module named lxml')
+        warnings.filterwarnings('ignore', 
+            'unable to use "lxml": No module named lxml')
         warnings.filterwarnings('ignore', 'falling back to "beautifulsoup".')
         try:
             self.find(title)
             (directors, cast, movie_model) = self.create()
             for director in directors:
                 self.add_director(director, movie_model)
-            for person in cast:
-                self.add_cast(person, movie_model)
-        except Exception, e:
-            print '\t%s' % e.message
+            for actor in cast:
+                self.add_actor(actor, movie_model)
+        except InsertionException, exception:
+            print exception.message
         finally:
             print 'Done.\n'
     
@@ -33,7 +41,7 @@ class Movie(object):
         ia = imdb.IMDb()
         search_result = ia.search_movie(title, 1)
         if len(search_result) == 0:
-            raise Exception, 'Movie not found!'
+            raise InsertionException, 'Movie not found!'
         self.imdb_data = search_result[0]
         self.exists(self.imdb_data.getID())
         ia.update(self.imdb_data)
@@ -42,7 +50,7 @@ class Movie(object):
     def exists(self, imdb_id):
         result = models.Movie.objects.filter(imdb_id__exact=imdb_id)
         if len(result) > 0:
-            raise Exception, 'Movie already exists in database!'
+            raise InsertionException, 'Movie already exists in database!'
     
     def create(self):
         movie = models.Movie()
@@ -61,24 +69,33 @@ class Movie(object):
         movie.save()
         print '\tSaved movie.'
         return (self.imdb_data.get('director', []),
-                self.imdb_data.get('cast', [])[:9],
+                self.imdb_data.get('cast', []),
                 movie)
     
-    def add_director(self, person, movie_model):
-        Person(person, movie_model, True)
+    def add_director(self, director, movie_model):
+        Person(director, movie_model, True)
     
-    def add_cast(self, person, movie_model):
-        Person(person, movie_model)
+    def add_actor(self, actor, movie_model):
+        Person(actor, movie_model)
 
 class Person(object):
     def __init__(self, person, movie_model, is_director=False):
+        ia = imdb.IMDb()
+        self.person = person
+        ia.update(self.person)
         self.model = self.exists(person.getID())
         if self.model == False:
-            self.model = self.create(person.getID())
-        self.model.is_director = is_director
-        self.build_relation(movie_model)
+            self.model = self.create(is_director)
+        else:
+            print '\tPerson "%s" already exists.' % self.person['name']
+            if is_director:
+                # The is_director property is initially set when the Person
+                # model is created. A person can only become a director and can
+                # never lose this status.
+                self.model.is_director = is_director
         self.model.save()
-        print '\tSaved person "%s".' % person['name']
+        self.build_relation(movie_model, is_director)
+        print '\t\tSaved person.'
     
     def exists(self, imdb_id):
         result = models.Person.objects.filter(imdb_id__exact=imdb_id)
@@ -86,33 +103,59 @@ class Person(object):
             return result[0]
         return False
     
-    def create(self, imdb_id):
-        ia = imdb.IMDb()
-        person = ia.get_person(imdb_id)
+    def create(self, is_director):
         model = models.Person()
-        print '\tImporting person "%s".' % person['name']
-        name = person['canonical name'].split(', ')
+        print '\tImporting person "%s".' % self.person['name']
+        name = self.person['canonical name'].split(', ')
         if len(name) == 2:
             model.forename = name[1]
         model.surname = name[0]
         try:
             # Try to set the slug.
-            model.slug = defaultfilters.slugify(person['name'])
+            model.slug = defaultfilters.slugify(self.person['name'])
         except IntergrityError:
             # Setting the slug failed because the value was not unique.
-            model.slug = defaultfilters.slugify(person['name'] + ' ' + 
-                person.getID())
-        if person.has_key('birth date'):
-            model.birthdate = person['birth date']
-        if person.has_key('birth notes'):
-            model.birthplace = person['birth notes']
-        if person.has_key('mini biography'):
-            model.biography = person['mini biography'][0].split('::')[0]
-        model.imdb_id = person.getID()
+            model.slug = defaultfilters.slugify(self.person['name'] + ' ' + 
+                self.person.getID())
+        if self.person.has_key('birth date'):
+            model.birthdate = self.person['birth date']
+        if self.person.has_key('birth notes'):
+            model.birthplace = self.person['birth notes']
+        if self.person.has_key('mini biography'):
+            model.biography = self.person['mini biography'][0].split('::')[0]
+        model.is_director = is_director
+        model.imdb_id = self.person.getID()
         return model
     
-    def build_relation(self, movie_model):
-        pass
+    def build_relation(self, movie_model, is_director):
+        if is_director:
+            self._add_relation_director(movie_model)
+        else:
+            self._add_relation_actor(movie_model)
+    
+    def _add_relation_director(self, movie_model):
+        if self.person.has_key('director'):
+            movies = [movie.getID() for movie in self.person['director']]
+            if movie_model.imdb_id in movies:
+                models.Director(movie=movie_model, 
+                    director=self.model).save()
+                print '\t\tAdded as director.'
+    
+    def _add_relation_actor(self, movie_model):
+        key = ''
+        if self.person.has_key('actor'):
+            key = 'actor'
+        elif self.person.has_key('actress'):
+            key = 'actress'
+        if len(key) > 0:
+            movies = [movie.getID() for movie in self.person[key]]
+            if movie_model.imdb_id in movies:
+                cast = models.Cast()
+                cast.role = self.person.currentRole.__str__()
+                cast.movie = movie_model
+                cast.actor = self.model
+                cast.save()
+                print '\t\tAdded role "%s".' % cast.role
     
     def save(self):
         return self.model.save()
