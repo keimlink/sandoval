@@ -1,0 +1,21 @@
+Move settings.dev.py to settings.py and change the path to the SQLite database.
+
+If you haven't already setup your PYTHONPATH - now is the time!
+Define an evironment variable named PYTHONPATH pointing to the directory 
+containig your Python apps.
+
+Example: export PYTHONPATH='/home/foo/projects/python/':$PYTHONPATH
+
+The following extensions are required:
+- BeautifulSoup 3.1.0.1 (http://www.crummy.com/software/BeautifulSoup/)
+- feedparser 4.1 (http://feedparser.org/)
+- imdb 3.9 (http://imdbpy.sourceforge.net/)
+
+The following Django apps are required:
+- tagging 0.3 (http://code.google.com/p/django-tagging/)
+
+Run these commands in the sandoval directory:
+python manage.py syncdb # setup up the database structure
+python manage.py loaddata feeds # loads a few feeds into the database
+python manage.py loaddata testing # if you need some test data
+python manage.py runserver # start the server
