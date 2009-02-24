@@ -55,6 +55,16 @@ class Person(Abstract):
         return Director.objects.filter(director__exact=self).count()
     director_count.short_description = 'Regie'
     
+    def thumbnail(self):
+        if len(self.image.name) == 0:
+            return '<img src="/static/images/persons/dummy.png" width="45" \
+                heigth="70" alt="Kein Foto" />'
+        return '<img src="%s" width="%d" heigth="%d" alt="%s"/>' % \
+            (self.image.url, self.width / 2, self.height / 2, self.image.name)
+    thumbnail.allow_tags = True
+    thumbnail.short_description = 'Foto'
+    thumbnail.admin_order_field = 'image'
+    
     def get_absulote_url(self):
         return '/person/' + self.slug
 
@@ -92,6 +102,16 @@ class Movie(Abstract):
     def director(self):
         return ', '.join([person.__str__() for person in self.directors.all()])
     director.short_description = 'Regisseur(e)'
+    
+    def thumbnail(self):
+        if len(self.image.name) == 0:
+            return '<img src="/static/images/movies/dummy.png" width="45" \
+                heigth="70" alt="Kein Poster" />'
+        return '<img src="%s" width="%d" heigth="%d" alt="%s"/>' % \
+            (self.image.url, self.width / 2, self.height / 2, self.image.name)
+    thumbnail.allow_tags = True
+    thumbnail.short_description = 'Poster'
+    thumbnail.admin_order_field = 'image'
     
     def get_absolute_url(self):
         return '/movies/' + self.slug

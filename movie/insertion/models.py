@@ -1,4 +1,6 @@
+from PIL import Image
 import re
+import urllib
 import warnings
 
 import BeautifulSoup
@@ -17,6 +19,19 @@ class InsertionException(Exception):
     
     def __str__(self):
         return self.message
+
+class ImageWriter(object):
+    TYPE_MOVIE = 'movies'
+    TYPE_PERSON = 'persons'
+
+    @classmethod
+    def save(self, url, dest_file, type=None):
+        path = 'images/'
+        if type is not None:
+            path = path + type + '/'
+        path = path + dest_file + re.search('.*(\..*)', url).group(1)
+        urllib.urlretrieve(url, settings.MEDIA_ROOT + path)
+        return (path,) + Image.open(settings.MEDIA_ROOT + path).size
 
 class Movie(object):
     def __init__(self, title):
@@ -66,6 +81,16 @@ class Movie(object):
         movie.rating = self.imdb_data.get('rating', 0.0)
         movie.genres = ', '.join(self.imdb_data.get('genres', []))
         movie.imdb_id = self.imdb_data.movieID
+        if self.imdb_data.has_key('cover url'):
+            try:
+                image = ImageWriter.save(self.imdb_data['cover url'], 
+                    movie.slug, ImageWriter.TYPE_MOVIE)
+                movie.image = image[0]
+                movie.width = image[1]
+                movie.height = image[2]
+                print '\tSaved image "%s".' % image[0]
+            except Exception, exception:
+                print '\tError while saving image: %s.' % exception.__str__()
         movie.save()
         print '\tSaved movie.'
         return (self.imdb_data.get('director', []),
@@ -123,6 +148,16 @@ class Person(object):
             model.birthplace = self.person['birth notes']
         if self.person.has_key('mini biography'):
             model.biography = self.person['mini biography'][0].split('::')[0]
+        if self.person.has_key('headshot'):
+            try:
+                image = ImageWriter.save(self.person['headshot'], model.slug, 
+                    ImageWriter.TYPE_PERSON)
+                model.image = image[0]
+                model.width = image[1]
+                model.height = image[2]
+                print '\t\tSaved image "%s".' % image[0]
+            except Exception, exception:
+                print '\t\tError while saving image: %s.' % exception.__str__()
         model.is_director = is_director
         model.imdb_id = self.person.getID()
         return model

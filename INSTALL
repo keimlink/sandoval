@@ -1,10 +1,11 @@
-Move settings.dev.py to settings.py and change the path to the SQLite database.
+Copy settings.dev.py to settings.py. Change the path to the SQLite database 
+(DATABASE_NAME) and the path of the MEDIA_ROOT.
 
 If you haven't already setup your PYTHONPATH - now is the time!
 Define an evironment variable named PYTHONPATH pointing to the directory 
 containig your Python apps.
 
-Example: export PYTHONPATH='/home/foo/projects/python/':$PYTHONPATH
+Example: export PYTHONPATH='/home/fnord/projects/':$PYTHONPATH
 
 The following extensions are required:
 - BeautifulSoup 3.1.0.1 (http://www.crummy.com/software/BeautifulSoup/)
