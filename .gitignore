@@ -5,3 +5,4 @@
 .settings
 .DS_Store
 settings.py
+static/images/*/*.jpg
