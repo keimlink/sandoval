@@ -47,6 +47,17 @@ class Person(Abstract):
     def __unicode__(self):
         return '%s %s' % (self.forename, self.surname)
     
+    def _get_canonical_name(self):
+        return '%s, %s' % (self.surname, self.forename)
+    
+    def _set_canonical_name(self, canonical_name):
+        parts = canonical_name.split(', ')
+        if len(parts) < 2:
+            parts.append('')
+        self.surname, self.forename = parts
+    
+    canonical_name = property(_get_canonical_name, _set_canonical_name)
+    
     def cast_count(self):
         return Cast.objects.filter(actor__exact=self).count()
     cast_count.short_description = 'Rollen'

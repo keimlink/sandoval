@@ -131,10 +131,7 @@ class Person(object):
     def create(self, is_director):
         model = models.Person()
         print '\tImporting person "%s".' % self.person['name']
-        name = self.person['canonical name'].split(', ')
-        if len(name) == 2:
-            model.forename = name[1]
-        model.surname = name[0]
+        model.canonical_name = self.person['canonical name']
         try:
             # Try to set the slug.
             model.slug = defaultfilters.slugify(self.person['name'])
