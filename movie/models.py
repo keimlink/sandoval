@@ -128,8 +128,8 @@ class Movie(Abstract):
         return '/movies/' + self.slug
 
 class Director(models.Model):
-    movie = models.ForeignKey(Movie)
-    director = models.ForeignKey(Person,
+    movie = models.ForeignKey(Movie, verbose_name='Film')
+    director = models.ForeignKey(Person, verbose_name='Regisseur', 
         limit_choices_to={'is_director__exact': True})
     
     class Meta():
@@ -142,8 +142,8 @@ class Director(models.Model):
 
 class Cast(models.Model):
     role = models.CharField('Rolle', max_length=100)
-    movie = models.ForeignKey(Movie)
-    actor = models.ForeignKey(Person)
+    movie = models.ForeignKey(Movie, verbose_name='Film')
+    actor = models.ForeignKey(Person, verbose_name='Person')
     
     class Meta():
         verbose_name = 'Rolle'
