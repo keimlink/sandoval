@@ -5,7 +5,7 @@
 		<ul>
 			{% for movie in movies %}
 				<li>
-					<a href="{% url movie.views.get_movie slug=movie.slug%}">
+					<a href="{% url movie.views.movie slug=movie.slug%}">
 						{{movie.title}}
 					</a>
 				</li>

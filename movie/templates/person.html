@@ -28,7 +28,7 @@
 			<h3>Filme (Regie)</h3>
 	        <div>
 	        	{% for movie in person.movie_set.all %}
-	        		<a href="{% url movie.views.get_movie slug=movie.slug %}">{{ movie.title }}</a>
+	        		<a href="{% url movie.views.movie slug=movie.slug %}">{{ movie.title }}</a>
 	    		{% endfor %}
 			</div>
 		{% else %}
@@ -37,7 +37,7 @@
 	        	<dl>
 	        	{% for cast in person.cast_set.all %}
 	        		<dt>{{cast.role}}<dt>
-	        		<dd><a href="{% url movie.views.get_movie slug=cast.movie.slug %}">{{ cast.movie.title }}</a></dd>
+	        		<dd><a href="{% url movie.views.movie slug=cast.movie.slug %}">{{ cast.movie.title }}</a></dd>
 	    		{% endfor %}
 			</div>
 		{% endif %}

@@ -18,17 +18,18 @@ urlpatterns = patterns('',
     # Uncomment the next line to enable the admin:
     (r'^admin/(.*)', admin.site.root),
     # Movies.
-    (r'^movie/(?P<slug>.+)$', get_movie),
-    (r'^movies/detailed$', get_detailed_movies, {'order_by': 'title'}),
-    (r'^$', get_detailed_movies, {'limit': 10, 'order_by':'-created'}),
+    (r'^movie/(?P<slug>.+)$', movie),
+    (r'^movies/detailed$', detailed_movies, {'order_by': 'title'}),
+    (r'^$', detailed_movies, {'limit': 10, 'order_by':'-created'}),
     (r'^movies/detailed/orderby/(?P<order_by>.*?)/limit/(?P<limit>.*?)/$', 
-        get_detailed_movies),
-    (r'^movies/detailed/orderby/(?P<order_by>.*?)/$', get_detailed_movies),
-    (r'^movies$', get_movies, {'order_by': 'title'}),
-    (r'^movies/orderby/(?P<order_by>.*)/$', get_movies),
+        detailed_movies),
+    (r'^movies/detailed/orderby/(?P<order_by>.*?)/$', detailed_movies),
+    (r'^movies$', movies, {'order_by': 'title'}),
+    (r'^movies/orderby/(?P<order_by>.*)/$', movies),
+    (r'^movies/genre/(?P<genre>.*)/$', movies),
     # Persons.
-    (r'^persons/orderby/(?P<order_by>.*)/$', get_persons),
-    (r'^person/(?P<slug>.+)$', get_person),
+    (r'^persons/orderby/(?P<order_by>.*)/$', persons),
+    (r'^person/(?P<slug>.+)$', person),
     # URL of the media directory / static content. In a productive environment
     # this would be served by an extra server and not by Django.
     (r'^static/(?P<path>.*)$', 'django.views.static.serve',

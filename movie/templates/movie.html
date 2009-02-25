@@ -16,9 +16,16 @@
             <h3>Informationen</h3>
             <dl>
                 <dt>Laufzeit:</dt><dd>{{movie.runtime}} min</dd>
-                <dt>Regie:</dt><dd>
+                <dt>Regie:</dt>
+                <dd>
                     {% for person in movie.director_set.all %}
-                        <a href="{% url movie.views.get_person slug=person.director.slug%}">{{person.director.forename}} {{person.director.surname}}</a>
+                        <a href="{% url movie.views.person slug=person.director.slug%}">{{person.director.forename}} {{person.director.surname}}</a>
+                    {% endfor %}
+                </dd>
+                <dt>Genres:</dt>
+                <dd>
+                    {% for genre in movie.genres_list %}
+                        <a href="{% url movie.views.movies genre=genre %}">{{ genre }}</a>
                     {% endfor %}
                 </dd>
             </dl>
@@ -28,7 +35,7 @@
             <dl>
                 {% for person in movie.cast_set.all %}
                     <dt>{{person.role}}</dt>
-                    <dd><a href="{% url movie.views.get_person slug=person.actor.slug%}">{{person.actor.forename}} {{person.actor.surname}}</a></dd>
+                    <dd><a href="{% url movie.views.person slug=person.actor.slug%}">{{person.actor.forename}} {{person.actor.surname}}</a></dd>
                 {% endfor %}
             </dl>
         </div>

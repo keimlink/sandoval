@@ -5,7 +5,7 @@
 		<ul>
 		{% for person in persons %}
 			<li>
-                <a href="{% url movie.views.get_person slug=person.slug%}">{{person.forename}} {{person.surname}}</a>
+                <a href="{% url movie.views.person slug=person.slug%}">{{person.forename}} {{person.surname}}</a>
 			</li>
 		{% endfor %}
 		</ul>
