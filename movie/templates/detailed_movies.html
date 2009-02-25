@@ -1,15 +1,27 @@
 {% extends "main.html" %}
 {% block title %}neuste Filme{% endblock %}
 {% block content %}
-	<div id="person-list">
-		<ul>
-			{% for movie in movies %}
-				<li>
+	<div id="movie-list">
+		{% for movie in movies %}
+			<div class="movie">
+				<h2>
 					<a href="{% url movie.views.get_movie slug=movie.slug%}">
-						{{movie.title}}
+						{{ movie.title }} ({{ movie.year }})
 					</a>
-				</li>
-			{% endfor %}
-		</ul>
+				</h2>
+				<p>{{ movie.plot|truncatewords:100 }}</p>
+	            <dl>
+	                <dt>Laufzeit:</dt><dd>{{movie.runtime}} min</dd>
+	                <dt>Regie:</dt><dd>
+	                    {% for person in movie.director_set.all %}
+	                        <a href="{% url movie.views.get_person slug=person.director.slug%}">{{person.director.forename}} {{person.director.surname}}</a>
+	                    {% endfor %}
+	                </dd>
+	            </dl>
+				<a href="{% url movie.views.get_movie slug=movie.slug%}">
+		            <span>&raquo; zum Film</span>
+				</a>
+			</div>
+		{% endfor %}
 	</div>
 {% endblock %}
