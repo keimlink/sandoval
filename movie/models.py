@@ -110,6 +110,10 @@ class Movie(Abstract):
     def __unicode__(self):
         return '%s (%d)' % (self.title, self.year)
     
+    @property
+    def genres_list(self):
+        return self.genres.split(', ')
+    
     def director(self):
         return ', '.join([person.__str__() for person in self.directors.all()])
     director.short_description = 'Regisseur(e)'
