@@ -2,6 +2,7 @@
 
 from django.db import models
 from tagging.fields import TagField
+from tagging.fields import Tag
 
 class Abstract(models.Model):
     STATUS_INVISIBLE = 0
@@ -112,7 +113,7 @@ class Movie(Abstract):
     
     @property
     def genres_list(self):
-        return self.genres.split(', ')
+        return Tag.objects.get_for_object(self)
     
     def director(self):
         return ', '.join([person.__str__() for person in self.directors.all()])
