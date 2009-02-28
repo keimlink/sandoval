@@ -1,11 +1,21 @@
 from django.conf import settings
 from django.conf.urls.defaults import *
+from django.views.generic import list_detail
+from movie.models import Movie
 
 # Uncomment the next two lines to enable the admin:
 from django.contrib import admin
 from movie.views import *
 
 admin.autodiscover()
+
+movie_list_data = { 
+          'queryset' : Movie.objects.order_by('-created'), 
+          'paginate_by' : 5, 
+          'allow_empty' : True, 
+          'template_name' : 'detailed_movies.html',
+          'extra_context' : { 'menu_active' : 'home', },
+        }
 
 urlpatterns = patterns('',
     # Example:
@@ -19,8 +29,9 @@ urlpatterns = patterns('',
     (r'^admin/(.*)', admin.site.root),
     # Movies.
     (r'^movie/(?P<slug>.+)$', movie),
-    (r'^movies/detailed$', detailed_movies, {'order_by': 'title'}),
-    (r'^$', detailed_movies, {'limit': 10, 'order_by':'-created'}),
+    (r'^movies/detailed$', list_detail.object_list, movie_list_data, 'detailed-movies'),
+        #detailed_movies, {'order_by': 'title'}),
+    (r'^$', list_detail.object_list, movie_list_data),
     (r'^movies/detailed/orderby/(?P<order_by>.*?)/limit/(?P<limit>.*?)/$', 
         detailed_movies),
     (r'^movies/detailed/orderby/(?P<order_by>.*?)/$', detailed_movies),

@@ -2,7 +2,8 @@
 {% block title %}neuste Filme{% endblock %}
 {% block content %}
 	<div id="movie-list">
-		{% for movie in movies %}
+		{% include 'paginator.html' %}
+		{% for movie in object_list %}
 			<div class="movie-in-list">
 				<h2>
 					<a href="{% url movie.views.movie slug=movie.slug%}">
@@ -22,6 +23,7 @@
 	                        <a href="{% url movie.views.movies genre=genre %}">{{ genre }}</a>
 	                    {% endfor %}
 	                </dd>
+	                <dt>IMDB-Rating:</dt><dd>{{movie.rating}}/10</dd>
 
 	            </dl>
 				<a href="{% url movie.views.movie slug=movie.slug%}">
@@ -29,5 +31,6 @@
 				</a>
 			</div>
 		{% endfor %}
+		{% include 'paginator.html' %}
 	</div>
 {% endblock %}

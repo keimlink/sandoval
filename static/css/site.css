@@ -49,8 +49,11 @@ body {
 	min-height: 500px;
 }
 
-.movie { clear: both; margin: 20px 0px; }
+.movie { clear: both; margin: 30px 0px; }
 .movie-in-list dd { float: left; margin-right: 20px; }
+.movie-in-list { margin: 20px 0px; background: #E0FFB8; padding: 10px; }
+.pagination { text-align: right; }
+
 
 h2 { color: #94DA3A; margin: 10px 0px; }
 h3 { color: #487858; margin: 5px 0px; }
