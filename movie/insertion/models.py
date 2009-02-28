@@ -21,14 +21,14 @@ class InsertionException(Exception):
         return self.message
 
 class ImageWriter(object):
-    TYPE_MOVIE = 'movies'
-    TYPE_PERSON = 'persons'
+    KIND_MOVIE = 'movies'
+    KIND_PERSON = 'persons'
 
     @classmethod
-    def save(self, url, dest_file, type=None):
+    def save(self, url, dest_file, kind=None):
         path = 'images/'
-        if type is not None:
-            path = path + type + '/'
+        if kind is not None:
+            path = path + kind + '/'
         path = path + dest_file + re.search('.*(\..*)', url).group(1)
         urllib.urlretrieve(url, settings.MEDIA_ROOT + path)
         return (path,) + Image.open(settings.MEDIA_ROOT + path).size
@@ -84,7 +84,7 @@ class Movie(object):
         if self.imdb_data.has_key('cover url'):
             try:
                 image = ImageWriter.save(self.imdb_data['cover url'], 
-                    movie.slug, ImageWriter.TYPE_MOVIE)
+                    movie.slug, ImageWriter.KIND_MOVIE)
                 movie.image = image[0]
                 movie.width = image[1]
                 movie.height = image[2]
@@ -148,7 +148,7 @@ class Person(object):
         if self.person.has_key('headshot'):
             try:
                 image = ImageWriter.save(self.person['headshot'], model.slug, 
-                    ImageWriter.TYPE_PERSON)
+                    ImageWriter.KIND_PERSON)
                 model.image = image[0]
                 model.width = image[1]
                 model.height = image[2]
