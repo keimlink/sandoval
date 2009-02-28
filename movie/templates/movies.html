@@ -1,12 +1,12 @@
 {% extends "main.html" %}
 {% block title %}neuste Filme{% endblock %}
 {% block content %}
-	<div id="person-list">
+	<div id="movie-list">
 		<ul>
 			{% for movie in movies %}
 				<li>
 					<a href="{% url movie.views.movie slug=movie.slug%}">
-						{{movie.title}}
+						{{movie.title}} ({{movie.year}})
 					</a>
 				</li>
 			{% endfor %}

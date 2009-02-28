@@ -3,11 +3,6 @@ from models import Movie, Person
 from django.db import connection
 from tagging.models import TaggedItem
 
-def detailed_movies(request, order_by='created', limit=10):
-    menu_active = "home"
-    movies = Movie.objects.order_by(order_by) #[:limit]
-    return render_to_response("detailed_movies.html", locals())
-
 def movie(request, slug):
     movie = Movie.objects.select_related().get(slug=slug)
     menu_active = "movie"

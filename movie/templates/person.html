@@ -1,24 +1,24 @@
 {% extends "main.html" %}
-{% block title %}{{person.forename}} {{person.surname}}{% endblock %}
+{% block title %}{{ person.forename }} {{ person.surname }}{% endblock %}
 {% block content %}
 	<div class="person">
-		<h2>{{person.forename}} {{person.surname}}</h2>
+		<h2>{{ person.forename }} {{ person.surname }}</h2>
         <div class="infos">
             <h3>Informationen</h3>
             <dl>
         		{% if person.birthdate %}
 	            	<dt>geboren</dt>
 	            	<dd>
-	            		{{person.birthdate}} 
+	            		{{ person.birthdate }} 
 	            		{% if person.birthplace %}
-	            			{{person.birthplace}}
+	            			{{ person.birthplace }}
 	            		{% endif %}
 	            	</dd>
         		{% endif %}
         		{% if person.biography %}
 	            	<dt>Biographie</dt>
 	            	<dd>
-	            		<p>{{person.biography}}</p>
+	            		<p>{{ person.biography }}</p>
 	            	</dd>
         		{% endif %}
     		</dl>
@@ -31,12 +31,13 @@
 	        		<a href="{% url movie.views.movie slug=movie.slug %}">{{ movie.title }}</a>
 	    		{% endfor %}
 			</div>
-		{% else %}
+		{% endif %}
+		{% if person.cast_set.all %}
 			<h3>Filme</h3>
 	        <div>
 	        	<dl>
 	        	{% for cast in person.cast_set.all %}
-	        		<dt>{{cast.role}}<dt>
+	        		<dt>{{ cast.role }}<dt>
 	        		<dd><a href="{% url movie.views.movie slug=cast.movie.slug %}">{{ cast.movie.title }}</a></dd>
 	    		{% endfor %}
 			</div>
