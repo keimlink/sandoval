@@ -1,0 +1,9 @@
+{% load tagging_tags %}
+{% tag_cloud_for_model movie.movie as cloud with steps=10 %}
+<div id="tag-cloud">
+	{% for tag in cloud %}
+		<span class="size{{ tag.font_size }}">
+            <a href="{% url movie.views.movies genre=tag.name %}">{{ tag.name }}</a>
+		</span>
+	{% endfor %}
+</div>

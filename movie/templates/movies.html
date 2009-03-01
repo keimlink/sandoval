@@ -1,9 +1,10 @@
 {% extends "main.html" %}
 {% block title %}neuste Filme{% endblock %}
 {% block content %}
+	{% include 'paginator.html' %}
 	<div id="movie-list">
 		<ul>
-			{% for movie in movies %}
+			{% for movie in object_list %}
 				<li>
 					<a href="{% url movie.views.movie slug=movie.slug%}">
 						{{movie.title}} ({{movie.year}})
@@ -12,4 +13,5 @@
 			{% endfor %}
 		</ul>
 	</div>
+	{% include 'paginator.html' %}
 {% endblock %}

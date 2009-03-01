@@ -2,12 +2,17 @@
 {% block title %}{{ person.forename }} {{ person.surname }}{% endblock %}
 {% block content %}
 	<div class="person">
+        {% if person.image %}
+			<div class="person-image">
+				<img src="/static/{{person.image}}" />
+			</div>
+        {% endif %}
 		<h2>{{ person.forename }} {{ person.surname }}</h2>
         <div class="infos">
             <h3>Informationen</h3>
             <dl>
         		{% if person.birthdate %}
-	            	<dt>geboren</dt>
+	            	<dt>geboren:</dt>
 	            	<dd>
 	            		{{ person.birthdate }} 
 	            		{% if person.birthplace %}
@@ -16,7 +21,7 @@
 	            	</dd>
         		{% endif %}
         		{% if person.biography %}
-	            	<dt>Biographie</dt>
+	            	<dt>Biographie:</dt>
 	            	<dd>
 	            		<p>{{ person.biography }}</p>
 	            	</dd>

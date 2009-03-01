@@ -50,10 +50,24 @@ body {
 }
 
 #movie-list li, #person-list li { font-size: 1.2em; list-style: none; margin-bottom: 10px; }
+#movie-list .pagination { width: 600px; }
 .movie { clear: both; margin: 30px 0px; }
+.movie-image, .person-image { float: right; margin: 0px 0px 30px 30px }
 .movie-in-list dd { float: left; margin-right: 20px; }
-.movie-in-list { margin: 20px 0px; background: #E0FFB8; padding: 10px; }
+.movie-in-list { margin: 20px 0px; background: #E0FFB8; padding: 10px; width: 600px; min-height: 150px; }
 .pagination { text-align: right; }
+
+#tag-cloud { float: right; width: 200px;}
+#tag-cloud .size1 { font-size: 0.8em; }
+#tag-cloud .size2 { font-size: 0.9em; }
+#tag-cloud .size3 { font-size: 1.0em; }
+#tag-cloud .size4 { font-size: 1.1em; }
+#tag-cloud .size5 { font-size: 1.2em; }
+#tag-cloud .size6 { font-size: 1.3em; }
+#tag-cloud .size7 { font-size: 1.4em; }
+#tag-cloud .size8 { font-size: 1.5em; }
+#tag-cloud .size9 { font-size: 1.6em; }
+#tag-cloud .size10 { font-size: 1.8em; }
 
 
 h2 { color: #94DA3A; margin: 10px 0px; }

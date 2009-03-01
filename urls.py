@@ -25,7 +25,9 @@ urlpatterns = patterns('',
             'queryset' : Movie.objects.order_by('-created'), 
             'paginate_by' : 10, 'allow_empty' : True, 
             'template_name' : 'detailed_movies.html',
-            'extra_context' : { 'menu_active' : 'home', }
+            'extra_context' : { 
+                'menu_active' : 'home', 
+             }
         },
         'detailed-movies'),
     (r'^movies/orderby/(?P<order_by>.*?)/$', movies),

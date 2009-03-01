@@ -1,13 +1,15 @@
 {% extends "main.html" %}
 {% block title %}neuste Filme{% endblock %}
 {% block content %}
+	{% include 'paginator.html' %}
 	<div id="person-list">
 		<ul>
-		{% for person in persons %}
+		{% for person in object_list %}
 			<li>
                 <a href="{% url movie.views.person slug=person.slug%}">{{person.forename}} {{person.surname}}</a>
 			</li>
 		{% endfor %}
 		</ul>
 	</div>
+	{% include 'paginator.html' %}
 {% endblock %}

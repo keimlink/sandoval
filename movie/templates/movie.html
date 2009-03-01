@@ -2,6 +2,11 @@
 {% block title %}{{movie.title}}{% endblock %}
 {% block content %}
     <div class="movie">
+        {% if movie.image %}
+			<div class="movie-image">
+				<img src="/static/{{movie.image}}" />
+			</div>
+        {% endif %}
         <h2>{{movie.title}} ({{movie.year}})</h2>
 
         {% if movie.plot %}

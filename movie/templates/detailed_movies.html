@@ -1,10 +1,16 @@
 {% extends "main.html" %}
 {% block title %}neuste Filme{% endblock %}
 {% block content %}
+	{% include 'tagcloud.html' %}
 	<div id="movie-list">
 		{% include 'paginator.html' %}
 		{% for movie in object_list %}
 			<div class="movie-in-list">
+		        {% if movie.image %}
+					<div class="movie-image">
+						<img src="/static/{{movie.image}}" />
+					</div>
+		        {% endif %}
 				<h2>
 					<a href="{% url movie.views.movie slug=movie.slug%}">
 						{{ movie.title }} ({{ movie.year }})
