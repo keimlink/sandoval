@@ -44,6 +44,15 @@
                 {% endfor %}
             </dl>
         </div>
+		<div class="flickr-images">
+			<h3>weitere Fotos (Alta Vista Bildersuche)</h3>
+			{% load image_tags %}
+			{% images_for movie.title as images %}
+			{% for image in images %}
+				<img src="{{ image }}" width="100px"/>
+			{% endfor %}
+		</div>
+        
     </div>
 
 {% endblock %}

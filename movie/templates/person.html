@@ -9,7 +9,7 @@
         {% endif %}
 		<h2>{{ person.forename }} {{ person.surname }}</h2>
         <div class="infos">
-            <h3>Informationen</h3>
+	        <h3>Informationen</h3>
             <dl>
         		{% if person.birthdate %}
 	            	<dt>geboren:</dt>
@@ -28,18 +28,17 @@
         		{% endif %}
     		</dl>
 		</div>
-		</div>
 		{% if person.is_director %}
-			<h3>Filme (Regie)</h3>
-	        <div>
+        	<div class="directions">
+				<h3>Filme (Regie)</h3>
 	        	{% for movie in person.movie_set.all %}
 	        		<a href="{% url movie.views.movie slug=movie.slug %}">{{ movie.title }}</a>
 	    		{% endfor %}
 			</div>
 		{% endif %}
 		{% if person.cast_set.all %}
-			<h3>Filme</h3>
-	        <div>
+	        <div class="casts">
+				<h3>Filme</h3>
 	        	<dl>
 	        	{% for cast in person.cast_set.all %}
 	        		<dt>{{ cast.role }}<dt>
@@ -47,5 +46,14 @@
 	    		{% endfor %}
 			</div>
 		{% endif %}
+		<div class="additional-images">
+			<h3>weitere Fotos (Alta Vista Bildersuche)</h3>
+			{% load image_tags %}
+			{% images_for person.forename person.surname as images %}
+			{% for image in images %}
+				<img src="{{ image }}" width="100px"/>
+			{% endfor %}
+		</div>
 	</div>
+
 {% endblock %}

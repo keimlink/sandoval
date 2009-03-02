@@ -1,7 +1,14 @@
 {% extends "main.html" %}
 {% block title %}neuste Filme{% endblock %}
 {% block content %}
+	<div id="search">
+		<form id="seach">
+			Suche <input name="name" id="name" value="{{name}}"/>
+		</form>
+		<a href="?name=">alle</a>
+	</div>
 	{% include 'paginator.html' %}
+	
 	<div id="movie-list">
 		<ul>
 			{% for movie in object_list %}
