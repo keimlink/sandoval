@@ -52,13 +52,23 @@ body {
 #search { padding: 20px; margin-bottom: 20px; background: #E0FFB8; }
 #movie-list li, #person-list li { font-size: 1.2em; list-style: none; margin-bottom: 10px; }
 #movie-list .pagination { width: 600px; }
-.movie { clear: both; margin: 30px 0px; }
+.person dt { width: 100px; text-align:right; }
+.person dd { margin: 5px 20px 5px 105px; }
+.movie dt { width: 100px; text-align:right; }
+.movie dd { margin: 5px 20px 5px 105px; }
 .movie-image, .person-image { float: right; margin: 0px 0px 30px 30px }
 .movie-in-list dd { float: left; margin-right: 20px; }
 .movie-in-list { margin: 20px 0px; background: #E0FFB8; padding: 10px; width: 600px; min-height: 150px; }
 .pagination { text-align: right; }
-.cast, .casts, .directions { clear: both; }
-
+.cast, .casts, .directions, .infos { clear: both; }
+.movie dt, .casts dt { width: 427px; text-align:right; }
+.movie dd, .casts dd { margin: 5px 20px 5px 433px; }
+.directions { text-align: center; }
+.comments dt { width: 90px; }
+.comments dd { padding: 10px; margin-left: 100px; background: #E0FFB8; }
+.comments p { margin-bottom: 5px; }
+.comments .datetime { font-size: 0.8em; }
+.comments .form dd { padding: 5px; margin-bottom: 0px; margin-top: 0px; }
 #tag-cloud { float: right; width: 200px;}
 #tag-cloud .size1 { font-size: 0.8em; }
 #tag-cloud .size2 { font-size: 0.9em; }
@@ -72,8 +82,7 @@ body {
 #tag-cloud .size10 { font-size: 1.8em; }
 
 
-h2 { color: #94DA3A; margin: 10px 0px; }
-h3 { color: #487858; margin: 5px 0px; }
-dt { float: left; margin-right: 5px; }
+h2 { color: #94DA3A; margin: 10px 0px; text-align: center}
+h3 { color: #487858; margin: 5px 0px;  text-align: center}
+dt { float: left; }
 a  { color:#AB5603; text-decoration: none; }
-p  { margin: 10px 0px; }

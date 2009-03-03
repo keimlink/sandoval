@@ -78,6 +78,7 @@ INSTALLED_APPS = (
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.admin',
+    'django.contrib.comments',
     'sandoval.movie',
     'tagging',
     'pagination'

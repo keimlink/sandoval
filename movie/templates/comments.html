@@ -1,0 +1,18 @@
+<div class="comments">
+	{% load comments %}
+    {% get_comment_count for comment_object as count %}
+    <h3>Kommentare ({{ count }})</h3>
+    <dl>
+	{% get_comment_list for comment_object as comments %}
+	{% for comment in comments %}
+		<dt>{{ comment.user_name }}</dt>
+		<dd>
+			<p>{{ comment.comment }}</p>
+			<p class="datetime">{{ comment.submit_date|date:"d. F. Y H:i:s" }}</p>
+		</dd>
+	{% endfor %}
+	</dl>
+	<div class="form">
+		{% render_comment_form for comment_object %}
+	</div>
+</div>

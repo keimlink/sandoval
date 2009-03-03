@@ -1,4 +1,4 @@
-{% extends "main.html" %}
+{% extends "base.html" %}
 {% block title %}{{movie.title}}{% endblock %}
 {% block content %}
     <div class="movie">
@@ -20,19 +20,21 @@
         <div class="infos">
             <h3>Informationen</h3>
             <dl>
-                <dt>Laufzeit:</dt><dd>{{movie.runtime}} min</dd>
-                <dt>Regie:</dt>
+                <dt>Laufzeit</dt><dd>{{movie.runtime}} min</dd>
+                <dt>Regie</dt>
                 <dd>
                     {% for person in movie.director_set.all %}
                         <a href="{% url movie.views.person slug=person.director.slug%}">{{person.director.forename}} {{person.director.surname}}</a>
                     {% endfor %}
                 </dd>
-                <dt>Genres:</dt>
+                <dt>Genres</dt>
                 <dd>
                     {% for genre in movie.genres_list %}
                         <a href="{% url movie.views.movies genre=genre %}">{{ genre }}</a>
                     {% endfor %}
                 </dd>
+                <dt>IMDb-Rating</dt><dd>{{movie.rating}}/10</dd>
+                
             </dl>
         </div>
         <div class="cast">
@@ -44,10 +46,13 @@
                 {% endfor %}
             </dl>
         </div>
-		<div class="flickr-images">
+		{% with movie as comment_object %}
+        {% include 'comments.html' %}
+        {% endwith %}
+		<div class="additional-images">
 			<h3>weitere Fotos (Alta Vista Bildersuche)</h3>
 			{% load image_tags %}
-			{% images_for movie.title as images %}
+			{% images_for movie.title as images from altavista %}
 			{% for image in images %}
 				<img src="{{ image }}" width="100px"/>
 			{% endfor %}

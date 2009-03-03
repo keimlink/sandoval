@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
+	<head>
+	    <title>{% block title %}{% endblock %}</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<link rel="stylesheet" type="text/css" href="/static/css/site.css" />
+	</head>
+
+	<body>
+		<div id="wrapper">
+			<div id="header">
+				<div id="menu">
+					<ul>
+						<li{% ifequal menu_active 'home' %} class="active"{% endifequal %}><a href="{% url detailed-movies %}">Home</a></li>
+						<li{% ifequal menu_active 'movie' %} class="active"{% endifequal %}><a href="{% url movie.views.movies order_by="title" %}">Filme A-Z</a></li>
+						<li{% ifequal menu_active 'person' %} class="active"{% endifequal %}><a href="{% url movie.views.persons order_by="surname" %}">Personen A-Z</a></li>
+					</ul>
+				</div>
+				<div id="logo">
+					<h1>Sandoval</h1>
+				</div>
+			</div>
+			<div id="content">
+				{% block content %}{% endblock %}	
+			</div>
+			<div id="footer">
+				{% for query in connection.queries %}
+					{{query.sql}}
+				{% endfor %}
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,14 @@
+{% load comments i18n %}
+<form action="{% comment_form_target %}" method="post">
+	<dl>
+		<dt>Name</dt>
+		<dd>{{ form.name }}</dd>
+		<dt>Kommentar</dt>
+		<dd>{{ form.comment }}</dd>
+		<dd><input type="submit" name="post" class="submit-post" value="{% trans "Post" %}" /></dd>
+		{{ form.content_type }}
+		{{ form.object_pk }}
+		{{ form.timestamp }}
+		{{ form.security_hash }}
+	</dl>
+</form>

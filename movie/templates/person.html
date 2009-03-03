@@ -1,4 +1,4 @@
-{% extends "main.html" %}
+{% extends "base.html" %}
 {% block title %}{{ person.forename }} {{ person.surname }}{% endblock %}
 {% block content %}
 	<div class="person">
@@ -12,7 +12,7 @@
 	        <h3>Informationen</h3>
             <dl>
         		{% if person.birthdate %}
-	            	<dt>geboren:</dt>
+	            	<dt>geboren</dt>
 	            	<dd>
 	            		{{ person.birthdate }} 
 	            		{% if person.birthplace %}
@@ -21,7 +21,7 @@
 	            	</dd>
         		{% endif %}
         		{% if person.biography %}
-	            	<dt>Biographie:</dt>
+	            	<dt>Biographie</dt>
 	            	<dd>
 	            		<p>{{ person.biography }}</p>
 	            	</dd>
@@ -46,14 +46,20 @@
 	    		{% endfor %}
 			</div>
 		{% endif %}
-		<div class="additional-images">
-			<h3>weitere Fotos (Alta Vista Bildersuche)</h3>
-			{% load image_tags %}
-			{% images_for person.forename person.surname as images %}
-			{% for image in images %}
-				<img src="{{ image }}" width="100px"/>
-			{% endfor %}
-		</div>
+		{% with person as comment_object %}
+        {% include 'comments.html' %}
+        {% endwith %}
+		
+		{% load image_tags %}
+		{% images_for person.forename person.surname as images from flickr %}
+		{% if images %}
+			<div class="additional-images">
+				<h3>weitere Fotos bei flickr</h3>
+				{% for image in images %}
+					<img src="{{ image }}" width="100px"/>
+				{% endfor %}
+			</div>
+		{% endif %}
 	</div>
 
 {% endblock %}
