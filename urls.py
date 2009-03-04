@@ -19,6 +19,7 @@ urlpatterns = patterns('',
 
     # Uncomment the next line to enable the admin:
     (r'^admin/(.*)', admin.site.root),
+    (r'^pages', include('django.contrib.flatpages.urls')),
     (r'^comments/', include('django.contrib.comments.urls')), 
     # Movies.
     (r'^$', list_detail.object_list, 

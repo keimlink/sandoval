@@ -1,5 +1,5 @@
 Copy settings.dev.py to settings.py. Change the path to the SQLite database 
-(DATABASE_NAME) and the path of the MEDIA_ROOT.
+(DATABASE_NAME), the path in TEMPLATE_DIRS and the path of the MEDIA_ROOT.
 
 If you haven't already setup your PYTHONPATH - now is the time!
 Define an evironment variable named PYTHONPATH pointing to the directory 
@@ -20,3 +20,5 @@ python manage.py syncdb # setup up the database structure
 python manage.py loaddata feeds # loads a few feeds into the database
 python manage.py loaddata testing # if you need some test data
 python manage.py runserver # start the server
+
+The flatpages use the TinyMCE Editor. Please download it and put the "tiny_mce" folder into the folder "static/js".
