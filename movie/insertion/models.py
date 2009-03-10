@@ -13,7 +13,7 @@ from sandoval import settings
 setup_environ(settings)
 from sandoval.movie import models
 
-class InsertionException(Exception):
+class InsertionError(Exception):
     def __init__(self, message):
         self.message = message
     
@@ -46,7 +46,7 @@ class Movie(object):
                 self.add_director(director, movie_model)
             for actor in cast:
                 self.add_actor(actor, movie_model)
-        except InsertionException, exception:
+        except InsertionError, exception:
             print exception.message
         finally:
             print 'Done.\n'
@@ -56,7 +56,7 @@ class Movie(object):
         ia = imdb.IMDb()
         search_result = ia.search_movie(title, 1)
         if len(search_result) == 0:
-            raise InsertionException, 'Movie not found!'
+            raise InsertionError, 'Movie not found!'
         self.imdb_data = search_result[0]
         self.exists(self.imdb_data.getID())
         ia.update(self.imdb_data)
@@ -65,7 +65,7 @@ class Movie(object):
     def exists(self, imdb_id):
         result = models.Movie.objects.filter(imdb_id__exact=imdb_id)
         if len(result) > 0:
-            raise InsertionException, 'Movie already exists in database!'
+            raise InsertionError, 'Movie already exists in database!'
     
     def create(self):
         movie = models.Movie()

@@ -89,9 +89,9 @@ class Movie(Abstract):
     plot_author = models.CharField('Autor', max_length=100, blank=True,
         help_text='Autor der Handlung.')
     year = models.IntegerField('Jahr', max_length=4)
-    runtime = models.IntegerField('Laufzeit', blank=True,
+    runtime = models.IntegerField('Laufzeit', blank=True, default=0,
         help_text='Laufzeit in Minuten angeben.')
-    rating = models.FloatField('Bewertung', blank=True,
+    rating = models.FloatField('Bewertung', blank=True, default=0.0,
         help_text='Bewertung als Fliesskommazahl auf einer Skala von 0 bis 10.')
     genres = TagField('Genres', help_text='Kommagetrennte Liste der Genres.')
     imdb_id = models.CharField('IMDB ID', max_length=10)
