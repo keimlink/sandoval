@@ -2,7 +2,7 @@
 {% block title %}neuste Filme{% endblock %}
 {% block content %}
 	<div id="search">
-		<form id="seach">
+		<form>
 			Suche <input name="name" id="name" value="{{name}}"/>
 		</form>
 		<a href="?name=">alle</a>
@@ -13,7 +13,7 @@
 		<ul>
 			{% for movie in object_list %}
 				<li>
-					<a href="{% url movie.views.movie slug=movie.slug%}">
+					<a href="{% url movie.views.movie slug=movie.slug %}">
 						{{movie.title}} ({{movie.year}})
 					</a>
 				</li>

@@ -31,16 +31,16 @@
 		{% if person.is_director %}
         	<div class="directions">
 				<h3>Filme (Regie)</h3>
-	        	{% for movie in person.movie_set.all %}
+	        	{% for movie in person.movie_set.select_related.all %}
 	        		<a href="{% url movie.views.movie slug=movie.slug %}">{{ movie.title }}</a>
 	    		{% endfor %}
 			</div>
 		{% endif %}
-		{% if person.cast_set.all %}
+		{% if person.cast_set.select_related.all %}
 	        <div class="casts">
 				<h3>Filme</h3>
 	        	<dl>
-	        	{% for cast in person.cast_set.all %}
+	        	{% for cast in person.cast_set.select_related.all %}
 	        		<dt>{{ cast.role }}<dt>
 	        		<dd><a href="{% url movie.views.movie slug=cast.movie.slug %}">{{ cast.movie.title }}</a></dd>
 	    		{% endfor %}

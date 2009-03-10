@@ -23,21 +23,20 @@ urlpatterns = patterns('',
     # Movies.
     (r'^$', list_detail.object_list, 
         {
-            'queryset' : Movie.objects.order_by('-created'), 
-            'paginate_by' : 10, 'allow_empty' : True, 
+            'queryset' : Movie.objects.order_by(), 
+            'paginate_by' : 5, 'allow_empty' : True, 
             'template_name' : 'detailed_movies.html',
             'extra_context' : { 
                 'menu_active' : 'home', 
              }
         },
         'detailed-movies'),
-    (r'^movies/orderby/(?P<order_by>.*?)/$', movies),
+    (r'^movies/$', movies),
     (r'^movies/genre/(?P<genre>.*?)/$', movies),
-    (r'^movies/orderby/(?P<order_by>.*?)/genre/(?P<genre>.*?)/$', movies),
     (r'^movies/(?P<slug>.+)$', movie),
-
     # Persons.
-    (r'^persons/orderby/(?P<order_by>.*)/$', persons),
+    (r'^persons/$', persons),
+    (r'^persons/(?P<slug>.+)$', person),
     (r'^persons/(?P<slug>.+)$', person),
     
     # URL of the media directory / static content. In a productive environment

@@ -12,8 +12,8 @@
 				<div id="menu">
 					<ul>
 						<li{% ifequal menu_active 'home' %} class="active"{% endifequal %}><a href="{% url detailed-movies %}">Home</a></li>
-						<li{% ifequal menu_active 'movie' %} class="active"{% endifequal %}><a href="{% url movie.views.movies order_by="title" %}">Filme A-Z</a></li>
-						<li{% ifequal menu_active 'person' %} class="active"{% endifequal %}><a href="{% url movie.views.persons order_by="surname" %}">Personen A-Z</a></li>
+						<li{% ifequal menu_active 'movie' %} class="active"{% endifequal %}><a href="{% url movie.views.movies %}">Filme A-Z</a></li>
+						<li{% ifequal menu_active 'person' %} class="active"{% endifequal %}><a href="{% url movie.views.persons %}">Personen A-Z</a></li>
 					</ul>
 				</div>
 				<div id="logo">
@@ -24,9 +24,9 @@
 				{% block content %}{% endblock %}	
 			</div>
 			<div id="footer">
-				{% for query in connection.queries %}
-					{{query.sql}}
-				{% endfor %}
+				{% load db_debug_tags %}
+				<h1>{% dbinfo %}</h1>
+				{% dbquerylist %}
 			</div>
 		</div>
 	</body>

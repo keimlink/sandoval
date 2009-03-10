@@ -23,8 +23,8 @@
                 <dt>Laufzeit</dt><dd>{{movie.runtime}} min</dd>
                 <dt>Regie</dt>
                 <dd>
-                    {% for person in movie.director_set.all %}
-                        <a href="{% url movie.views.person slug=person.director.slug%}">{{person.director.forename}} {{person.director.surname}}</a>
+                    {% for person in movie.director_set.select_related.all %}
+                    	<a href="{% url movie.views.person slug=person.director.slug%}">{{person.director.forename}} {{person.director.surname}}</a>
                     {% endfor %}
                 </dd>
                 <dt>Genres</dt>
@@ -40,7 +40,7 @@
         <div class="cast">
             <h3>Besetzung</h3>
             <dl>
-                {% for person in movie.cast_set.all %}
+                {% for person in movie.cast_set.select_related.all %}
                     <dt>{{person.role}}</dt>
                     <dd><a href="{% url movie.views.person slug=person.actor.slug%}">{{person.actor.forename}} {{person.actor.surname}}</a></dd>
                 {% endfor %}

@@ -1,16 +1,18 @@
 from django.shortcuts import render_to_response
+from django.core.paginator import Paginator, InvalidPage, EmptyPage
 from django.db.models import Q
 from django.db import connection
 from tagging.models import TaggedItem
-from django.core.paginator import Paginator, InvalidPage, EmptyPage
+
 from models import Movie, Person
 
 def movie(request, slug):
     movie = Movie.objects.select_related().get(slug=slug)
-    menu_active = "movie"
-    return render_to_response("movie.html", locals())
+    menu_active = 'movie'
+    return render_to_response('movie/templates/movie.html', 
+        {'menu_active' : menu_active, 'movie' : movie})
 
-def movies(request, order_by="-created", genre=""):
+def movies(request, genre=''):
     name = request.GET.get('name', '')
     if name:
         movies = Movie.objects.filter(title__icontains=name)
@@ -18,24 +20,23 @@ def movies(request, order_by="-created", genre=""):
         movies = Movie.objects.all()
     if genre:
         movies = TaggedItem.objects.get_by_model(movies, [genre])
-    return render_to_response("movies.html", 
+    return render_to_response('movie/templates/movies.html', 
         dict({ 'menu_active' : 'movie', 'name' : name }, **__paginate(movies, request.GET.get('page', '1'), 20)))
 
-def persons(request, order_by="-created"):
+def persons(request):
     name = request.GET.get('name', '')
     if name:
         persons = Person.objects.filter(Q(surname__icontains=name) | Q(forename__icontains=name))
     else:
         persons = Person.objects.all()
-#    persons = Person.objects.order_by(order_by);
-    return render_to_response("persons.html", 
+    return render_to_response('movie/templates/persons.html', 
         dict({ 'menu_active' : 'person', 'name' : name }, **__paginate(persons, request.GET.get('page', '1'), 20)))
 
 def person(request, slug):
-    menu_active = "person"
+    menu_active = 'person'
     person = Person.objects.get(slug=slug)
-    
-    return render_to_response("person.html", locals())
+    return render_to_response('movie/templates/person.html', 
+        {'menu_active' : menu_active, 'person' : person})
 
 def __paginate(objects, page, paginate_by):
     paginator = Paginator(objects, paginate_by)
