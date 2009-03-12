@@ -7,7 +7,7 @@ class EntryCast(admin.ModelAdmin):
 
 class EntryDirector(admin.ModelAdmin):
     list_display = ('director', 'movie')
-    search_fields = ('director__surname', 'director__forename', 'movie__title')
+    search_fields = ['director__surname', 'director__forename', 'movie__title']
 
 class EntryFeed(admin.ModelAdmin):
     list_display = ('title', 'url')
